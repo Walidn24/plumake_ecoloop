@@ -270,7 +270,7 @@ if __name__ == "__main__":
         create_tables(cur, conn)
 
         #! use this method one time only to populate default data
-        init_default_table_data(cur, conn)
+        # init_default_table_data(cur, conn)
 
         # insert_data(cur, conn)
 
