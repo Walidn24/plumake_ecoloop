@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+44ce5696-a290-46e3-adfb-542b1c611a28,"market for transport, freight, inland waterways, barge tanker | transport, freight, inland waterways, barge tanker | EN15804GD, U",H:Transportation and storage/50:Water transport/502:Inland water transport/5022:Inland freight water transport,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/17816/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight, inland waterways, barge tanker', in the geography of Europe.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of goods. The vehicle operates with diesel. It has a transport performance of 881,119,408 tkm, an average life spam of 46.5 years and an average load of 710 tons.  The transport node indirectly considers empty trips (if any) by taking into account the total amount of freight transported throughout the lifetime of the mobile infrastructure.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Transport,2011-01-01,2023-12-31,Europe,ecoinvent Data Quality System

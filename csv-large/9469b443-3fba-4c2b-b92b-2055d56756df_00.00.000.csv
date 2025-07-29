@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9469b443-3fba-4c2b-b92b-2055d56756df,"cottonseed to generic market for energy feed | protein feed, 100% crude | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/108:Manufacture of prepared animal feeds/1080:Manufacture of prepared animal feeds,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21014/documentation
+
+This is a linking (transfering) activity which links cottonseed, to the generic market for energy feed. Cottonseeds are a by-product of the cotton ginning process which produces cotton fibres.
+
+The activity starts with the reception of cottonseeds.
+
+The activity models the part of cottonseeds that contribute to the generic market for energy feed, resulting in energy and protein outputs.",00.00.000,Sector: Agriculture & Animal Husbandry,2016-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

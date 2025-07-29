@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6a9fc530-cf1a-4ad5-82fc-5d567180fee0,"market for cement, unspecified | cement, unspecified | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19974/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for 'cement, unspecified', in the the geography of Canada, Québec. This is a generic market; the suppliers of this market make available this generic product by redirecting a part of the production of several more specific products.;No transport or losses have been considered for the generic product supplied in this market, as the transport modelled in the upstream niche markets for the more specific products do already account it.;The product ""cement, unspecified"" represents a weighted average of all types of cement in a generic market for cement.
+
+Activity starts with different types of cement grouped to provide cement, unspecified.
+
+Activity ends with the delivery of the generic product to the consumer.",00.00.000,Sector: Cement & Concrete,2019-01-01,2023-12-31,"Canada, Québec",ecoinvent Data Quality System

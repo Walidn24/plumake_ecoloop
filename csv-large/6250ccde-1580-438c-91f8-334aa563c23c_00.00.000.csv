@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6250ccde-1580-438c-91f8-334aa563c23c,"magnesium, for reuse in hafnium sponge production, to generic market for magnesium | magnesium | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/25655/documentation
+
+This activity links magnesium, obtained from the electrolysis of magnesium chloride that is produced during the production of hafnium sponge, to the market for magnesium.;As the magnesium that is recovered through the electrolysis of magnesium chloride is exclusively reused for the production of hafnium sponge, it is assumed that it actually does not supply the market for magnesium. For this reason, the production volume is a dummy value.;The purpose of this activity is to link the recovered magnesium to the market for magnesium in the Consequential system model. In that system model, the activities that are consuming magnesium recovered through the electrolysis of magnesium chloride get instead supplied by the marginal suppliers of magnesium.
+
+
+
+",00.00.000,Sector: Metals,2021-01-01,2023-12-31,France,ecoinvent Data Quality System

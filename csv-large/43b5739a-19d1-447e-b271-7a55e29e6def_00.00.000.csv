@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+43b5739a-19d1-447e-b271-7a55e29e6def,"market for process-specific burdens, slag landfill | process-specific burdens, slag landfill | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/382:Waste treatment and disposal/3821:Treatment and disposal of non-hazardous waste","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15369/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'process-specific burdens, slag landfill', in the geography of Switzerland.;This market contains no transport or losses, as they are irrelevant for the delivered product.
+
+This activity starts at the gate of the activities that produce 'process-specific burdens, slag landfill',  within the geography of Switzerland.
+
+This activity ends with the supply of  process-specific burdens, slag landfill', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Waste Treatment & Recycling,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

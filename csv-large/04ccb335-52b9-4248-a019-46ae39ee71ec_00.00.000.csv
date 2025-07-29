@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+04ccb335-52b9-4248-a019-46ae39ee71ec,"shavings, hardwood, measured as dry mass to generic market for residual wood, dry | residual wood, dry | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/162:Manufacture of products of wood, cork, straw and plaiting materials/1621:Manufacture of veneer sheets and wood-based panels","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23854/documentation
+
+This activity is linking the more specific market for shaving, hardwood, to the more generic market for residual wood, dry.It makes accesible the specific product shaving, hardwood through the more generic product of residual wood, dry.
+
+Entry of the specific product ""shaving, hardwood, measured as dry mass""
+
+Delivery of the generic product ""residual wood, dry""",00.00.000,Sector: Wood,2014-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+ab67586c-0fd0-443f-878c-a233e4f417c8,"market for soybean meal | soybean meal | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/104:Manufacture of vegetable and animal oils and fats/1040:Manufacture of vegetable and animal oils and fats,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21439/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'soybean meal', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'soybean meal' is an animal feed from milled soybeans. 'Soybean meal' is produced by means of solvent extraction (pre-cracking of soybeans, dehulling, oil extraction and meal processing) in a oil mill producing soybean meal and crude oil. The meal and hulls are later consumed as animal feed.
+
+This activity starts at the gate of the activities that produce 'soybean meal',  within the geography of Global.
+
+This activity ends with the supply of 'soybean meal',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Agriculture & Animal Husbandry",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

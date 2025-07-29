@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6daee7ba-e831-4aee-a1ac-ac861d73e988,"market for flat glass, uncoated | flat glass, uncoated | EN15804GD, U",C:Manufacturing/23:Manufacture of other non-metallic mineral products/231:Manufacture of glass and glass products/2310:Manufacture of glass and glass products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20027/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'flat glass, uncoated', in the Global geography.;This product is generally considered to be used at the production site.  Therefore, the market does not contain any transport.;This product is a flat glass, uncoated. It has a variety of applications. It is mainly used in the building industry but it can be also used in means of transport manufacturing, electric appliances production and different kind of heavy machinery.
+
+This activity starts at the gate of the activities that produce 'flat glass, uncoated',  within the geography of Global.
+
+This activity ends with the supply of  flat glass, uncoated', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Minerals",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

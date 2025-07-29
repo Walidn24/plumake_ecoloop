@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+430e2501-a826-4353-8855-ac0fd2cbe6e9,"market for anhydrite | anhydrite | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23236/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'anhydrite', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product ""anhydrite"" represents a mix of anhydrite rock and anhydrite burned (consumer mix). Anhydrite is also used for cast plaster floors and artificial marble in the building industry, as filling material in the paper industry, as raw material in the cement industry or as desiccant in the chemical industry.
+
+This activity starts at the gate of the activities that produce 'anhydrite',  within the geography of Global.
+
+This activity ends with the supply of 'anhydrite',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Cement & Concrete; Minerals",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+77b22049-ca9d-4878-989b-55bb64df16d0,"market for cement, Portland | cement, Portland | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/7653/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'cement, Portland' in the Global geography.;In this market, expert judgement was used to develop product specific transport distance estimations.;The product 'cement, Portland' represents Ordinary Portland Cement (CEM I). It consists of 95-100% clinker in mass composition. 
+
+This activity starts at the gate of the activities that produce 'cement, Portland',  within the geography of Global.
+
+This activity ends with the supply of 'cement, Portland',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Cement & Concrete,2005-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

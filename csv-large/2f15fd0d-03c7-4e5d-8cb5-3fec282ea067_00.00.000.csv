@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2f15fd0d-03c7-4e5d-8cb5-3fec282ea067,"electricity, high voltage, import from PY | electricity, high voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/26866/documentation
+
+This dataset represents the imported electricity from PY to BR. The import includes all electricity imports, independently whether used within the importing country, or re-exported. For a discussion of different ways of modeling electricity trade in LCI, please refer to (Itten & Frischknecht 2012).
+
+This activity represents the point of 'handing over' the electricity from one country to the other at the border.
+
+This dataset doesn't include any electricity losses or transmission infrastructure as these are accounted for in the market datasets.",00.00.000,Sector: Electricity,2021-01-01,2023-12-31,"Brazil, South-eastern and Mid-western grid",ecoinvent Data Quality System

@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+81c4ab79-a18c-401e-85aa-3b43bd4ae395,"heat production, natural gas, at boiler modulating >100kW | heat, district or industrial, natural gas | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply",Models on market,00.00.000,"ConvertedDataset,Sector: Heat",2000-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

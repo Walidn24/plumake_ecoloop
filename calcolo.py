@@ -5,6 +5,7 @@ import olca_schema as o
 import time
 import logging
 import os
+import csv
 
 def init_postgres():
     try:
@@ -26,35 +27,110 @@ def init_postgres():
         print(f"PostgreSQL init issues: {e}")
         raise
 
-def create_tables(cur, conn):
+
+def create_csv_categories(category, file_path='categories/categories.csv'):
+    fieldnames = ["Category"]
+
+    data = [
+        {"Category": category}
+    ]
+
+    # file_path = 'categories/categories.csv'
+
+    # Ensure the 'categories' directory exists
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
+    # Check if the file exists and is empty
+    file_exists = os.path.exists(file_path) and os.path.getsize(file_path) > 0
+
+    with open(file_path, 'a', newline='') as file:
+        writer = csv.DictWriter(file, fieldnames=fieldnames)
+        if not file_exists:
+            writer.writeheader()
+        writer.writerows(data)
+
+
+def delete_all_tables(cur, conn):
     try:
+        # Set search_path to include public schema
+        cur.execute("SET search_path TO public;")
+
         cur.execute(
             """
-            CREATE TABLE IF NOT EXISTS tab_flussi (
-                flux_id SERIAL NOT NULL PRIMARY KEY,
-                flux_name VARCHAR(255),
+            DROP TABLE IF EXISTS tab_emission_factors CASCADE;
+            DROP TABLE IF EXISTS tab_process CASCADE;
+            DROP TABLE IF EXISTS tab_source_db CASCADE;
+            DROP TABLE IF EXISTS tab_methods CASCADE;
+            """
+        )
+        conn.commit()
+    except Exception as e:
+        conn.rollback()
+        print(f"PostgreSQL table dropping issues: {e}")
+        raise 
+
+
+def create_tables(cur, conn):
+    try:
+        # Create tab_process table
+        cur.execute(
+            """
+            CREATE TABLE IF NOT EXISTS tab_process (
+                id SERIAL NOT NULL PRIMARY KEY,
+                process_name VARCHAR(255),
                 macro_cat INT,
-                note VARCHAR(500)
+                note VARCHAR(500),
+                geo VARCHAR(25),
+                uuid UUID, 
+                category VARCHAR(500),
+                description VARCHAR(2500),
+                version VARCHAR(10),
+                tags VARCHAR(225),
+                valid_form DATE,
+                valid_until DATE,
+                location VARCHAR(65),
+                flow_schema VARCHAR(225)
             );
+            """
+        )
+        conn.commit()
 
-            CREATE TABLE IF NOT EXISTS tab_macro_cat (
-                macro_cat_id SERIAL NOT NULL PRIMARY KEY,
-                macro_cat VARCHAR(255)
-            );
-
+        # Create tab_source_db table
+        cur.execute(
+            """
             CREATE TABLE IF NOT EXISTS tab_source_db (
-                source_db_id SERIAL NOT NULL PRIMARY KEY,
+                id SERIAL NOT NULL PRIMARY KEY,
                 source_db_name VARCHAR(255)
             );
+            """
+        )
+        conn.commit()
 
+        # Create tab_methods table
+        cur.execute(
+            """
             CREATE TABLE IF NOT EXISTS tab_methods (
-                source_db_id SERIAL NOT NULL PRIMARY KEY,
+                id SERIAL NOT NULL PRIMARY KEY,
                 method_name VARCHAR(255)
             );
+            """
+        )
+        conn.commit()
 
-            CREATE TABLE IF NOT EXISTS tab_geography (
-                geography_id SERIAL NOT NULL PRIMARY KEY,
-                geography VARCHAR(255)
+        # Create tab_emission_factors table
+        cur.execute(
+            """
+            CREATE TABLE IF NOT EXISTS tab_emission_factors (
+                id SERIAL NOT NULL PRIMARY KEY,
+                id_process INT NOT NULL,
+                ef VARCHAR(25),
+                um VARCHAR(25),
+                value DOUBLE PRECISION,
+                source_db_id INTEGER NOT NULL,
+                method_id INTEGER NOT NULL,
+                FOREIGN KEY (id_process) REFERENCES tab_process (id) ON DELETE CASCADE,
+                FOREIGN KEY (source_db_id) REFERENCES tab_source_db (id) ON DELETE RESTRICT,
+                FOREIGN KEY (method_id) REFERENCES tab_methods (id) ON DELETE RESTRICT
             );
             """
         )
@@ -64,6 +140,22 @@ def create_tables(cur, conn):
         print(f"PostgreSQL table creating issues: {e}")
         raise 
 
+
+def insert_process_data(cur, conn, process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema):
+    try:
+        cur.execute(
+            """
+            INSERT INTO tab_process (process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_form, valid_until, location, flow_schema)             
+            VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            RETURNING id;
+            """,
+            (process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema)
+        )
+        conn.commit()
+    except Exception as e:
+        conn.rollback()
+        print(f"PostgreSQL inserting process data issues: {e}")
+        raise      
 
 # !DO Not populate multiple times
 def init_default_table_data(cur, conn):
@@ -77,13 +169,6 @@ def init_default_table_data(cur, conn):
             INSERT INTO tab_methods (method_name) VALUES ('IPCC 2021');
             INSERT INTO tab_methods (method_name) VALUES ('EN15804');
             INSERT INTO tab_methods (method_name) VALUES ('EF 3.1');
-
-            INSERT INTO tab_macro_cat (macro_cat) VALUES ('Energia');
-            INSERT INTO tab_macro_cat (macro_cat) VALUES ('materie prime');
-            INSERT INTO tab_macro_cat (macro_cat) VALUES ('Rifiuti');
-
-            INSERT INTO tab_geography (geography) VALUES ('global');
-            INSERT INTO tab_geography (geography) VALUES ('euro area');
             """
         )
         conn.commit()
@@ -94,6 +179,9 @@ def init_default_table_data(cur, conn):
 
 def insert_data(cur, conn):
     try:
+        # Set search_path to include public schema
+        cur.execute("SET search_path TO public;")
+
         cur.execute(
             """
             INSERT INTO cars (brand, model, year)
@@ -108,10 +196,13 @@ def insert_data(cur, conn):
 
 def salva_su_postgres(process_id, method, impact_name, amount, unit):
     try:
+        # Set search_path to include public schema
+        cur.execute("SET search_path TO public;")
+
         conn = psycopg2.connect(
             dbname="csv_db",
             user="walid",
-            password="walidpass",
+            password="walid123",
             host="localhost",
             port="5432"  # default PostgreSQL
         )
@@ -175,7 +266,9 @@ def calculate_impact(uuid, requested_method="EN15804+A2 (EF 3.1)"):
         process = client.get_descriptor(o.Process, process_id)
         if not process:
             raise ValueError(f"Process with ID {process_id} not found.")
-        logging.info(f"Found process: {process.name} (ID: {process_id})")
+        logging.info(f"Found process: {process.name} (ID: {process_id})  (Tag: {process.category})")
+        # create_csv_categories(process.category)
+
     except Exception as e:
         logging.error(f"Error retrieving process: {e}")
         exit()
@@ -183,7 +276,7 @@ def calculate_impact(uuid, requested_method="EN15804+A2 (EF 3.1)"):
     # Select the first available impact method (you can refine this to pick TRACI if needed)
     try:
         methods = client.get_descriptors(o.ImpactMethod)
-        print(f"this is method: {methods}")
+        # print(f"this is method: {methods}")
 
         if not methods:
             raise ValueError("No impact methods found in the database.")
@@ -266,11 +359,17 @@ if __name__ == "__main__":
     # esegui_calcolo(esempio_id)
     # calculate_impact(esempio_id)
     cur, conn = init_postgres()
+
+
+    # create_csv_categories()
     try:
-        create_tables(cur, conn)
 
         #! use this method one time only to populate default data
         # init_default_table_data(cur, conn)
+        
+        #!!!! DELETE ALL THE TABLES !!!!!
+        delete_all_tables(cur, conn)
+        create_tables(cur, conn)
 
         # insert_data(cur, conn)
 

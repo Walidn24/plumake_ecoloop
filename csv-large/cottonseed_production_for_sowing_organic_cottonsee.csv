@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5d06f0f3-f357-49c7-8fd7-90e861552287,"cottonseed production, for sowing, organic | cottonseed, organic, for sowing | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0164:Seed processing for propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20341/documentation
+
+Inventory refers to the production of 1kg of cotton seed, organic meant to be used for sowing.
+
+Activity starts with the cotton seed arriving in the processing plant.
+
+Activity includes, treatment (pre-cleaning, cleaning, eventually drying, chemical dressing and bag filling), and storing of the seed in the processing centre. The activity ends with the cotto-seeds ready for transprotation.",00.00.000,Sector: Agriculture & Animal Husbandry,1997-01-01,2023-12-31,"India, Odisha",ecoinvent Data Quality System

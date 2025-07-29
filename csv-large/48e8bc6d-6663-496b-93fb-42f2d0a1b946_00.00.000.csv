@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+48e8bc6d-6663-496b-93fb-42f2d0a1b946,"blast furnace sludge, for recovery to generic market for supplementary cementitious materials | supplementary cementitious materials | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22771/documentation
+
+This is a renaming activity. It's purpose is to link 'blast furnace sludge, for recovery' to the 'market for supplementary cementitious materials'. This represents the share of blast furnace sludge that is recovered for use in cement making.
+
+Activity starts with the reception of 'blast furnace sludge, for recovery'.
+
+Activity ends with the 'supplementary cementitious materials' being ready for transportation.",00.00.000,Sector: Waste Treatment & Recycling; Cement & Concrete; Metals,2020-01-01,2025-12-31,Rest-of-World,ecoinvent Data Quality System

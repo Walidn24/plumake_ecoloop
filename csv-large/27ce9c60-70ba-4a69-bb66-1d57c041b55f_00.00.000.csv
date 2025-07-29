@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+27ce9c60-70ba-4a69-bb66-1d57c041b55f,"market for maintenance, lorry 16 metric ton | maintenance, lorry 16 metric ton | EN15804GD, U",G:Wholesale and retail trade; repair of motor vehicles and motorcycles/45:Wholesale and retail trade and repair of motor vehicles and motorcycles/452:Maintenance and repair of motor vehicles/4520:Maintenance and repair of motor vehicles,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21829/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'maintenance, lorry 16 metric ton', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of maintenance, lorry 16 metric ton. The service includes the needed materials (steel, polyethylene, paper, synthetic rubber, etc), lead (battery), and the energy consumption (electricity and light fuel oil).  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Transport",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

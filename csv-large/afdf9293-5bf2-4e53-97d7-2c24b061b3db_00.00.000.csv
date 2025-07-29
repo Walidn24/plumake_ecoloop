@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+afdf9293-5bf2-4e53-97d7-2c24b061b3db,"market for wood chips and particles, willow | wood chips and particles, willow | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/012:Growing of perennial crops/0129:Growing of other perennial crops","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23757/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'wood chips and particles, willow', in the geography of Europe.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'wood chips and particles, willow' represents willow wood chips produced in a in short rotation coppice. The weight is expressed as dry mass. 
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Wood,2012-01-01,2023-12-31,Europe,ecoinvent Data Quality System

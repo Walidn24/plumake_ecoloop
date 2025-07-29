@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+96698734-c9cc-437d-919a-0cec46fc42e9,"palm kernel meal to generic market for protein feed | protein feed, 100% crude | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/108:Manufacture of prepared animal feeds/1080:Manufacture of prepared animal feeds,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4662/documentation
+
+This activity is a linking activity, i.e. it connects palm kernel meal with generic protein feed market. Palm kernel meal is used mainly as a feed for animals, thus traded on generic feed market with other protein - containing products.
+
+Palm kernel meal is a by-product from palm oil production. This linking activity has the palm kernel meal as input and produces protein and energy feed as outputs.",00.00.000,Sector: Agriculture & Animal Husbandry,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

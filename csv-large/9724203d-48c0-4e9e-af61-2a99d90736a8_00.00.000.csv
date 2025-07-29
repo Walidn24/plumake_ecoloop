@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9724203d-48c0-4e9e-af61-2a99d90736a8,"market for bleach | bleach | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/28454/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for 'bleach', in the the Global geography. This is a generic market; the suppliers of this market make available this generic product by redirecting a part of the production of several more specific products.;No transport or losses have been considered for the generic product supplied in this market, as the transport modelled in the upstream niche markets for the more specific products do already account it.
+
+This activity starts at the gate of the activities that produce 'bleach'  within the Global geography.
+
+This activity ends with the supply of 'bleach'  the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Chemicals,2023-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

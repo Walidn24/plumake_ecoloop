@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1979c89b-fe3b-4888-83bc-1b6053479e27,"market for wood pellet, measured as dry mass | wood pellet, measured as dry mass | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/8540/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the global market for wood pellets. Transport distances are based on ecoinvent report 'Holzenergie', Tab. 6.1.
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,"ConvertedDataset,Sector: Wood",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

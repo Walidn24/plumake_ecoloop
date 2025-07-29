@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6a5b63b4-2d13-4774-a68d-1811d43d5e42,"market for water, completely softened | water, completely softened | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/36:Water collection, treatment and supply/360:Water collection, treatment and supply/3600:Water collection, treatment and supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19955/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market is representing local market for 1 kg of softened water.;;;Softened water is a standard requirement in many industrial applications and is usually carried out at the premises of each industry. No transport and losses are assumed.
+
+This activity starts at the gate of the activities that produce 'water, completely softened',  within the geography of United States.
+
+This activity ends with the supply of  water, completely softened', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Water Supply,2015-01-01,2023-12-31,United States of America,ecoinvent Data Quality System

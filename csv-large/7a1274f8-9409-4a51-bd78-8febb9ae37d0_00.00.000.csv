@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7a1274f8-9409-4a51-bd78-8febb9ae37d0,"market for planting with starter fertiliser or amendment, by drill | planting with starter fertiliser or amendment, by drill | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/30105/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant. ;This is the market for 'planting with starter fertiliser or ammendment, by drill' in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.
+
+This activity starts with the service generation.
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Agriculture & Animal Husbandry,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

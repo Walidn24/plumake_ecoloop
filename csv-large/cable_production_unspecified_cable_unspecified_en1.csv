@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5851ec49-0868-41ca-8620-bd252dfc7652,"cable production, unspecified | cable, unspecified | EN15804GD, U",C:Manufacturing/27:Manufacture of electrical equipment/273:Manufacture of wiring and wiring devices/2732:Manufacture of other electronic and electric wires and cables,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4156/documentation
+
+The dataset represents production of unspecified cable.",00.00.000,Sector: Electronics,2005-01-01,2023-12-31,Global,ecoinvent Data Quality System

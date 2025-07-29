@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a5578d42-827e-42a1-b934-c8a8c89efe94,"aluminium scrap, post-consumer, Recycled Content cut-off | aluminium scrap, post-consumer | EN15804GD, U",Recycled content cut-off,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/25807/documentation
+
+",00.00.000,Sector: Waste Treatment & Recycling; Metals,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

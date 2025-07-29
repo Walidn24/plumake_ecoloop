@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+858ce364-64fc-4edd-86db-76b0e9852a36,"market for operation, computer, laptop, 68% active work with internet access 0.2 Mbit/s | operation, computer, laptop, 68% active work with internet access 0.2 Mbit/s | EN15804GD, U","J:Information and communication/62:Computer programming, consultancy and related activities/620:Computer programming, consultancy and related activities","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4075/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'operation, computer, laptop, 68% active work with internet access 0.2 Mbit/s', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;The 'operation, computer, laptop, 68% active work with internet access 0.2 Mbit/s' is delivering the service of operation of a laptop computer with 68% active work, for one hour of use at home, including internet access.  The laptop is assumed to be 68% active mode, 25% standby mode and 6% off mode. The operation includes the use of hardware (laptop, internet devices) and energy consumption using broadband access. 
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Electronics",2011-01-01,2023-12-31,Global,ecoinvent Data Quality System

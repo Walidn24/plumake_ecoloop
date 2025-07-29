@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+16806443-c1ec-4b65-ae0d-a22161484803,"market for machine operation, diesel, >= 18.64 kW and < 74.57 kW, steady-state | machine operation, diesel, >= 18.64 kW and < 74.57 kW, steady-state | EN15804GD, U",F:Construction/43:Specialized construction activities/431:Demolition and site preparation/4312:Site preparation,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/10853/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'machine operation, diesel, >= 18.64 kW and < 74.57 kW, steady-state', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;The 'machine operation, diesel, >= 18.64 kW and < 74.57 kW, steady-state' is delivering the service of operation of a steady-state machine used in construction, industry, airport terminal or logging. It operates with diesel and it has an engine power ranges from 18.64 kW to 74.57 kW. The operation includes infrastructure, lubricating oil, fuel consumption, air emissions and waste.    
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Infrastructure & Machinery,2014-01-01,2023-12-31,Global,ecoinvent Data Quality System

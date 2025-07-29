@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+095d2422-7cb6-4e09-b87f-fb8fde14841e,"market for wood wool boards, cement bonded | wood wool boards, cement bonded | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/162:Manufacture of products of wood, cork, straw and plaiting materials/1621:Manufacture of veneer sheets and wood-based panels","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23913/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the European market cement bonded wood wool boards. Wood wool boards have a density of 360-570 kg/m3. They are used for light wall elements, as insulation material (thermal (0.08<λ<0.14 W/m) and sound) for walls, floors and ceilings or as lost shuttering panels. Transport distance based on eurostat transport statistics.
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Wood,2019-01-01,2023-12-31,Europe,ecoinvent Data Quality System

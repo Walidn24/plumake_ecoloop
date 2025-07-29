@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+48989f1d-3234-4d56-8581-02520f460ed5,"market for pitch | pitch | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/192:Manufacture of refined petroleum products/1920:Manufacture of refined petroleum products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20785/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'pitch', in the geography of Colombia.;Regional market for Switzerland (as found in ecoinvent v3.4, 2017) used as a proxy, with unmodified transport requirements.;'pitch'  is an organic viscoelastic polymer which can be fossil or non-fossil, derived from petroleum, coal tar or plants. It is mainly used in the construction industry. It is liquid under normal conditions of temperature and pressure. It is modelled as a mix of hydrocarbons.
+
+This activity starts at the gate of the activities that produce 'pitch',  within the geography of Colombia.
+
+This activity ends with the supply of 'pitch',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Fuels,2014-01-01,2023-12-31,Colombia,ecoinvent Data Quality System

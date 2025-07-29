@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7d95740e-5842-4570-b563-51b37b89296f,"electricity, high voltage, import from FR | electricity, high voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",Annual production volume valid for 2012.,00.00.000,Sector: Electricity,2020-01-01,2023-12-31,Belgium,ecoinvent Data Quality System

@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+eeb478e0-5a15-440c-8545-8eb4d1e96d6c,"argon to generic market for inert gas for discharge lamps | inert gas for discharge lamps | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/6822/documentation
+
+This is a linking activity. Several different noble gases (or their mixtures) can be used as an inert gas for gas-discharge lamps. This linking activity separate the production volume of argon which is later on used as inert gas in gas-discharge lamps and link it to the generic market for inert gas for discharge lamps.
+
+This is a linking activity, i.e. nothing is produced in this activity.",00.00.000,"linking activity,Sector: Chemicals",2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

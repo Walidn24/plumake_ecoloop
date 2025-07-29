@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7023a991-9682-4bfb-9374-60a44d625625,"market for land use change, perennial crop | land use change, perennial crop | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14695/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market represents the mix of 'land use change, perennial crop', in Viet Nam. This market connects the specific land use changeXX in VV to the crop producing activities. Transport or losses are irrelevant for this product.
+
+Activity starts with the delivery of land use change from the different activities.
+
+Activity ends with the provision of land use change to crop producing activities.",00.00.000,Sector: Land Use,2010-01-01,2023-12-31,Vietnam,ecoinvent Data Quality System

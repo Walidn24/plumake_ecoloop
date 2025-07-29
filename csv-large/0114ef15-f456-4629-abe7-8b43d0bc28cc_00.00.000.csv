@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+0114ef15-f456-4629-abe7-8b43d0bc28cc,"market for transport, passenger car | transport, passenger car | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4922:Other passenger land transport,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4902/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, passenger car', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of average transportation of one passenger across one kilometre (km). This service only considers the transportation of passengers. The dataset takes into account internal combustion engines and electric cars from different car classes (EURO 3, EURO 4 and EURO 5). The vehicle is an average of the different car sizes (small, medium and large) and fuel types (petrol, diesel and natural gas) for each EURO category. For the electric car, it takes into account a medium size electric car.  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Transport,2012-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

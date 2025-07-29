@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1efb3885-4556-4917-bc2e-0c6ffd95f0f7,"market for concrete, 20MPa | concrete, 20MPa | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2395:Manufacture of articles of concrete, cement and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21487/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'concrete, 20MPa', in the Global geography.;In this market, expert judgement was used to develop product specific transport distance estimations.;The product ""concrete, 20MPa"" represents 20 MPa ready-mix concrete. Density around 2'300 kg/m³. 20 MPa concrete is intended for residential use, such as footings for walls, columns, fireplaces, chimneys, foundations, walls, grade beams, piers, not exposed to freeze-thaw.
+
+This activity starts at the gate of the activities that produce 'concrete, 20MPa',  within the geography of Global.
+
+This activity ends with the supply of 'concrete, 20MPa',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Cement & Concrete,2006-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

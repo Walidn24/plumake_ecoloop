@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9e25c368-e548-46d8-ba28-61ee117fc8e6,"drying, sewage sludge | raw sewage sludge | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/382:Waste treatment and disposal/3821:Treatment and disposal of non-hazardous waste","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12577/documentation
+
+The dataset contains the drying of raw sludge with a dry matter content of 5% up to 92%. The drying includes mechanical dewatering followed by thermal drying. Dried sewage sludge could be used as fertilizer (no longer allowed in Switzerland) or as alternative fuel and raw material in the clinker production.;The total heat demand for drying of mechanically dewatered sewage sludge (30% dry mass) to dried sewage sludge (92% dry mass) is 340.489 MJ per m3 raw sewage sludge input (5% dry mass). The heat demand is assumed to be covered to 50% by natural gas, 30% light fuel oil, 10% heat from borehole heat pump, and to 10% from waste heat. These values are based on calculation tool from ESU Services [ESU_SewageSludgeDrying.xls] which uses Vetter & Burger, 2006 as reference for energy requirements.
+
+The activity starts with the raw sewage sludge in a silo.
+
+The activity ends with the dried sewage sludge ready to be shiped; infrastructure is disregarded.",00.00.000,Sector: Waste Treatment & Recycling,2013-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

@@ -1,0 +1,15 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6aa98771-3b2a-4a67-ab60-a5b35af557ba,"aluminium production, primary, ingot | aluminium, primary, ingot | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11010/documentation
+
+The dataset represents the production of 1kg of primary aluminium ingot. Molten aluminium produced from the electrolytic process is tapped from reduction cells, weighed, sampled and analysed before it is poured into a holding furnace and heated to approximately 750°C using natural gas as a fuel. Alloying elements, such as magnesium, silicon and manganese, for additional strength, corrosion resistance and other properties, are added to the aluminium. It is typically at this point in the process that clean, sorted scrap can also be added but for the purposes of this dataset, scrap remelting is excluded. During furnace charging and preparation, aluminium dross (a thick liquid or solid phase) forms at the surface of molten aluminium. This mixture of aluminium oxides is remelted to recover the aluminium that would otherwise be lost. Metallurgical analysis verifies that the metal meets customer specifications before the molten, alloyed (or pure, unalloyed) aluminium is cast into products of specific dimensions, before being weighed, bundled and strapped ready for transport. Original dataset included some alloying elements.  These were replaced by liquid aluminium to generate a theoretical 100% aluminium ingot.;For more information on the process, please go to ;http://primary.world-aluminium.org/index.php?id=285;[This dataset is meant to replace the following datasets:]
+
+The unit process begins with the unloading of process material to their storage areas on site.  The operations covered by this dataset include:
+* pre-treatment of hot metal
+* recovery and handling of internal process scrap
+* batching, metal treatment and casting operations
+* homogenizing, sawing and packaging activities
+* maintenance and repair of plant and equipment
+* treatment of process air, liquids and solids.
+* production of infrastructure (through rough estimate) was also added.
+
+The output of this unit process is packaged aluminium ingots, wrought alloy.",00.00.000,Sector: Metals,2015-01-01,2023-12-31,"IAI Area, Africa",ecoinvent Data Quality System

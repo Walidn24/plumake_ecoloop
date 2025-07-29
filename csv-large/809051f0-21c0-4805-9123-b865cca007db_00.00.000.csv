@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+809051f0-21c0-4805-9123-b865cca007db,"market for rosin size, for paper production | rosin size, for paper production | EN15804GD, U",C:Manufacturing/20:Manufacture of chemicals and chemical products/202:Manufacture of other chemical products/2029:Manufacture of other chemical products n.e.c.,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19158/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the supply of 1 kg of rosin size, for paper production from activities that produce it within the geography RER.;The transport amounts are based on eurostat transport statistics for 2016 (http://ec.europa.eu/eurostat/data/database, extracted on the 2018-06-01). See exchange comments for additional details.
+
+This activity starts at the gate of the activities that produce rosin size, for paper production within the geography RER, with the product ready for transportation.
+
+This activity ends with the supply of 1 kg of rosin size, for paper production to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Chemicals; Pulp & Paper,2018-01-01,2023-12-31,Europe,ecoinvent Data Quality System

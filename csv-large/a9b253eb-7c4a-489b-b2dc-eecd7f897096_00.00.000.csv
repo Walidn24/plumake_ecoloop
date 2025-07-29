@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a9b253eb-7c4a-489b-b2dc-eecd7f897096,"market for green manure, organic, until February | green manure, organic, until February | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15793/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'green manure, organic, until February', in the geography of Switzerland.;The product - green manure - is consumed in the same place as it is produced that is why regional market is created, but has no transport.
+
+This activity starts at the gate of the activities that produce 'green manure, organic, until February',  within the geography of Switzerland.
+
+This activity ends with the supply of  green manure, organic, until February', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Agriculture & Animal Husbandry,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

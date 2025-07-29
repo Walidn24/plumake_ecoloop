@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+248ceb19-a015-4038-8659-8adc47b0e2ba,"natural gas, high pressure, import from DE | natural gas, high pressure | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/352:Manufacture of gas; distribution of gaseous fuels through mains/3520:Manufacture of gas; distribution of gaseous fuels through mains",Import to Austria,00.00.000,Sector: Fuels,2000-01-01,2023-12-31,Austria,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+70e18871-68df-41a0-b7f7-326bce16f9e3,"electricity, high voltage, import from BR-North-eastern grid | electricity, high voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/25520/documentation
+
+This dataset represents the amount of imported electricity from the Brazilian Southern electricity grid to the Brazilian South-eastern/Mid-western electricity grid.
+
+This activity represents the point of 'handing over' the electricity from one electricity grid to the other at the border.
+
+This dataset doesn't include any electricity losses or transmission infrastructure as these are accounted for in the market datasets.",00.00.000,Sector: Electricity,2021-01-01,2023-12-31,"Brazil, Northern grid",ecoinvent Data Quality System

@@ -1,0 +1,10 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+12a260ca-c065-47c8-b494-2aa584c7b45c,"polyethylene production, high density, granulate, recycled | polyethylene, high density, granulate, recycled | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/383:Materials recovery/3830:Materials recovery","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/16519/documentation
+
+The functional unit represents the produciton of 1 kg of polyethylene, high density, granulate, recycled.;Energy demand and auxiliary materials of recycling process was extrapolated from the production of recycled PE granulate in the USA. Data for material losses was derived from the production of recycled PE granulate in Switzerland;The delivered sorted waste polyethylene is further sorted and cleaned in a first step in order to remove any unwanted debris. The plastic then needs to be homogenised, so that only HDPE will be processed. If there are other plastic polymers in the batch, this can ruin the recycled end-product.;HDPE has a lower specific density than PET, meaning that these plastic polymers can be separated by using sink-float separation. However, HDPE has a similar specific density to PP. In this case, Near Infrared Radiation (NIR) techniques can be used, unless the plastic is too dark and absorbs the infrared waves.;HDPE is then shredded and melted down to further refine the polymer. The plastic is then cooled into pellets which can be used in manufacturing.;For further information see Kägi et al. (2017). Life Cycle Inventories for Swiss Recycling Processes - Part Carbotech: Recycling of Cardboard, Glass, PE, PET, Tinplate
+
+Service is starting with the receipt of bales of sorted waste PE
+
+This module includes all processes of the production of recycled PE granulate, high density, up to the factory gate. Machinery infrastructure is excluded
+
+no allocation involved",00.00.000,Sector: Waste Treatment & Recycling,2010-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

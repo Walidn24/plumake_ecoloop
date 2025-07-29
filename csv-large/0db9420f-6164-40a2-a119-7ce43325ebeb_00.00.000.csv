@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+0db9420f-6164-40a2-a119-7ce43325ebeb,"market for compressed air, 700 kPa gauge | compressed air, 700 kPa gauge | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19624/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'compressed air, 700 kPa gauge', in the geography of Europe.;Compressed air is generally considered to be consumed where it is produced and no transport is required.;'compressed air, 700 kPa gauge' is used for a large number of production processes in small workshops up to large factories and plants. It is used to operate simple compressed air pistols, manual machining tools as well as in automated machining centres.
+
+The activity begins with the provision of compressed air from different generating technologies.
+
+The activity ends with the supply of a market mix of compressed air to the consumer.",00.00.000,Sector: Chemicals,2011-01-01,2023-12-31,Europe,ecoinvent Data Quality System

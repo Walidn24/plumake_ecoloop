@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1b9f79e3-a10c-490a-908e-55f6d3b2727a,"market group for heat, central or small-scale, biomethane | heat, central or small-scale, biomethane | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23113/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;This market delivers heat from a production plant in a global geography to a consuming activity in the same geography. No losses and no transportation are considered for this product.;This is the market group for 'heat, central or small-scale, biomethane', in the Global geography.
+
+This activity starts at the gate of markets that deliver 'heat, central or small-scale, biomethane', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'heat, central or small-scale, biomethane',  to the consumers of this product within the geography of Global.",00.00.000,Sector: Heat,2015-01-01,2023-12-31,Global,ecoinvent Data Quality System

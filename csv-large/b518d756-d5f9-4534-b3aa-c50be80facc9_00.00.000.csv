@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b518d756-d5f9-4534-b3aa-c50be80facc9,"market for energy and auxilliary inputs, metal working machine | energy and auxilliary inputs, metal working machine | EN15804GD, U","C:Manufacturing/25:Manufacture of fabricated metal products, except machinery and equipment/259:Manufacture of other fabricated metal products; metalworking service activit","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18904/documentation
+
+This is a market activity. In the case of services or immobile infrastructures, markets are connecting suppliers and consumers at a global level. For specific connections at regional level, direct links between the local producing activities and the local consumers are preferred. Transport or losses are logically not relevant for this type of products.;This is the market for  'energy and auxilliary inputs, metal working machine', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of 'energy and auxilliary inputs, metal working machine'. The service represents the energy and auxilliary processes needed for a metal working machine to operate. 1 kg of this process is needed to produce 1 kg of final product. It includes input materials, energy consumption, emissions, materials end-of-life and process heat coming form natural gas, heavy fuel oil, light fuel oil or hard coal.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Metals",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

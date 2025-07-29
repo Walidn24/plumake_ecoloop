@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+61ab0707-180e-4839-be74-2cac9011f5c8,"electricity, high voltage, aluminium industry, production mix | electricity, high voltage, aluminium industry | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/27235/documentation
+
+",00.00.000,Sector: Electricity; Waste Treatment & Recycling,2015-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

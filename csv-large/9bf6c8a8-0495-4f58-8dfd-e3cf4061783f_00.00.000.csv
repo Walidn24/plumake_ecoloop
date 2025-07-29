@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9bf6c8a8-0495-4f58-8dfd-e3cf4061783f,"market for cellulose fibre | cellulose fibre | EN15804GD, U",C:Manufacturing/17:Manufacture of paper and paper products/170:Manufacture of paper and paper products/1709:Manufacture of other articles of paper and paperboard,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23550/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the Swiss market for cellulose fibre produced from waste paper (post-consumer). It used as an insulation material in buildings and has a thermal conductivity of 0.038 W/mK at a density of 30-60kg/m3. Transport distance based on eurostat transport statistics.
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered",00.00.000,Sector: Pulp & Paper,2012-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

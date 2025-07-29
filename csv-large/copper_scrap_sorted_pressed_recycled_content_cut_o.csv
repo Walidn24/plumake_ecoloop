@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7cca71ea-e405-427a-bef2-5aaef7eaf632,"copper scrap, sorted, pressed, Recycled Content cut-off | copper scrap, sorted, pressed | EN15804GD, U",Recycled content cut-off,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/27250/documentation
+
+",00.00.000,Sector: Waste Treatment & Recycling; Metals,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

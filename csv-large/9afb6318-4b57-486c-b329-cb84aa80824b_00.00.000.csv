@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9afb6318-4b57-486c-b329-cb84aa80824b,"market group for electricity, low voltage | electricity, low voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12697/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;UCTE is an outded geographical entity.  The use of ENTSO-E is recommended. ;This is the market group for 'electricity, low voltage', in Union for the Co-ordination of Transmission of Electricity .
+
+This activity starts at the gate of markets that deliver 'electricity, low voltage', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'electricity, low voltage',  to the consumers of this product within the geography of Union for the Co-ordination of Transmission of Electricity .",00.00.000,Sector: Electricity,2015-01-01,2023-12-31,Union for the Co-ordination of Transmission of Electricity,ecoinvent Data Quality System

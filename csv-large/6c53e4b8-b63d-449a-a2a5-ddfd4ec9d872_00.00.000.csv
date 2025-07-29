@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6c53e4b8-b63d-449a-a2a5-ddfd4ec9d872,"market for sulfur trioxide | sulfur trioxide | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18935/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the supply of 1 kg of sulfur trioxide from activities that produce it within the geography RER.;This product is generally considered to be used at the production site. Therefore, the market does not contain any transport.
+
+This activity starts at the gate of the activities that produce sulfur trioxide within the geography RER, with the product ready to be used.
+
+This activity ends with the supply of 1 kg of sulfur trioxide to the consumers of this product. Transport is not included as this product is generally considered to be used at the production site. No product losses are included.",00.00.000,Sector: Chemicals,2018-01-01,2023-12-31,Europe,ecoinvent Data Quality System

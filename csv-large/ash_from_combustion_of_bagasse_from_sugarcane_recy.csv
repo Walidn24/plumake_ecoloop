@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9dcebcf4-f7ea-499c-8872-9be4aa173b97,"ash, from combustion of bagasse from sugarcane, Recycled Content cut-off | ash, from combustion of bagasse from sugarcane | EN15804GD, U",Recycled content cut-off,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/27261/documentation
+
+",00.00.000,Sector: Agriculture & Animal Husbandry,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

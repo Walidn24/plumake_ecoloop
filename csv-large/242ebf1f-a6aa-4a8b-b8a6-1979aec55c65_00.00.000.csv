@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+242ebf1f-a6aa-4a8b-b8a6-1979aec55c65,"market for operation, computer, laptop, videoconference | operation, computer, laptop, videoconference | EN15804GD, U",J:Information and communication/61:Telecommunications/611:Wired telecommunications activities/6110:Wired telecommunications activities,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/7719/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'operation, computer, laptop, videoconference', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;The 'operation, computer, laptop, videoconference' is delivering the service of operation of laptop computer during a videoconference for one hour. The operation includes the use of hardware (laptop, internet devices), energy consumption and broadband access per participant. 
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Electronics",2011-01-01,2023-12-31,Global,ecoinvent Data Quality System

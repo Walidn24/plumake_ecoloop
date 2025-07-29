@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+addc691e-5ced-45da-a118-00b8faf509ca,"market group for heat, district or industrial, natural gas | heat, district or industrial, natural gas | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13118/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'heat, district or industrial, natural gas', in the Global geography.
+
+This activity starts at the gate of markets that deliver 'heat, district or industrial, natural gas', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'heat, district or industrial, natural gas',  to the consumers of this product within the geography of Global.",00.00.000,Sector: Heat,2015-01-01,2023-12-31,Global,ecoinvent Data Quality System

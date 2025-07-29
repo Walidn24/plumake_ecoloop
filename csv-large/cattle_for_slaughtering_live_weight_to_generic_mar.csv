@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4105706a-9f04-4655-a5cd-e32a3032fc8d,"cattle for slaughtering, live weight to generic market for red meat, live weight | red meat, live weight | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/014:Animal production/0141:Raising of cattle and buffaloes","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11531/documentation
+
+This activity links the specific ""market for cattle for slaughtering, live weight"" to the generic ""market for red meat"". It has been arbitrarily decided that 10% of the cow meat produced feeds the generic market for red meat instead of the specific one for cow meat.
+
+The activity starts with the entry of the ""cattle for slaughtering, live weight""
+
+It finishes with the output of ""red meat"" for the generic market.",00.00.000,Sector: Agriculture & Animal Husbandry,2014-01-01,2023-12-31,Global,ecoinvent Data Quality System

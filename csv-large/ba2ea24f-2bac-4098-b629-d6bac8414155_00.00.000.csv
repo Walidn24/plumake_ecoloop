@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+ba2ea24f-2bac-4098-b629-d6bac8414155,"horticultural fleece production | horticultural fleece | EN15804GD, U",C:Manufacturing/22:Manufacture of rubber and plastics products/222:Manufacture of plastics products/2220:Manufacture of plastics products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14713/documentation
+
+This dataset represents the production of 1 m2 of horticultural fleece typically used in horticulture but also for crop protection against frost. Features of the model: the fleece density is 17g/m2 and lasts for an average of 5 years (information provided by J. Krauss, Agroscope). The fleece is made from polypropylene (PP) and produced in an extrusion process. This dataset refers to an average situation; for specific situations exchanges might differ substantially due to site specific parameters.
+
+The activity starts with the production of the flees.
+
+The module includes manufacture and processing of the raw material. Infrastructure is not included.",00.00.000,"WFLDB,Sector: Chemicals; Agriculture & Animal Husbandry",2009-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

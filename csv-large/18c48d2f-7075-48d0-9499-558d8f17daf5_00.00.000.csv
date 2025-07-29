@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+18c48d2f-7075-48d0-9499-558d8f17daf5,"market for transport, freight, light commercial vehicle | transport, freight, light commercial vehicle | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18562/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight, light commercial vehicle', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of goods. The vehicle operates with diesel or petrol, while its production  is based of the Golf A4. Its life time performance is assumed to be 239,000 pkm. 
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Transport",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

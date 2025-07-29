@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+17f9e3c6-365c-4889-bda7-f4ee03a9f4f8,"concrete, all types to generic market for concrete, normal strength | concrete, normal strength | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2395:Manufacture of articles of concrete, cement and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20229/documentation
+
+This is a linking (transfering) activity which links the specific concrete types to the generic market for concrete, normal.;The shares of the different types of concrete are set based on production volumes of the respective activities and geographies.
+
+The activity starts with the reception of a specific concrete.
+
+The activity ends with concrete, normal which is supplied to the generic market for concrete, normal.",00.00.000,Sector: Cement & Concrete,2019-01-01,2023-12-31,Brazil,ecoinvent Data Quality System

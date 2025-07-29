@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5e035c5f-ccb9-4772-bd15-2d47720abf21,"market for sawlog and veneer log, azobe, measured as solid wood under bark | sawlog and veneer log, azobe, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23029/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This represents the Cameroon market for azobe sawlogs. It is considered that the sawlogs are directly debarked in the forest, so no transport happens between the producing activities and the consuming ones (debarking).
+
+Activity starts in the forest, with the delivery of the sawlogs and veneer logs.
+
+Activity ends with the delivery of the product to the next activity, happening also in the forest (debarking).",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Cameroon,ecoinvent Data Quality System

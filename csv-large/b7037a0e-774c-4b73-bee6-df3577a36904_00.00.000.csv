@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b7037a0e-774c-4b73-bee6-df3577a36904,"trellis system construction, wooden poles, soft wood, tar impregnated | trellis system, wooden poles, soft wood, tar impregnated | EN15804GD, U",F:Construction/41:Construction of buildings/410:Construction of buildings/4100:Construction of buildings,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15682/documentation
+
+This dataset represents the production of 1 ha and 1 year of trellis systems for supporting trees of a fruit tree orchard. The trellis systems are need for fruit trees of orchards with a tree density of more than 500 trees per hectare because trees of such orchards are not higher than 3 meters, with a trunk diameter of about 10 to 15 cm and therefore need to be attached in order to prevent them for damage caused by wind especially when trees are carrying high fruit loads.
+
+The activity starts with planting tar impregnated soft wood poles and steel wires in order to attach trees for orchards with a tree density that exceeds 500 trees per ha. Furthermore, the contribution of machines and fuel used to install the trellis system is considered. The trellis system does not include hail protection systems or irrigation systems. Neither the repair material nor the time required to run machines for repairs is considered. Different materials listed. The hours of man power (e.g. spent on construction and maintenance of the trellis system) are not considered.
+
+The activity ends with the disposal of the wooden poles and wires after trellis system deconstruction. ",00.00.000,"WFLDB,Sector: Infrastructure & Machinery; Wood",2010-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2365de2b-fa5b-4480-a223-5e11e5c5a282,"market for anode, graphite, for Li-ion battery | anode, graphite, for Li-ion battery | EN15804GD, U",C:Manufacturing/27:Manufacture of electrical equipment/272:Manufacture of batteries and accumulators/2720:Manufacture of batteries and accumulators,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/24986/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'anode, graphite, for Li-ion battery', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts at the gate of the activities that produce anode, graphite, for Li-ion battery with the product ready for transportation.
+
+This activity ends with the supply of 1 kg of anode, graphite, for Li-ion battery to the consumers of this product within the geography of . Transport is included.",00.00.000,Sector: Electronics,2020-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

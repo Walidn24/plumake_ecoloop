@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+94b14ead-125d-48b8-82ff-f1adfd219256,"market for zeolite, slurry, without water, in 50% solution state | zeolite, slurry, without water, in 50% solution state | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/202:Manufacture of other chemical products/2023:Manufacture of soap and detergents, cleaning and polishing preparations, pe","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19205/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'zeolite, slurry, without water, in 50% solution state', in the Global geography.;In this market, expert judgement was used to develop product specific transport distance estimations.
+
+This activity starts at the gate of the activities that produce 'zeolite, slurry, without water, in 50% solution state',  within the geography of Global.
+
+This activity ends with the supply of 'zeolite, slurry, without water, in 50% solution state',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Minerals",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

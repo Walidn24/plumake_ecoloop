@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7d8e264d-36c4-42b4-a93b-45155eb7216e,"sawdust, wet, measured as dry mass to generic market for residual softwood, wet | residual softwood, wet | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22498/documentation
+
+This activity is linking the more specific market for saw dust, to the more generic market for residual softwood, wet; and residual hardwood, wet.It makes accesible the specific product saw dust through the more generic products of wet residual wood.;[This dataset is meant to replace the following datasets:]
+
+Entry of the specific product ""saw dust, wet, measured as dry mass""
+
+Delivery of the generic products ""residual softwood, wet"" and ""residual hardwood, wet""",00.00.000,Sector: Wood,2014-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

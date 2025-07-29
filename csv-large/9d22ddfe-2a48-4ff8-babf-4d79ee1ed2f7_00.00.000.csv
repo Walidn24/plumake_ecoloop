@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9d22ddfe-2a48-4ff8-babf-4d79ee1ed2f7,"market group for land use change, annual crop | land use change, annual crop | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20193/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'land use change, annual crop', in Brazil.
+
+This activity starts at the gate of markets that deliver 'land use change, annual crop', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'land use change, annual crop',  to the consumers of this product within the geography of Brazil.",00.00.000,Sector: Land Use,2017-01-01,2023-12-31,Brazil,ecoinvent Data Quality System

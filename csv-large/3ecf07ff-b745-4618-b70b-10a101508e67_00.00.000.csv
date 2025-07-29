@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3ecf07ff-b745-4618-b70b-10a101508e67,"strawberry seedling production, in unheated greenhouse, for planting | strawberry seedling, for planting | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/013:Plant propagation/0130:Plant propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15424/documentation
+
+This dataset represents the production of 1 strawberry seedling, under non-heated greenhouse.;Functional unit is one strawberry seedling at nursery.;50000 seedlings per ha.year are considered.
+
+This activity starts with the nursery producing seedlings
+
+Included processes: peat moss use, end-of-life and distribution to seedling farm, irrigation and greenhouse infrastructure. Not included are: fertilizers and pesticides application, transport from the nursery to the farm where the seedlings will be planted. This activity ends with seedlings exiting the nursery.",00.00.000,"WFLDB,Sector: Agriculture & Animal Husbandry",2009-01-01,2023-12-31,Spain,ecoinvent Data Quality System

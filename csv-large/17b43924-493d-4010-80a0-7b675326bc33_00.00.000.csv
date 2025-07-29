@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+17b43924-493d-4010-80a0-7b675326bc33,"maize grain, feed to generic market for energy feed | protein feed, 100% crude | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/108:Manufacture of prepared animal feeds/1080:Manufacture of prepared animal feeds,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20576/documentation
+
+This activity is a linking activity, i.e. it connects maize grain, feed with generic market for energy feed in South Africa. Maize grain, feed is used primarily as a feed for animals, thus traded on generic feed market with other energy- containing products.
+
+The activity starts with the reception of maize grain, feed.
+
+This linking activity has the maize grain, feed as an input and protein and energy feed as outputs.",00.00.000,Sector: Agriculture & Animal Husbandry,2016-01-01,2023-12-31,South Africa,ecoinvent Data Quality System

@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+cd3c4fbb-c4f5-4fe6-a344-2c8852deeeb9,"bronze production | bronze | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,Assumed energy mix for melting. Abatement of air emissions assumed,00.00.000,"ConvertedDataset,Sector: Metals",2000-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System
