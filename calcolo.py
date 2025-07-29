@@ -8,7 +8,7 @@ def salva_su_postgres(process_id, method, impact_name, amount, unit):
         conn = psycopg2.connect(
             dbname="csv_db",
             user="walid",
-            password="walidpass",
+            password="walid123",
             host="localhost",
             port="5432"  # default PostgreSQL
         )
