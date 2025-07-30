@@ -12,9 +12,9 @@ def init_postgres():
         conn = psycopg2.connect(
             dbname=os.getenv("DB_NAME", "ecoloop_test"),
             user=os.getenv("DB_USER", "postgres"),
-            password=os.getenv("DB_PASSWORD", "1234"),
+            password=os.getenv("DB_PASSWORD", "walid123"),
             host=os.getenv("DB_HOST", "localhost"),
-            port=os.getenv("DB_PORT", "5432")
+            port=os.getenv("DB_PORT", "5433")
         )
         cur = conn.cursor()
         return cur, conn
@@ -83,7 +83,7 @@ def create_tables(cur, conn):
                 geo VARCHAR(25),
                 uuid UUID, 
                 category VARCHAR(500),
-                description VARCHAR(2500),
+                description VARCHAR(5000),
                 version VARCHAR(10),
                 tags VARCHAR(225),
                 valid_form DATE,
@@ -123,7 +123,7 @@ def create_tables(cur, conn):
             CREATE TABLE IF NOT EXISTS tab_emission_factors (
                 id SERIAL NOT NULL PRIMARY KEY,
                 id_process INT NOT NULL,
-                ef VARCHAR(25),
+                ef VARCHAR(225),
                 um VARCHAR(25),
                 value DOUBLE PRECISION,
                 source_db_id INTEGER NOT NULL,
@@ -141,6 +141,7 @@ def create_tables(cur, conn):
         raise 
 
 
+
 def insert_process_data(cur, conn, process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema):
     try:
         cur.execute(
@@ -151,7 +152,9 @@ def insert_process_data(cur, conn, process_name, macro_cat, note, geo, uuid, cat
             """,
             (process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema)
         )
+        inserted_id = cur.fetchone()[0]
         conn.commit()
+        return inserted_id
     except Exception as e:
         conn.rollback()
         print(f"PostgreSQL inserting process data issues: {e}")
@@ -176,23 +179,6 @@ def init_default_table_data(cur, conn):
         conn.rollback()
         print(f"PostgreSQL table creating issues: {e}")
         raise     
-
-def insert_data(cur, conn):
-    try:
-        # Set search_path to include public schema
-        cur.execute("SET search_path TO public;")
-
-        cur.execute(
-            """
-            INSERT INTO cars (brand, model, year)
-            VALUES ('Ford', 'Mustang', 1964);
-            """
-        )
-        conn.commit()
-    except Exception as e:
-        conn.rollback()
-        print(f"PostgreSQL table creating issues: {e}")
-        raise 
 
 def salva_su_postgres(process_id, method, impact_name, amount, unit):
     try:
@@ -246,8 +232,23 @@ def esegui_calcolo(process_id, metodo_richiesto="EN15804+A2 (EF 3.1)"):
 
     result.dispose()
 
+def save_into_impact_result(id_process, ef, um, value, source_db_id, method_id):
+    try:
+        cur.execute(
+            """
+            INSERT INTO tab_emission_factors (id_process, ef, um, value, source_db_id, method_id)             
+            VALUES (%s, %s, %s, %s, %s, %s)
+            RETURNING id;
+            """,
+            (id_process, ef, um, value, source_db_id, method_id)
+        )
+        conn.commit()
+    except Exception as e:
+        conn.rollback()
+        print(f"PostgreSQL inserting process data issues: {e}")
+        raise          
 
-def calculate_impact(uuid, requested_method="EN15804+A2 (EF 3.1)"):
+def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF 3.1)"):
     # Configure logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -340,8 +341,14 @@ def calculate_impact(uuid, requested_method="EN15804+A2 (EF 3.1)"):
         if not impact_results:
             print("No impact results available.")
         for impact in impact_results:
-            print(f"{impact.impact_category.name}: {impact.amount:.5f} {impact.impact_category.ref_unit}")
+            name = impact.impact_category.name.replace("EN15804 (EF 3.1) | ", "").replace("EN15804 (EF3.0 & 3.1) | ", "").replace("Output | ", "").replace("Resource | ", "").replace("Waste | ", "")
+            value = round(impact.amount, 5)
+            um = impact.impact_category.ref_unit
+
+            print(f"nome: {name}, valore: {value},  unità: {um}")
             # TODO: add insert to db methods
+            save_into_impact_result(process_id_returned, name, um, value, source_db_id=1, method_id=3)
+            
 
     except Exception as e:
         logging.error(f"Error retrieving impact results: {e}")
@@ -354,27 +361,59 @@ def calculate_impact(uuid, requested_method="EN15804+A2 (EF 3.1)"):
 
 
 if __name__ == "__main__":
-    # inserisci qui il tuo ID processo
-    esempio_id = "00172b09-8b56-40eb-a9a8-d0e03dd59aa1"
-    # esegui_calcolo(esempio_id)
-    # calculate_impact(esempio_id)
+
     cur, conn = init_postgres()
+    
+    # ✅ Percorso alla cartella CSV
+    cartella_csv = r'csv-large'
+    numero_file_da_leggere = 10
+
+    # ✅ Elenco dei primi N file .csv
+    file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')][:numero_file_da_leggere]
+    
+    # ✅ Leggi ogni file e stampa UUID e Name
+    for nome_file in file_csv:
+        percorso_file = os.path.join(cartella_csv, nome_file)
+        print(f"\n📄 File: {nome_file}")
+
+        file_path = 'categories/cleaned_category.csv'
+        try:
+            with open(percorso_file, mode='r', encoding='utf-8') as f:
+                lettore = csv.DictReader(f)
+                for riga in lettore:
+                    uuid = riga.get('UUID')
+                    process_name = riga.get('Name')
+                    category = riga.get('Category')
+                    geo = riga.get('Location')
+                    description = riga.get('Description')
+                    version = riga.get('Version')
+                    tags = riga.get('Tags')
+                    valid_from = riga.get('Valid from')
+                    valid_until = riga.get('Valid until')
+                    location = riga.get('Location')
+                    flow_schema = riga.get('Flow schema')
+
+                    process_id = insert_process_data(cur, conn, process_name, 1, "", "", uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema)
+                    calculate_impact(process_id_returned=process_id, uuid=uuid, requested_method="EN15804+A2 (EF 3.1)")
+
+        except Exception as e:
+            print(f"  ⚠ Errore nel file {nome_file}: {e}")
 
 
-    # create_csv_categories()
-    try:
+    # # create_csv_categories()
+    # try:
 
-        #! use this method one time only to populate default data
-        # init_default_table_data(cur, conn)
         
-        #!!!! DELETE ALL THE TABLES !!!!!
-        delete_all_tables(cur, conn)
-        create_tables(cur, conn)
+    #     #!!!! DELETE ALL THE TABLES !!!!!
+    #     # delete_all_tables(cur, conn)
+    #     create_tables(cur, conn)
 
-        # insert_data(cur, conn)
+    #     #! use this method one time only to populate default data
+    #     init_default_table_data(cur, conn)
+        
 
-    finally:
-        cur.close()
-        conn.close()
+    # finally:
+    #     cur.close()
+    #     conn.close()
 
 
