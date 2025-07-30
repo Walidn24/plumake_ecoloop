@@ -2,57 +2,92 @@ import olca_ipc as ipc
 import olca_schema as o
 import psycopg2
 import time
+import os
+import csv
 
-def salva_su_postgres(process_id, method, impact_name, amount, unit):
+# === CONFIG ===
+cartella_csv = r'C:\Users\walid\Desktop\csv-convertiti-02'
+numero_file_da_leggere = 10
+
+# === FUNZIONE PER SALVARE I RISULTATI ===
+def salva_calcolo(id_flux, ef, unita, valore):
+    conn = None
     try:
+        print("🔌 Connessione a PostgreSQL...")
         conn = psycopg2.connect(
             dbname="csv_db",
-            user="walid",
+            user="postgres",
             password="walid123",
             host="localhost",
-            port="5432"  # default PostgreSQL
+            port="5433"
         )
         cur = conn.cursor()
         cur.execute("""
-            INSERT INTO impact_results (process_id, method, impact_name, amount, unit)
-            VALUES (%s, %s, %s, %s, %s)
-        """, (process_id, method, impact_name, amount, unit))
+            INSERT INTO impact_results (process_id, impact_name, unit, amount)
+            VALUES (%s, %s, %s, %s)
+        """, (id_flux, ef, unita, valore))
         conn.commit()
         cur.close()
-        conn.close()
-        print(f"[✔] Salvato: {impact_name} = {amount} {unit}")
+        print(f"✅ Salvato: {ef} = {valore} {unita}")
     except Exception as e:
-        print(f"[✘] Errore salvataggio PostgreSQL: {e}")
+        print("❌ Errore nel salvataggio:", e)
+    finally:
+        if conn:
+            conn.close()
 
-def esegui_calcolo(process_id, metodo_richiesto="EN15804+A2 (EF 3.1)"):
+# === FUNZIONE PER ESEGUIRE IL CALCOLO ===
+def esegui_calcolo(process_id):
+  try:
     client = ipc.Client(8080)
-    process = client.get_descriptor(o.Process, process_id)
-    if not process:
-        print(f"[✘] ID Processo non trovato: {process_id}")
-        return
+    # Prova una chiamata semplice per vedere se OpenLCA è acceso
+    _ = client.ping()
+  except Exception as e:
+    print("⚠ OpenLCA non è avviato o non risponde:", e)
+    return
 
-    methods = client.get_descriptors(o.ImpactMethod)
-    metodo = next((m for m in methods if metodo_richiesto in m.name), None)
-    if not metodo:
-        print(f"[✘] Metodo impatto '{metodo_richiesto}' non trovato.")
-        return
+    try:
+        process = client.get(o.Ref(o.RefType.PROCESS, process_id))
+        if not process:
+            print(f"❌ Processo non trovato: {process_id}")
+            return
 
-    setup = o.CalculationSetup(target=process, impact_method=metodo)
-    result = client.calculate(setup)
+        setup = o.CalculationSetup()
+        setup.calculation_type = o.CalculationType.SIMPLE_CALCULATION
+        setup.model_type = o.ModelType.PRODUCT_SYSTEM
+        setup.ref_flow = process.quantitative_reference
+        setup.processes = [process_id]
+        setup.amount = 1.0
+        setup.impact_method = client.find(o.ImpactMethod, "EF v3.0")
 
-    if not result.wait_until_ready():
-        print("[✘] Calcolo non completato in tempo.")
-        return
+        print(f"⚙ Calcolo per processo {process.name}...")
+        result = client.calculate(setup)
+        time.sleep(1)
 
-    impact_results = result.get_total_impacts()
-    print("\n=== RISULTATI CALCOLO ===")
-    for impatto in impact_results:
-        print(f"{impatto.impact_category.name}: {impatto.amount:.4f} {impatto.impact_category.ref_unit}")
-        salva_su_postgres(process.id, metodo.name, impatto.impact_category.name, impatto.amount, impatto.impact_category.ref_unit)
+        for impact in result.impact_results:
+            salva_calcolo(process_id, impact.impact_category.name, impact.impact_category.reference_unit, impact.value)
 
-    result.dispose()
+        print(f"✅ Calcolo completato: {process.name}")
+        client.dispose(result)
 
+    except Exception as e:
+        print(f"❌ Errore nel calcolo {process_id}:", e)
+
+# === MAIN ===
 if __name__ == "__main__":
-    # inserisci qui il tuo ID processo
-    esempio_id = "00172b09-8b56-40eb-a9a8-d0e03dd59aa1"
-    esegui_calcolo(esempio_id)
+    print("🚀 Avvio programma automatico...\n")
+    file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')][:numero_file_da_leggere]
+
+    for nome_file in file_csv:
+        percorso = os.path.join(cartella_csv, nome_file)
+        print(f"\n📄 CSV: {nome_file}")
+        try:
+            with open(percorso, mode='r', encoding='utf-8') as f:
+                lettore = csv.DictReader(f)
+                for riga in lettore:
+                    uuid = riga.get('UUID')
+                    name = riga.get('Name')
+                    if uuid and name:
+                        print(f"  ➤ {name} ({uuid})")
+                        esegui_calcolo(uuid)
+        except Exception as e:
+            print(f"⚠ Errore in {nome_file}: {e}")
