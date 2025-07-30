@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+19e2c059-f40d-4590-afed-24ed3ee49f12,"graphite production | graphite | EN15804GD, U",B:Mining and quarrying/08:Other mining and quarrying/089:Mining and quarrying n.e.c./0899:Other mining and quarrying n.e.c.,"Technology for  limestone mining, crusching and milling assumed as a first approximation. Overall yield of 95% is assumed.",00.00.000,"ConvertedDataset,Sector: Resource Extraction; Minerals",2000-01-01,2023-12-31,Europe,ecoinvent Data Quality System

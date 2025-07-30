@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1dc3d3c7-993a-452d-bf9c-c6ee9930a0be,"basic oxygen furnace dust, for recovery, Recycled Content cut-off | basic oxygen furnace dust, for recovery | EN15804GD, U",Recycled content cut-off,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/27216/documentation
+
+",00.00.000,Sector: Waste Treatment & Recycling; Metals,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

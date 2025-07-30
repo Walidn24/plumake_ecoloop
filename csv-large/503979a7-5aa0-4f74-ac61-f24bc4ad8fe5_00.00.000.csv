@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+503979a7-5aa0-4f74-ac61-f24bc4ad8fe5,"electricity, high voltage, import from UA | electricity, high voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/26034/documentation
+
+This dataset represents the amount of imported electricity from UA to MD. The import value includes all electricity imports, independently whether used within the importing country, or re-exported. For a discussion of different ways of modeling electricity trade in LCI, please refer to (Itten & Frischknecht 2012).;For structural reasons of the ecoinvent database the annual import volume is set to zero in this dataset. The import volume is considered directly in the respective high voltage electricity market of the importing geography.
+
+This activity represents the point of 'handing over' the electricity from one country to the other at the border.
+
+This dataset doesn't include any electricity losses or transmission infrastructure as these are accounted for in the market datasets.",00.00.000,Sector: Electricity,2020-01-01,2023-12-31,Moldova,ecoinvent Data Quality System

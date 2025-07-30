@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+279ba8c1-8bb1-4747-914a-772df741a2db,"market for transport, freight train | transport, freight train | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19892/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight train', in the geography of South Africa.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of goods. The vehicle operates with diesel, electricity or gard coal, while it has a mass of 1000 Gt.  The transport node indirectly considers empty trips (if any) by taking into account the total amount of freight transported throughout the lifetime of the mobile infrastructure.
+
+The dataset represents a service, no transport nor losse are included.
+
+The market represents the technology mix for the country.",00.00.000,Sector: Transport,2016-01-01,2023-12-31,South Africa,ecoinvent Data Quality System

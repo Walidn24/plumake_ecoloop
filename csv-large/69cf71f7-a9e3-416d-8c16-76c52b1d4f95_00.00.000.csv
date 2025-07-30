@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+69cf71f7-a9e3-416d-8c16-76c52b1d4f95,"bark chips, wet, measured as dry mass to generic market for residual hardwood, wet | residual hardwood, wet | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22598/documentation
+
+This activity is linking the more specific market for bark chips, to the more generic market for residual hardwood, wet; and residual softwood, wet.It makes accesible the specific product bark chips through the more generic products of wet residual wood.;[This dataset is meant to replace the following datasets:]
+
+Entry of the specific product ""bark chips, wet, measured as dry mass""
+
+Delivery of the generic products ""residual hardwood, wet"" and ""residual softwood, wet""",00.00.000,Sector: Wood,2014-01-01,2023-12-31,"Canada, Québec",ecoinvent Data Quality System

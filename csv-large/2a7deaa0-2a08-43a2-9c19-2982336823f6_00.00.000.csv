@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2a7deaa0-2a08-43a2-9c19-2982336823f6,"market for concrete, 20MPa | concrete, 20MPa | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2395:Manufacture of articles of concrete, cement and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21938/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This activity represent the market for 1 m3 of concrete, 20 MPa.;In this market, expert judgement was used to develop product specific transport distance estimations.;[This dataset is meant to replace the following datasets:]
+
+The activity start with the product ready for transport at factory gate.
+
+The activity ends with the delivery of the product to the consumer.",00.00.000,Sector: Cement & Concrete,2006-01-01,2023-12-31,Northern America,ecoinvent Data Quality System

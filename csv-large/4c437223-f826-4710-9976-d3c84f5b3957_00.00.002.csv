@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Last change,Tags,Valid from,Valid until,Location,Flow schema
+4c437223-f826-4710-9976-d3c84f5b3957,"hardwood forestry, oak, sustainable forest management | sawlog and veneer log, hardwood, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/10827/documentation
+
+This dataset covers the production and harvesting of 1 m3 of stemwood, oak, solid, under bark, plus the relative share of enery wood from slash from sustainable forest management as the prevailing management practices in Germany.;;For Germany forestry processes for the 4 main tree species are modelled:;•	hardwood: beech;•	hardwood: oak;•	softwood: spruce;•	softwood: pine;Table 1-1 lists the parameters of the inventoried tree species and their sources:;
+
+The activity starts with site preparation assuming establishment of the forest via planting, including seedling production and covers all process related to forest management, including site preparation, planting,  tending, young growth tending, clearing, thinnings and harvesting operations including the processing of wood fuel to chips, bundles and chopped wood (logs for energy) over one rotation period. It covers also the maintenance and construction of forest roads.
+
+This activity ends with the assortments at the forest road and includes eventual drying before transportation.",00.00.002,2024-10-22 14:52:17.632,"Swiss brush-up completed,combined production,combined production,,Sector: Forestry; Wood",2010-01-01,2023-12-31,Germany,ecoinvent Data Quality System

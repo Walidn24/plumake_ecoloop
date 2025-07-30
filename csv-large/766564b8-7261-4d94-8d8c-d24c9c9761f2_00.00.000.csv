@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+766564b8-7261-4d94-8d8c-d24c9c9761f2,"market for pulpwood, hardwood, measured as solid wood under bark | pulpwood, hardwood, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12462/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the Swiss market for pulpwood, hardwood. Pulpwood is used to make wood pulp for paper production. Transport distance based on expert judgement. Regional markets for pulpwwod are justified considering that in general wood as a raw material is mostly transported in short to medium distances.
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

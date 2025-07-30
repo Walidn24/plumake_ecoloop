@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+52788fda-05b3-4a90-843f-9f47f31c2dab,"maintenance, train, passenger, high-speed | maintenance, train, passenger, high-speed | EN15804GD, U","C:Manufacturing/33:Repair and installation of machinery and equipment/331:Repair of fabricated metal products, machinery and equipment/3315:Repair of transport equipment, except motor vehicles",ICE 1 and ICE 2,00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Transport",1996-01-01,2023-12-31,Germany,ecoinvent Data Quality System

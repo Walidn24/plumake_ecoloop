@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a68e948a-ea07-4830-b38f-4465359cac9c,"chlorine, for reuse in zirconium and hafnium tetrachloride production, to generic market for chlorine | chlorine, liquid | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/26600/documentation
+
+This activity links chlorine, obtained from the electrolysis of magnesium chloride that is produced during the production of zirconium & hafnium sponge, to the market for chlorine, liquid.;As the chlorine that is recovered through the electrolysis of magnesium chloride is exclusively reused for the production of zirconium and hafnium tetrachloride, it is assumed that it actually does not supply the market for chlorine. For this reason, the production volume is a dummy value.;The purpose of this activity is to link the recovered chlorine to the market for ""chlorine, liquid"" in the Consequential system model. In that system model, the activities that are consuming chlorine recovered through the electrolysis of magnesium chloride get instead supplied by the marginal suppliers of chlorine, liquid.
+
+
+
+",00.00.000,Sector: Chemicals,2021-01-01,2023-12-31,France,ecoinvent Data Quality System

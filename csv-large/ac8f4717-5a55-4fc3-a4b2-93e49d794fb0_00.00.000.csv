@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+ac8f4717-5a55-4fc3-a4b2-93e49d794fb0,"natural gas, high pressure, import from BE | natural gas, high pressure | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/352:Manufacture of gas; distribution of gaseous fuels through mains/3520:Manufacture of gas; distribution of gaseous fuels through mains",Import to Sweden,00.00.000,Sector: Fuels,2000-01-01,2023-12-31,Sweden,ecoinvent Data Quality System

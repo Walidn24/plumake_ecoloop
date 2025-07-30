@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7746f529-b6f0-4b96-878f-c07e9e1cf344,"market for water, decarbonised | water, decarbonised | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/36:Water collection, treatment and supply/360:Water collection, treatment and supply/3600:Water collection, treatment and supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21864/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market is representing local market for 1 kg of decarbonised water in South Africa.Decarbonised water is a standard requirement in many industrial applications. As such, these industries have no option but to invest in high-quality water production equipment for their plants and facilities. Thus, decarbonised water production is usually carried out at the premises of each industry. No transport and losses are assumed.;[This dataset is meant to replace the following datasets:]
+
+This activity starts from decarbonised water, at the water treatment plant
+
+This activity ends with 1 kg of decarbonised water at consumer. This dataset includes only the water. No distribution losses are assumed (produced and used at the same site).",00.00.000,Sector: Water Supply,2010-01-01,2023-12-31,South Africa,ecoinvent Data Quality System

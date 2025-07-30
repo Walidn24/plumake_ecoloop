@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b1d7fc1c-81fe-4557-842a-365301ca2afd,"market for printed wiring board, mounted mainboard, mobile device, double-sided, Pb free | printed wiring board, mounted mainboard, mobile device, double-sided, Pb free | EN15804GD, U","C:Manufacturing/26:Manufacture of computer, electronic and optical products/261:Manufacture of electronic components and boards/2610:Manufacture of electronic components and boards","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/24877/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'printed wiring board, mounted mainboard, mobile device, double-sided, Pb free', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts at the gate of the activities that produce 'printed wiring board, mounted mainboard, mobile device, double-sided, Pb free',  within the geography of Global.
+
+This activity ends with the supply of 'printed wiring board, mounted mainboard, mobile device, double-sided, Pb free',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Electronics,2014-01-01,2023-12-31,Global,ecoinvent Data Quality System

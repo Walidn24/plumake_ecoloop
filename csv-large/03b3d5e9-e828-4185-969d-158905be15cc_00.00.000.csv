@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+03b3d5e9-e828-4185-969d-158905be15cc,"fibre production, kenaf, retting | fibre, kenaf | EN15804GD, U","C:Manufacturing/13:Manufacture of textiles/131:Spinning, weaving and finishing of textiles/1311:Preparation and spinning of textile fibres","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21297/documentation
+
+In practice, kenaf retting is very similar to jute retting. This activity is approximated by the jute retting and involves immersion of the bundles of kenaf into stagnant water in the jute cultivation field, tanks, ponds, ditches etc., or in slowly flowing clear water in canals, rivulets, rivers etc. After several days of immersion, the kenaf fibre gets loosen from the stalk and is extracted from the stalk which becomes the byproduct.;This dataset serves as the transformation process of kenaf plant to fibre. 
+
+The activity starts with the immersion of the plant bundles into the water.
+
+The activity ends with the extraction of the kenaf fibres from the retted plants. It is done manually by hand. The kenaf Fibre is then gets dried in the sun.",00.00.000,Sector: Textiles; Agriculture & Animal Husbandry,2016-03-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

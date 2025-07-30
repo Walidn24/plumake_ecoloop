@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+e6b20a4c-6c52-48fb-8a92-cd4be2b6aff9,"charger production, for electric scooter | charger, for electric scooter | EN15804GD, U",C:Manufacturing/27:Manufacture of electrical equipment/279:Manufacture of other electrical equipment/2790:Manufacture of other electrical equipment,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/2921/documentation
+
+This dataset describes the production of a charger suitable for an electric scooter. The entries are given as a function of kg of device. The original data was collected for a device of approximately 3 kg weight. The dataset is based on direct inspection of existing commercial devices of current technology.
+
+The dataset takes as input the various electronic components required to build the charger and includes the components' production efforts. Assembly energy not included due to lack of data.
+
+The dataset returns the assembled device and production waste as a by-product.",00.00.000,Sector: Electronics,2005-01-01,2023-12-31,Global,ecoinvent Data Quality System

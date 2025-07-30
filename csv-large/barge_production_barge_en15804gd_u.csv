@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3b580ef2-546b-4ab8-b1a4-0d9bbb949888,"barge production | barge | EN15804GD, U",C:Manufacturing/30:Manufacture of other transport equipment/301:Building of ships and boats/3011:Building of ships and floating structures,The modelled barge is considered as a mix for motorships and push tugs.,00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Transport",1993-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

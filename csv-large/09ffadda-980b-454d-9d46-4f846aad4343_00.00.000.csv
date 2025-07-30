@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+09ffadda-980b-454d-9d46-4f846aad4343,"market for sawlog and veneer log, softwood, measured as solid wood under bark | sawlog and veneer log, softwood, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12860/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the market for sawlog and veneer log, softwood in Quebec (Canada). In Quebec, between 2001 and 2006, 99,8% or higher of sawlogs from public forests were transported by lorry to factories. Therefore, lorry is the only mean of transportation considered in this market.
+
+Activity starts in the forest, with the delivery of the sawlogs and veneer logs.
+
+Activity ends with the delivery of the product to the consumers.",00.00.000,Sector: Forestry; Wood,2006-01-01,2023-12-31,"Canada, Québec",ecoinvent Data Quality System

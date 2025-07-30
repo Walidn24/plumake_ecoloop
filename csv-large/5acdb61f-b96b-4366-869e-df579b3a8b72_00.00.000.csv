@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5acdb61f-b96b-4366-869e-df579b3a8b72,"market for maintenance, intermodal shipping container, 20-foot | maintenance, intermodal shipping container, 20-foot | EN15804GD, U","C:Manufacturing/33:Repair and installation of machinery and equipment/331:Repair of fabricated metal products, machinery and equipment/3315:Repair of transport equipment, except motor vehicles","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14259/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'maintenance, intermodal shipping container, 20-foot', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of maintenance, intermodal shipping container, 20-foot. The service includes water, needed materials (steel, wood, synthetic rubber), infrastructure, waste and transport. The amount of maintenance might vary depending on what kind of cargo is being transported and how often is the container being used  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Infrastructure & Machinery; Transport,2010-01-01,2023-12-31,Global,ecoinvent Data Quality System

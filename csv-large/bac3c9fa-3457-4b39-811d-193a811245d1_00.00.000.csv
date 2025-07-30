@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+bac3c9fa-3457-4b39-811d-193a811245d1,"market for wood chips, wet, measured as dry mass | wood chips, wet, measured as dry mass | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15488/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the market for wet wood chips in Quebec (Canada). Transport distances based on expert judgement. Specific regional consumption mixes for wood chips, wet are needed as this product is consumed normally not far from where it is produced.
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Wood,2014-01-01,2023-12-31,"Canada, Québec",ecoinvent Data Quality System

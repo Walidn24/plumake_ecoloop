@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+bcbf69e5-243b-44d6-b36b-945dd9c3f61f,"slab and siding, hardwood, wet, measured as dry mass to generic market for residual hardwood, wet | residual hardwood, wet | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23256/documentation
+
+This activity is linking the more specific market for slab and siding, hardwood, to the more generic market for residual hardwood, wet.It makes accesible the specific product slab and siding, hardwood through the more generic product of wet residual hardwood.
+
+Entry of the specific product ""slab and siding, hardwood, wet, measured as dry mass""
+
+Delivery of the generic product ""residual hardwood, wet""",00.00.000,Sector: Wood,2014-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+21008caf-c67f-45d4-b545-0de8928d89fe,"market group for transport, freight train | transport, freight train | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13114/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'transport, freight train', in the Global geography.
+
+This activity starts at the gate of markets that deliver 'transport, freight train', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'transport, freight train',  to the consumers of this product within the geography of Global.",00.00.000,Sector: Transport,2015-01-01,2023-12-31,Global,ecoinvent Data Quality System

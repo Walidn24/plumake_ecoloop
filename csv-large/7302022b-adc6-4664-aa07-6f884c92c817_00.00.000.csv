@@ -1,0 +1,10 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7302022b-adc6-4664-aa07-6f884c92c817,"tomato seedling production, in unheated greenhouse, for planting | tomato seedling, for planting | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/013:Plant propagation/0130:Plant propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14956/documentation
+
+This dataset represents the production of 1 tomato seedling, under non-heated greenhouse.;Functional unit is one tomato seedling at nursery.;34000 seedlings per ha.year are considered.
+
+This activity starts with the nursery producing seedlings
+
+Included processes: peat moss use, end-of-life and distribution to seedling farm, irrigation and greenhouse infrastructure.
+Excluding: fertilizers and pesticides application and transport from the nursery to the farm where the seedlings will be planted. 
+This activity ends with seedlings exiting the nursery.",00.00.000,"WFLDB,Sector: Agriculture & Animal Husbandry",2009-01-01,2023-12-31,Italy,ecoinvent Data Quality System

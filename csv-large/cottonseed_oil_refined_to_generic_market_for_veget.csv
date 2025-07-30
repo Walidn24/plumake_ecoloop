@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3a00efac-69a9-48c6-b131-e21ee2263545,"cottonseed oil, refined, to generic market for vegetable oil, refined | vegetable oil, refined | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/104:Manufacture of vegetable and animal oils and fats/1040:Manufacture of vegetable and animal oils and fats,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/9109/documentation
+
+Vegetable oils are often traded on the same market, simply because most of the uses requiring vegetable oil do not require specific vegetable oil. The purpose of this activity is to link certain amount of specific vegetable oils and create generic vegetable oil which can be then traded on generic vegetable oil market.
+
+This activity renames part of the refined cottonseed oil to vegetable oil, refined for sale on this generic vegetable oil market.",00.00.000,Sector: Agriculture & Animal Husbandry,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

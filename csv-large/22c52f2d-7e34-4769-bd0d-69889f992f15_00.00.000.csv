@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+22c52f2d-7e34-4769-bd0d-69889f992f15,"market for transport, pipeline, long distance, natural gas | transport, pipeline, long distance, natural gas | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/493:Transport via pipeline/4930:Transport via pipeline,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18451/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, pipeline, long distance, natural gas', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of fuels, like natural gas through pipeline. The pipeline operates with electricity. The leakages are taken into account. It has a life time of 40 years, with a capacity of 0.8 Mio. Nm3 gas per hour.  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Transport",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

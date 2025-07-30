@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b1aa6ef2-5aeb-48b3-9d98-8d73a84da83e,"market for sawlog and veneer log, meranti, debarked, measured as solid wood | sawlog and veneer log, meranti, debarked, measured as solid wood | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22754/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'sawlog and veneer log, meranti, debarked, measured as solid wood', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'sawlog and veneer log, meranti, debarked, measured as solid wood' represents tropical roundwood from the hardwood species meranti (Shorea ssp. , Lauan, Seraya). The amount is expressed as solid wood excluding bark. The wood is debarked at plantation site with a mobile debarker. 
+
+Activity starts with the product ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

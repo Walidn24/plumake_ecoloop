@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+30cae48c-57af-4a93-8220-a5142356b327,"sawnwood production, softwood, raw, dried (u=10%) | sawnwood, softwood, raw, dried (u=10%) | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11901/documentation
+
+This activity is providing a more generic sawnwood product, combining inputs from the specific products issued from drying in the sawmil. The relative contribution is based in their Production Volumes.
+
+Entry of the specific products issued of the drying activity
+
+Delivery of the generic planed product",00.00.000,Sector: Wood,2014-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

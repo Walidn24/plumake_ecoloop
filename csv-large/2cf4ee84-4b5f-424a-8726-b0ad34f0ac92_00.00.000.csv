@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2cf4ee84-4b5f-424a-8726-b0ad34f0ac92,"cottonseed oil mill operation | cottonseed meal | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/104:Manufacture of vegetable and animal oils and fats/1040:Manufacture of vegetable and animal oils and fats,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19594/documentation
+
+This dataset models cottonseed oil mill operation partly based on data for rape oil mill operation. Cotton seed is a by-product from cotton fibre production. The mill has cotton seed as input (negative reference product) and produces cottonseed oil and cottonseed meal as output.
+
+The activity starts with the reception of cottonseeds.
+
+This activity represents processing of the seeds to cottonseed oil (using solvent extraction technique) and cottonseed meal. System boundary is at the oil mill. The activity ends with the cottonseed oil, crude and cottonseed meal being ready for transportation.",00.00.000,Sector: Agriculture & Animal Husbandry,2012-01-01,2023-12-31,India,ecoinvent Data Quality System

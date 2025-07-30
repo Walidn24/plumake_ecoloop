@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+88a671c6-1e26-4436-a83b-5de54f910dad,"market for concrete, 30MPa | concrete, 30MPa | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2395:Manufacture of articles of concrete, cement and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21731/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'concrete, 30MPa', in the Global geography.;In this market, expert judgement was used to develop product specific transport distance estimations.;The product ""concrete, 30MPa"" represents 30 MPa ready-mix concrete. The raw materials for 1 m³ include: Portland fly ash cement 376 kg, Water 127 kg, Gravel 850 kg, Sand 1090 kg, Admixtures (air-entrainers and superplastisizers) 2.72 kg.
+
+This activity starts at the gate of the activities that produce 'concrete, 30MPa',  within the geography of Global.
+
+This activity ends with the supply of 'concrete, 30MPa',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Cement & Concrete,2017-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

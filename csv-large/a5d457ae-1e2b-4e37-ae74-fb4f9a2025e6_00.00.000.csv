@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a5d457ae-1e2b-4e37-ae74-fb4f9a2025e6,"tree seedling production, in heated greenhouse | tree seedling, for planting | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/013:Plant propagation/0130:Plant propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/10570/documentation
+
+The dataset refers to the production of 1000  tree seedling The dataset contains the production of tree seedlings in a tree nursery  for plantation in forests. The seedlings are produced in a heated greenhouse and packed for transport.;The seedlings go with a packaging of 1.05 kg of growing dras (HDPE), 3.65 kg of plant boxes from cardboard and 0.0525 kg of strech wrap (LLDPE), to be recycled or disposed of after planting
+
+The activity starts with the establishment of the greenhouse with HDPE film and considers soil improvement, fertilization, transport of inputs and transport packaging materials.The dataset also contains the disposal of the transport packaging (after plantation of the seedling).
+
+The activity ends with the seedlings packed for transportation. The dataset does not contain data on water use, frame infrastructure of the greenhouse and on the use of fungicides, insecticides etc. as source does not provide this information.",00.00.000,"Swiss brush-up completed,Sector: Forestry",2002-01-01,2023-12-31,Europe,ecoinvent Data Quality System

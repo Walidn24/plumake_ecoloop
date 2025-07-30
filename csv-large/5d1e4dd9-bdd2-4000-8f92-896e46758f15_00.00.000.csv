@@ -1,0 +1,16 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5d1e4dd9-bdd2-4000-8f92-896e46758f15,"market for tap water | tap water | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/36:Water collection, treatment and supply/360:Water collection, treatment and supply/3600:Water collection, treatment and supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/10939/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'tap water', in the geography of Europe without Switzerland.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts from tap water, under pressure, at tap water treatment plant and fed into the tap water distribution network.
+
+This activity ends with 1 kg of water at consumer (industrial or household).
+
+This dataset includes: 
+ - the distribution network
+ - water losses during transmission 
+
+This dataset doesn""t include
+ - energy used during distribution for additional pressure. The tap water is already under pressure when fed into the network (see corresponding tap water production datasets). The implicit assumption is that no additional energy is required during distribution to overcome loss of load in the distribution network. This assumption is not always correct.
+ - emissions to groundwater associated with water leaving the distribution network through leaks. These are assumed to be inconsequential since we are dealing with treated tap water.",00.00.000,Sector: Water Supply,2012-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+220003ea-6e64-4437-9c77-cfc4bffe2125,"market for waste polyvinylchloride product | waste polyvinylchloride product | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/382:Waste treatment and disposal/3821:Treatment and disposal of non-hazardous waste","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14764/documentation
+
+This is a market activity, representing a treatment mix. In the case of products needing treatment, market mixes are supplied by the activities treating the product in the geography defined by the market, and they supply the activities needing to treat the product, as they have generated it as a by-product in the Undefined processes (present as a negative input in system models). Transport to the treating facility or losses are also accounted in this type of markets, when relevant.;This is the market for  'waste polyvinylchloride product', in the geography of Europe without Switzerland.;The waste polyvinylchloride product is treated in the same place as it is produced. That is why regional market activities are in this case adequate.;The same transport distances as in the global market are used.
+
+The activity starts with the input from the treatment processes.
+
+A market for a material for treatment (wastes or recyclables) ends with the provision of treatment, i.e. a mix of treatment providers, to activities that generate the reference product as a waste/by-product.",00.00.000,Sector: Waste Treatment & Recycling,2011-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

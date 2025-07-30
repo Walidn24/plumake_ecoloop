@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+88bb19f3-eda2-49cd-bdc3-ee1b0bc070c7,"market group for diesel | diesel | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/192:Manufacture of refined petroleum products/1920:Manufacture of refined petroleum products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14042/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'diesel', in Europe.
+
+This activity starts at the gate of markets that deliver 'diesel', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'diesel',  to the consumers of this product within the geography of Europe.",00.00.000,Sector: Fuels,2015-01-01,2023-12-31,Europe,ecoinvent Data Quality System

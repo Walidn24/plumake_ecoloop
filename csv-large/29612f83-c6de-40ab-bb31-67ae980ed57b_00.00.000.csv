@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+29612f83-c6de-40ab-bb31-67ae980ed57b,"suction, shavings, hardwood | shavings, hardwood, measured as dry mass | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/161:Sawmilling and planing of wood/1610:Sawmilling and planing of wood","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13601/documentation
+
+This data represents the service of collecting shavings from the planing of hardwood, expressed per kg dry mass and transporting it to its silo via aspiration.;;;The data was provided by and approved by the Swiss forest industry (Holzindustrie Schweiz HIS).
+
+The activity starts with the shavings at the planing machine.
+
+This activity ends with the shavings collected at a silo at the sawmill site. The dataset does not include direct wood dust emissions. The infrasturcture for the pipes and pumps as well as for the silo are assumed be part of the infrastructure DS for the sawmill.",00.00.000,Sector: Wood,2012-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

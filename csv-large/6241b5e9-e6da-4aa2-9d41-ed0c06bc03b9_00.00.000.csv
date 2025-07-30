@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6241b5e9-e6da-4aa2-9d41-ed0c06bc03b9,"market group for electricity, medium voltage | electricity, medium voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/17214/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'electricity, medium voltage', in India.
+
+This activity starts at the gate of markets that deliver 'electricity, medium voltage', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'electricity, medium voltage',  to the consumers of this product within the geography of India.",00.00.000,Sector: Electricity,2015-01-01,2023-12-31,India,ecoinvent Data Quality System

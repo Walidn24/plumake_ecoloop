@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a1dcd6ad-9397-44e1-a0ff-8a4e025dde30,"market for nickel concentrate, 7% Ni | nickel concentrate, 7% Ni | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22870/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the Chinese market for nickel concentrate, 7% Ni. It includes estimates for average transport requirements from producing to using entity. 
+
+This dataset starts with nickel concentrate, 7% Ni leaving the gate of the producing entity, ready for distribution to using entities.
+
+The activity ends with the supply of nickel concentrate, 7% Ni to the activities that consume it.",00.00.000,Sector: Metals,2017-01-01,2023-12-31,China,ecoinvent Data Quality System

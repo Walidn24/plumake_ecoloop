@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+75e9773c-c0f5-41a6-870f-01626d44802c,"market for paper, melamine impregnated | paper, melamine impregnated | EN15804GD, U","C:Manufacturing/16:Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials/162:Manufacture of products of wood, cork, straw and plaiting materials/1621:Manufacture of veneer sheets and wood-based panels","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23231/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the global market for melamine impregnated paper. It does not include any transport since the melamine faced paper is often produced at the same site as the wood based boards. Both particleboard and medium density fibreboard are frequently coated with melamine-impregnated paper. Such coated boards are particularly used for interior works such as for furniture or in kitchens
+
+This activity starts with the provision of melamine impregnated paper by the activity supplying this product. 
+
+
+This dataset does not include any transport since the melamine faced paper is often produced at the same site as the wood based boards.",00.00.000,Sector: Wood,2019-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

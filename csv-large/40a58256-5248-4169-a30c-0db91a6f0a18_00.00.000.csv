@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+40a58256-5248-4169-a30c-0db91a6f0a18,"market for wastewater, average | wastewater, average | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/37:Sewerage/370:Sewerage/3700:Sewerage","The dataset supplies a disposal mix (technology mix) of 'wastewater, average' to the respective waste producing activities.",00.00.000,"ConvertedDataset,Sector: Waste Treatment & Recycling",2010-01-01,2023-12-31,"Canada, Québec",ecoinvent Data Quality System

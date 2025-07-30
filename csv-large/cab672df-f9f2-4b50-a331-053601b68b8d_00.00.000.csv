@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+cab672df-f9f2-4b50-a331-053601b68b8d,"market for operation, computer, laptop, 68% active work, electricity from renewable energy products | operation, computer, laptop, 68% active work, electricity from renewable energy products | EN15804GD, U","J:Information and communication/62:Computer programming, consultancy and related activities/620:Computer programming, consultancy and related activities","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4788/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'operation, computer, laptop, 68% active work, electricity from renewable energy products', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Electronics",2011-01-01,2023-12-31,Global,ecoinvent Data Quality System

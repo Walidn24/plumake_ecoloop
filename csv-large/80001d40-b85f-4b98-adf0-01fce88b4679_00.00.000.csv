@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+80001d40-b85f-4b98-adf0-01fce88b4679,"market for cork slab | cork slab | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/023:Gathering of non-wood forest products/0230:Gathering of non-wood forest products","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22423/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the global market for cork slab. Cork slab is used e.g. as underlay for floating floorings or as insulation material. Transport distance based on US BTS Commodity Flow Surveys 1993, 1997, 2002, 2007, US Dep. Of Transportation, Bureau of Transportation Statistics
+
+Activity starts with the product leaving the factory gate, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity. Average transportation requirements from producer to consuming entity are covered.",00.00.000,Sector: Wood,2019-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

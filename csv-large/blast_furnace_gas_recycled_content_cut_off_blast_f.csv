@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+de880c99-5ad1-436a-bcbf-be1e0b0267c7,"blast furnace gas, Recycled Content cut-off | blast furnace gas | EN15804GD, U",Recycled content cut-off,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/25388/documentation
+
+",00.00.000,Sector: Waste Treatment & Recycling; Metals,2023-01-01,2023-12-31,Global,ecoinvent Data Quality System

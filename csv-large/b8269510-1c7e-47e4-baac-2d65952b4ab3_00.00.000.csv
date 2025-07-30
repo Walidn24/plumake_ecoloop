@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b8269510-1c7e-47e4-baac-2d65952b4ab3,"market for clay roof tile | clay roof tile | EN15804GD, U",C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2392:Manufacture of clay building materials,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/30136/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for 'clay roof tile', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product ""clay roof tile"" represents  1 kg of roof tile. Its production includes the first ginding process, wet process (second ginding, mixing and plastifying), storage, forming (a compression molding method) and cutting, drying, firing, loading, packing and storage. Roof tile are impermeables.
+
+This activity starts at the gate of the activities that produce 'clay roof tile', within the geography of Global.
+
+This activity ends with the supply of 'clay roof tile',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Cement & Concrete,2022-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

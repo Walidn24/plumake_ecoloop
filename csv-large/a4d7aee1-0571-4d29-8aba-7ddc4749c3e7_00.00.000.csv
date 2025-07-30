@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a4d7aee1-0571-4d29-8aba-7ddc4749c3e7,"market for sawlog and veneer log, softwood, debarked, measured as solid wood | sawlog and veneer log, softwood, debarked, measured as solid wood | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/6553/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'sawlog and veneer log, softwood, debarked, measured as solid wood', in the Global geography.;It is considered that no transport occurs between the producing and the consuming activities of the reference product, as the debarking (producer) is associated with the sawmilling activity (common consumer).;The product 'sawlog and veneer log, softwood, debarked, measured as solid wood' represents roundwood from softwood species such as pine and spruce. The amount is expressed as solid wood excluding bark. Softwood is usually debarked in the forest with mobile debarker. 
+
+Activity starts in the forest, with the delivery of the debarked sawlogs and veneer logs.
+
+Activity ends with the delivery of the product to the next activity.",00.00.000,"ConvertedDataset,Sector: Forestry; Wood",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

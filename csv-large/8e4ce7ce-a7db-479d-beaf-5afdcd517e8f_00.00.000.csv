@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+8e4ce7ce-a7db-479d-beaf-5afdcd517e8f,"market for lime, packed | lime, packed | EN15804GD, U","B:Mining and quarrying/08:Other mining and quarrying/081:Quarrying of stone, sand and clay/0810:Quarrying of stone, sand and clay","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15376/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'lime, packed', in the Global geography.;This product is generally considered to be used at the production site.  Therefore, the market does not contain any transport.;The product ""lime, packed"" represents 1kg of packed milled lime. 
+
+This activity starts at the gate of the activities that produce 'lime, packed',  within the geography of Global.
+
+This activity ends with the supply of 'lime, packed',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Minerals; Cement & Concrete",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

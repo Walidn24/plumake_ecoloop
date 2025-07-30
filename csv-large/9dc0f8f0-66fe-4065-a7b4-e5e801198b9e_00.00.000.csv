@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9dc0f8f0-66fe-4065-a7b4-e5e801198b9e,"market for rape seed, for sowing | rape seed, for sowing | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0164:Seed processing for propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15694/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'rape seed, for sowing', in the geography of Switzerland.;Majority of the agricultural products which are produced in Switzerland are also consumed in Switzerland (expert judgement, Agroscope), that is why this regional Swiss market is created.;This actvitiy is estimated to have no transport.
+
+This activity starts at the gate of the activities that produce 'rape seed, for sowing',  within the geography of Switzerland.
+
+This activity ends with the supply of  rape seed, for sowing', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Agriculture & Animal Husbandry,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

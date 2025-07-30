@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b49b6381-f8d8-45a8-a2e1-b9531b113924,"buttermilk, from cow milk to generic market for protein feed | protein feed, 100% crude | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/108:Manufacture of prepared animal feeds/1080:Manufacture of prepared animal feeds,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12111/documentation
+
+This activity is a linking activity, i.e. it connects buttermilk with generic protein feed market. Buttermilk is produced as a by-product in butter production. Buttermilk can be used either for direct human consumption or as a feed for animals. This activity supply part of the buttermilk to the generic market for protain feed, where it is traded with other protein - containing products.
+
+Buttermilk is a by-product from butter production. This linking activity has the buttermilk as an input and protein and energy feed as output.",00.00.000,Sector: Agriculture & Animal Husbandry,2014-01-01,2023-12-31,Global,ecoinvent Data Quality System

@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+83df7b4e-fbc9-44ea-a9f7-5ab6d3f64d6d,"chlorine production, liquid | chlorine, liquid | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18895/documentation
+
+A simple dataset modelling the liquefaction of gaseous chlorine. This is based on the old dataset of the liquid chlorine production mix in ecoinvent v2.x. Further background information is available in the main source.
+
+Only the liquefaction step is included.",00.00.000,Sector: Chemicals,2000-01-01,2023-12-31,Europe,ecoinvent Data Quality System

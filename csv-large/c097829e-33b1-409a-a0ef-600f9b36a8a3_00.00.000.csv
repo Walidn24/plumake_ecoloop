@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+c097829e-33b1-409a-a0ef-600f9b36a8a3,"market for heat pump, diffusion absorption, 4kW, future | heat pump, diffusion absorption, 4kW, future | EN15804GD, U","C:Manufacturing/28:Manufacture of machinery and equipment n.e.c./281:Manufacture of general-purpose machinery/2815:Manufacture of ovens, furnaces and furnace burners","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19416/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the market for ""heat pump, diffusion absorption, 4kW, future"" in Switzerland. It includes default transport requirements for this type of product.
+
+This activity begins with the heat pump at the gate of the producer, ready for distribution.
+
+This activity ends with the reception of the heat pump at the site of installation.",00.00.000,Sector: Infrastructure & Machinery; Heat,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

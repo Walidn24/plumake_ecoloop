@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b9bb902e-3d00-4e01-8513-c5860c189744,"market for transport, freight, lorry with refrigeration machine, cooling | transport, freight, lorry with refrigeration machine, cooling | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13968/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight, lorry with refrigeration machine, cooling', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of refrigerated goods. The refrigerant used is a combination of CO2 and R134a. The vehicle provides a fleet average that includes different lorry classes (16-32 metric tonnes and >32 metric tonnes) as well as EURO classes (EURO3, 4, 5, 6). The lifetime capacity of the vehicles is 540,000 km. Data for transport is calculated for an average load factor, including empty return trips.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Transport,2010-01-01,2023-12-31,Global,ecoinvent Data Quality System

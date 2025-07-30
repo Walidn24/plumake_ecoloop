@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4ac01a99-849d-42a6-9a9c-3bd72494a388,"conveyor belt production | conveyor belt | EN15804GD, U",C:Manufacturing/28:Manufacture of machinery and equipment n.e.c./281:Manufacture of general-purpose machinery/2816:Manufacture of lifting and handling equipment,The module represents an example for an average technology used in Europe in the late 1990s,00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Transport",2000-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

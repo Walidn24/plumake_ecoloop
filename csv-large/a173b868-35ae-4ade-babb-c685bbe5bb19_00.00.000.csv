@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a173b868-35ae-4ade-babb-c685bbe5bb19,"market for water, ultrapure | water, ultrapure | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/36:Water collection, treatment and supply/360:Water collection, treatment and supply/3600:Water collection, treatment and supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21262/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market is representing local market for 1 kg of ultrapure water in Europe.;;Ultra-pure water is a standard requirement in many industrial applications. As such, these industries have no option but to invest in high-quality water production equipment for their plants and facilities (Industrial WaterWorld, 2017). Thus, ultrapure water production is usually carried out at the premises of each industry. No transport and losses are assumed.
+
+This activity starts at the gate of the activities that produce 'water, ultrapure',  within the geography of Europe.
+
+This activity ends with the supply of  water, ultrapure', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Water Supply,2009-01-01,2023-12-31,Europe,ecoinvent Data Quality System

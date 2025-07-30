@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+560bde81-77a8-4e58-938e-e02e80a0fe4e,"market for heat, central or small-scale, biomethane | heat, central or small-scale, biomethane | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22582/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'heat, central or small-scale, biomethane', in the geography of Switzerland.;This market delivers heat from a production plant in CH to a consuming activity in the same geography. No losses and no transportation are considered for this product.;This product represents heat measured in MJ. The heat is produced throught the burning of biomethane in a boiler, condensing modulating. The dataset is targeted for central or small-scale heating.
+
+Activity starts with the provision of heat.
+
+Activity ends with the delivery of heat.",00.00.000,Sector: Heat,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

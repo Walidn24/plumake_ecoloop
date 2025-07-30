@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+42ec272b-0298-4538-aa11-e1a3b08ad0c4,"transport, passenger train, high-speed | transport, passenger train | EN15804GD, U","H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4911:Passenger rail transport, interurban",The transport by train refers to the conditions in Germany (ICE-train).,00.00.000,Sector: Transport,2000-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

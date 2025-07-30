@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4f4ceed8-d320-4318-80c0-6010b3d2c5fc,"land use change, annual crop | land use change, annual crop | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15468/documentation
+
+This dataset represents the impacts associated to 1 ha of land use change (LUC), split between change from annual cropland, perennial cropland, primary forest, secondary forest and grassland. This dataset is specific to the country and to annual cropland.;The dataset further includes the (management practice specific) occupation impacts, i.e. the loss of soil organic carbon (SOC), methane (CH4), nitrous oxide (N2O) and, when relevant, peat oxidation.
+
+The activity starts with the consolidation of the country specific land use changes: land transformation from primary forest, secondary forest, existing annual cropland and existing perennial cropland, to annual cropland.
+
+Included processes: land use changes (in kg NPP0), C and N emissions due to soil occupation (i.e. SOC change and emissions from peat oxidation by drainage. 
+This activity ends with the addition of land occupation-related inputs and emissions (C in soil or biomass, CO2 from air, gross energy, CO2 to air, CH4 to air and N2O to air)",00.00.000,"WFLDB,Sector: Land Use",2010-01-01,2023-12-31,Argentina,ecoinvent Data Quality System

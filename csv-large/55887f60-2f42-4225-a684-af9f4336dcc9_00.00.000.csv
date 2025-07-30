@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+55887f60-2f42-4225-a684-af9f4336dcc9,"meat and bone meal to generic market for protein feed | energy feed, gross | EN15804GD, U",C:Manufacturing/10:Manufacture of food products/108:Manufacture of prepared animal feeds/1080:Manufacture of prepared animal feeds,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/17950/documentation
+
+This activity is a linking activity, i.e. it connects meat and bone meal with the generic market for protein feed. Meat and bone meal is used partially as a feed for animals, thus traded on generic feed market with other protein - containing products.
+
+The activity starts with the reception of meat and bone meal.
+
+Valid for all linking activities: The activity models the part of meat and bone meal which contributes to the generic market for protein feed.",00.00.000,Sector: Agriculture & Animal Husbandry,2016-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

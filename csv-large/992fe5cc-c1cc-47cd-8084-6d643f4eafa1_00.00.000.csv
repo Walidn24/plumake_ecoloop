@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+992fe5cc-c1cc-47cd-8084-6d643f4eafa1,"market for synthetic gas | synthetic gas | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/352:Manufacture of gas; distribution of gaseous fuels through mains/3520:Manufacture of gas; distribution of gaseous fuels through mains","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11328/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'synthetic gas', in the geography of Switzerland.;This market contains no transport or losses, as they are irrelevant for the delivered product.;synthetic gas' is a non-fossil fuel with a calorific value of 6.21 MJ/m3. It is used as a gaseous fuel and is sourced from gasification of wood chips (or alternative biomass). Its main applications are in the following sectors: domestic cooking and heating, industrial power source and automotive fuel (after refinement).
+
+This activity starts at the gate of the activities that produce 'synthetic gas',  within the geography of Switzerland.
+
+This activity ends with the supply of  synthetic gas', to the consumers of this product. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Fuels,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

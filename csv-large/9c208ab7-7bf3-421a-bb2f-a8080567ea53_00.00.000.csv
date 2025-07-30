@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9c208ab7-7bf3-421a-bb2f-a8080567ea53,"heat production, at heat pump 30kW, allocation exergy | heat, central or small-scale, other than natural gas | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply",none,00.00.000,"ConvertedDataset,Sector: Heat",1990-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+0c9be43c-8313-4142-a664-90845adb8a4a,"market for sawlog and veneer log, hardwood, measured as solid wood under bark | sawlog and veneer log, hardwood, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12425/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the market for sawlog and veneer log, hardwood in Europe without Switzerland. Transport distances are based on expert judgment.
+
+Activity starts in the forest, with the delivery of the sawlogs and veneer logs.
+
+Activity ends with the delivery of the product to the consumers.",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System
