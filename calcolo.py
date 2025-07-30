@@ -7,6 +7,7 @@ import logging
 import os
 import csv
 
+# connect to postgres
 def init_postgres():
     try:
         conn = psycopg2.connect(
@@ -27,7 +28,7 @@ def init_postgres():
         print(f"PostgreSQL init issues: {e}")
         raise
 
-
+# debug: for purpose to extract data as a csv
 def create_csv_categories(category, file_path='categories/categories.csv'):
     fieldnames = ["Category"]
 
@@ -50,6 +51,7 @@ def create_csv_categories(category, file_path='categories/categories.csv'):
         writer.writerows(data)
 
 
+# delete all postgres tables
 def delete_all_tables(cur, conn):
     try:
         # Set search_path to include public schema
@@ -69,7 +71,7 @@ def delete_all_tables(cur, conn):
         print(f"PostgreSQL table dropping issues: {e}")
         raise 
 
-
+# creata postgres tables
 def create_tables(cur, conn):
     try:
         # Create tab_process table
@@ -83,7 +85,7 @@ def create_tables(cur, conn):
                 geo VARCHAR(25),
                 uuid UUID, 
                 category VARCHAR(500),
-                description VARCHAR(5000),
+                description VARCHAR(7000),
                 version VARCHAR(10),
                 tags VARCHAR(225),
                 valid_form DATE,
@@ -140,8 +142,7 @@ def create_tables(cur, conn):
         print(f"PostgreSQL table creating issues: {e}")
         raise 
 
-
-
+# insert process data
 def insert_process_data(cur, conn, process_name, macro_cat, note, geo, uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema):
     try:
         cur.execute(
@@ -161,6 +162,7 @@ def insert_process_data(cur, conn, process_name, macro_cat, note, geo, uuid, cat
         raise      
 
 # !DO Not populate multiple times
+# save default values to db
 def init_default_table_data(cur, conn):
     try:
         cur.execute(
@@ -179,59 +181,8 @@ def init_default_table_data(cur, conn):
         conn.rollback()
         print(f"PostgreSQL table creating issues: {e}")
         raise     
-
-def salva_su_postgres(process_id, method, impact_name, amount, unit):
-    try:
-        # Set search_path to include public schema
-        cur.execute("SET search_path TO public;")
-
-        conn = psycopg2.connect(
-            dbname="csv_db",
-            user="walid",
-            password="walid123",
-            host="localhost",
-            port="5432"  # default PostgreSQL
-        )
-        cur = conn.cursor()
-        cur.execute("""
-            INSERT INTO impact_results (process_id, method, impact_name, amount, unit)
-            VALUES (%s, %s, %s, %s, %s)
-        """, (process_id, method, impact_name, amount, unit))
-        conn.commit()
-        cur.close()
-        conn.close()
-        print(f"[✔] Salvato: {impact_name} = {amount} {unit}")
-    except Exception as e:
-        print(f"[✘] Errore salvataggio PostgreSQL: {e}")
-
-def esegui_calcolo(process_id, metodo_richiesto="EN15804+A2 (EF 3.1)"):
-    client = ipc.Client(8080)
-    process = client.get_descriptor(o.Process, process_id)
-    if not process:
-        print(f"[✘] ID Processo non trovato: {process_id}")
-        return
-
-    methods = client.get_descriptors(o.ImpactMethod)
-    metodo = next((m for m in methods if metodo_richiesto in m.name), None)
-    if not metodo:
-        print(f"[✘] Metodo impatto '{metodo_richiesto}' non trovato.")
-        return
-
-    setup = o.CalculationSetup(target=process, impact_method=metodo)
-    result = client.calculate(setup)
-
-    if not result.wait_until_ready():
-        print("[✘] Calcolo non completato in tempo.")
-        return
-
-    impact_results = result.get_total_impacts()
-    print("\n=== RISULTATI CALCOLO ===")
-    for impatto in impact_results:
-        print(f"{impatto.impact_category.name}: {impatto.amount:.4f} {impatto.impact_category.ref_unit}")
-        salva_su_postgres(process.id, metodo.name, impatto.impact_category.name, impatto.amount, impatto.impact_category.ref_unit)
-
-    result.dispose()
-
+        
+# save impact result to database
 def save_into_impact_result(id_process, ef, um, value, source_db_id, method_id):
     try:
         cur.execute(
@@ -313,7 +264,6 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
         poll_interval = 2  # seconds
         start_time = time.time()
 
-
         while not result.wait_until_ready():
             num = num + 1
             print(f"waiting: {num}")
@@ -326,9 +276,7 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
         # Retrieve results
         impact_results = result.get_total_impacts()
         # flow_results = result.get_total_flows()
-
         # print(f'result: {impact_results, flow_results}')
-
 
     except Exception as e:
         logging.error(f"Error during or after calculation: {e}")
@@ -349,27 +297,27 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
             # TODO: add insert to db methods
             save_into_impact_result(process_id_returned, name, um, value, source_db_id=1, method_id=3)
             
-
     except Exception as e:
         logging.error(f"Error retrieving impact results: {e}")
-
 
     # Dispose result to free memory
     time.sleep(1)  # Optional pause
     result.dispose()
     logging.info("Result disposed.")
-
-
-if __name__ == "__main__":
-
-    cur, conn = init_postgres()
     
+
+def populate_data(amount_data=None):
     # ✅ Percorso alla cartella CSV
     cartella_csv = r'csv-large'
-    numero_file_da_leggere = 10
+    
+    if amount_data is not None:   
+        numero_file_da_leggere = amount_data
 
-    # ✅ Elenco dei primi N file .csv
-    file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')][:numero_file_da_leggere]
+        # ✅ Elenco dei primi N file .csv
+        file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')][:numero_file_da_leggere]
+    
+    else:
+        file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')]
     
     # ✅ Leggi ogni file e stampa UUID e Name
     for nome_file in file_csv:
@@ -393,27 +341,46 @@ if __name__ == "__main__":
                     location = riga.get('Location')
                     flow_schema = riga.get('Flow schema')
 
-                    process_id = insert_process_data(cur, conn, process_name, 1, "", "", uuid, category, description, version, tags, valid_from, valid_until, location, flow_schema)
+                    
+                    # limit description length
+                    short_description = description[:7000]
+                    
+                    # popola tabella process
+                    process_id = insert_process_data(cur, conn, process_name, 1, "", "", uuid, category, short_description, version, tags, valid_from, valid_until, location, flow_schema)
+                    
+                    # calcola e popola tabella emmision factors
                     calculate_impact(process_id_returned=process_id, uuid=uuid, requested_method="EN15804+A2 (EF 3.1)")
 
         except Exception as e:
             print(f"  ⚠ Errore nel file {nome_file}: {e}")
 
 
-    # # create_csv_categories()
-    # try:
+if __name__ == "__main__":
 
+    # connect to postgres
+    cur, conn = init_postgres()
+    
+    # manipolare tabelle postgres 
+    try:
+        #!!!! DELETE ALL THE TABLES !!!!!
+        # delete_all_tables(cur, conn)
         
-    #     #!!!! DELETE ALL THE TABLES !!!!!
-    #     # delete_all_tables(cur, conn)
-    #     create_tables(cur, conn)
+        # create tables
+        create_tables(cur, conn)
 
-    #     #! use this method one time only to populate default data
-    #     init_default_table_data(cur, conn)
-        
+        #! use this method one time only to populate default data
+        init_default_table_data(cur, conn)       
 
-    # finally:
-    #     cur.close()
-    #     conn.close()
+        # popola tabelle  
+        # se volessi popolare tutti dati lascia input: amount_data=None
+        populate_data(amount_data=10)
+    finally:
+        cur.close()
+        conn.close()
+      
+
+
+
+    
 
 
