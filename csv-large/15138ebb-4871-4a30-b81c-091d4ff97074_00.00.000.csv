@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+15138ebb-4871-4a30-b81c-091d4ff97074,"market for cocoons | cocoons | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/014:Animal production/0149:Raising of other animals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21084/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'cocoons', in the geography of India.;No transportation is considered as the cocoons are practically consumed in a facility of a proximity to their production.
+
+The activity starts with the cocoons at the factory gate.
+
+The activity ends with the consumption of the cocoons.",00.00.000,Sector: Agriculture & Animal Husbandry,2015-04-01,2023-03-31,India,ecoinvent Data Quality System

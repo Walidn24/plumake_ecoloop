@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+83249dbd-5664-4d88-b7a4-d0e0dc05bd5d,"heat and power co-generation unit construction, 1MWel, 6.4 MWth | heat and power co-generation unit, 1MWel, 6.4MWth | EN15804GD, U",F:Construction/42:Civil engineering/422:Construction of utility projects/4220:Construction of utility projects,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14699/documentation
+
+This activity represents the construction and deconstruction of a heat and power cogeneration unit working on an Organic Rankine Cycle with a capacity of 1MWel and 6.4 MWth. The dataset was created for modelling power production in a deep geothermal power plant. ;Detailed information on this dataset is presented in the book ""Energy from the Earth. 2015. Hirschberg, Wiemer, Burgherr (eds.) (see field ""Data Generator and Publication"").
+
+Starting from the materials and land available for the construction of the building and the machines
+
+Ends with decommissioning of the plant. ",00.00.000,Sector: Infrastructure & Machinery; Heat; Electricity,2016-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

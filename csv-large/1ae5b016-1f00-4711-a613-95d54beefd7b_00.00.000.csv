@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1ae5b016-1f00-4711-a613-95d54beefd7b,"market for used intermodal shipping container, 40-foot, high-cube | used intermodal shipping container, 40-foot, high-cube | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/383:Materials recovery/3830:Materials recovery","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14223/documentation
+
+This is a market activity, representing a treatment mix. In the case of products needing treatment, market mixes are supplied by the activities treating the product in the geography defined by the market, and they supply the activities needing to treat the product, as they have generated it as a by-product in the Undefined processes (present as a negative input in system models). Transport to the treating facility or losses are also accounted in this type of markets, when relevant.;This is the market for  'used intermodal shipping container, 40-foot, high-cube', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+The activity starts with the input from the treatment processes.
+
+A market for a material for treatment (wastes or recyclables) ends with the provision of treatment, i.e. a mix of treatment providers, to activities that generate the reference product as a waste/by-product.",00.00.000,Sector: Waste Treatment & Recycling,2010-01-01,2023-12-31,Global,ecoinvent Data Quality System

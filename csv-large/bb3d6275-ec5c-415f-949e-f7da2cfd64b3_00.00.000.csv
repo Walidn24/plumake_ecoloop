@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+bb3d6275-ec5c-415f-949e-f7da2cfd64b3,"market for NMC811 hydroxide | NMC811 hydroxide | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/25171/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'NMC811 hydroxide', in the geography of China.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts at the gate of the activities that produce NMC811 hydroxide with the product ready for transportation.
+
+This activity ends with the supply of 1 kg of NMC811 hydroxide to the consumers of this product within the geography of . Transport is included.",00.00.000,Sector: Chemicals; Electronics,2020-01-01,2023-12-31,China,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3bb83a2c-60f8-4040-a27a-7816e0bade40,"market for clinker | clinker | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23455/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represent the market for 1 kg of clinker. Transport distance based on eurostat transport statistics for freight transport 2016. The transport distance was calculated based on the total mass of goods transported and total payload-distance for the NST 2007 category ""GT09 - Other non metallic mineral products"" in the year 2016 for all countries for which data was available.
+
+The activity starts with clinker ready at factory gate to be transported.
+
+The activity ends with the delivery of clinker to its consumer. ",00.00.000,Sector: Cement & Concrete,2011-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

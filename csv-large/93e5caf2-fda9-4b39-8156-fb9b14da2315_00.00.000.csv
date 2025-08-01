@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+93e5caf2-fda9-4b39-8156-fb9b14da2315,"cement production, CEM II/B | hard coal ash | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/6659/documentation
+
+The dataset describes the production of cement (CEM II/B) in Europe.;[Dataset to be replaced by 'cement production, alternative constituents 21-35%, Europe without Switzerland and Austria, 2005 - 2009' (a0114f88-655d-4bae-8da5-7154b5f4d2c6)];[Dataset to be replaced by 'cement production, alternative constituents 21-35%, Europe without Switzerland and Austria, 2005 - 2009' (a0114f88-655d-4bae-8da5-7154b5f4d2c6)]
+
+From cradle, i.e. including all upstream activities. As source of gypsum, waste gypsum from flue gas treatment is assumed.
+
+This activity ends with the cement produced in the cement mill. The dataset does not include packaging and administration.",00.00.000,"combined production,Sector: Cement & Concrete",2005-01-01,2023-12-31,Europe without Switzerland,ecoinvent Data Quality System

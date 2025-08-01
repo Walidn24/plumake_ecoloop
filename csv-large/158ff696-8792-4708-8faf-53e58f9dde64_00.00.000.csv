@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+158ff696-8792-4708-8faf-53e58f9dde64,"market for transport, pipeline, onshore, petroleum | transport, pipeline, onshore, petroleum | EN15804GD, U",H:Transportation and storage/49:Land transport and transport via pipelines/493:Transport via pipeline/4930:Transport via pipeline,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/18301/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, pipeline, onshore, petroleum', in the geography of Europe.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of fuels, like petroleum, through onshore pipeline. The pipeline operates with electricity.  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Transport; Fuels,2011-01-01,2023-12-31,Europe,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+80b0d987-627c-4f82-b832-44b215b4552a,"1,1-dimethylcyclopentane to generic market for solvent, organic | solvent, organic | EN15804GD, U",C:Manufacturing/20:Manufacture of chemicals and chemical products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/7157/documentation
+
+This is a linking activity which links the product 1,1-dimethylcyclopentane to the generic market for organic solvents. All chemicals that enter this market provide the function of an organic solvent.
+
+The activity starts with the reception of 1,1-dimethylcyclopentane
+
+The activity ends with the production of solvent, organic for the generic market",00.00.000,Sector: Chemicals,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

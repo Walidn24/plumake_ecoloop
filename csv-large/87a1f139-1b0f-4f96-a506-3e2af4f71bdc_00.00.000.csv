@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+87a1f139-1b0f-4f96-a506-3e2af4f71bdc,"mint seedling production, for planting | mint seedling, for planting | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/013:Plant propagation/0130:Plant propagation","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/14647/documentation
+
+This global dataset is a copy of the regional US dataset, except for the following modifications.;The production volume represents the global annual production.;The geographicalCorrelation score of every pedigree matrix of was changed to '5'.;The comments below were part of the US regional dataset.;This dataset represents the production of 1 mint seedling raised in a nursery during one year. From a mint nursery of 1 ha, seedlings for 12.5 ha productive mint fields can be obtained, i.e. a total of 11300000 seedlings are obtained from 1 ha nursery of one year. ;PEF-Quality: data quality rating (DQR) =2.5 (i.e. good quality);This dataset refers to an average situation; for specific situations exchanges might differ substantially due to site specific parameters.
+
+The activity starts with soil cultivation of the field in order to establish a mint nursery for 1 year.
+
+The inventory includes the processes of soil cultivation, planting, pesticide application, fertilisation and harvest. Machine infrastructure including a shed for shelter and fuel use are also considered as well as transport on farm. Inputs of fertilisers, pesticides, irrigation and seedlings are included. Direct field emissions from crop production activities (e.g. fertiliser and pesticide use) and land use change are considered. 
+The activity ends with harvesting Mint seedlings.",00.00.000,"WFLDB,Sector: Agriculture & Animal Husbandry",2009-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

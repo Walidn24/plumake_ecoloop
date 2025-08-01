@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+30bae5e0-d77b-4591-8f63-1f43a040c142,"bronze scrap, post-consumer to generic market for bronze | bronze | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/383:Materials recovery/3830:Materials recovery","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20742/documentation
+
+This activity is linking secondary bronze to the market for primary bronze. This activity is a placeholder. The production volume is set to zero as the activity does not take part into the linking of attributional system models, but it is needed for the consequential system model.
+
+The activity starts with the recepetion of post-consumer material
+
+The activity ends with the virgin material ready for transport",00.00.000,Sector: Waste Treatment & Recycling; Metals,2018-01-01,2023-12-31,Global,ecoinvent Data Quality System

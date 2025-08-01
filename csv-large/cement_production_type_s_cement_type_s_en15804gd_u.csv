@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+94196c6b-089f-4bb8-b177-854a50093161,"cement production, type S | cement, type S | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/4784/documentation
+
+The dataset describes the production of cement (S) in the USA
+
+From cradle, i.e. including all upstream activities. As source of gypsum, waste gypsum from flue gas treatment is assumed.
+
+This activity ends with the cement produced in the cement mill. The dataset does not include packaging and administration.",00.00.000,Sector: Cement & Concrete,2005-01-01,2023-12-31,United States of America,ecoinvent Data Quality System

@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+559b3e49-8fb0-43b2-ac2b-4366cf47219a,"venting of nitrogen, liquid | venting of nitrogen, liquid | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11984/documentation
+
+This activity describes venting of nitrogen into the atmosphere as an emission to air.;;Nitrogen is produced mainly as a by-product in air separation, cryogenic activity, where oxygen, liquid is produced as a reference product. Nitrogen is afterwards either vented directly into the atmosphere (Ullmann's Encyclopedia) or transformed into marketable product and sold. 
+
+This activity describes venting of nitrogen as an emission to air.",00.00.000,"service,Sector: Chemicals",2008-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

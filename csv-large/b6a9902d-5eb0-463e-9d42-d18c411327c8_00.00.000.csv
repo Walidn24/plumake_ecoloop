@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b6a9902d-5eb0-463e-9d42-d18c411327c8,"market for coke | coke | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/191:Manufacture of coke oven products/1910:Manufacture of coke oven products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/28005/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'coke', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;coke' is a fossil fuel with a calorific value of 28.6 MJ/kg. It is used as a solid fuel and is sourced from hard coal coke furnaces. Its main applications are in the following sectors: industrial fuel.
+
+This activity starts at the gate of the activities that produce 'coke',  within the geography of Global.
+
+This activity ends with the supply of 'coke',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Fuels",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

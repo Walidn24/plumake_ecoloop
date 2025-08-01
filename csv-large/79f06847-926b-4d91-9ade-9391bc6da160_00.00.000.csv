@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+79f06847-926b-4d91-9ade-9391bc6da160,"cement production, CEM V/A | hard coal ash | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/9449/documentation
+
+The dataset describes the production of cement (CEM V/A).
+
+From cradle, i.e. including all upstream activities. As source of gypsum, waste gypsum from flue gas treatment is assumed.
+
+This activity ends with the cement produced in the cement mill. The dataset does not include packaging and administration.",00.00.000,"combined production,Sector: Cement & Concrete",2005-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

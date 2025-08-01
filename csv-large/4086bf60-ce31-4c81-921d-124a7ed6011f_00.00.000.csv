@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4086bf60-ce31-4c81-921d-124a7ed6011f,"market for lignite | lignite | EN15804GD, U",B:Mining and quarrying/05:Mining of coal and lignite/052:Mining of lignite/0520:Mining of lignite,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/1986/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'lignite', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;lignite' is a fossil fuel with a calorific value of 8.8 MJ/kg. It is used as a solid fuel and is sourced from lignite mines. Its main applications are in the following sectors: domestic heating and agriculture.
+
+This activity starts at the gate of the activities that produce 'lignite',  within the geography of Global.
+
+This activity ends with the supply of 'lignite',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Resource Extraction; Fuels",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4949b9ae-39d4-4fd2-8fc6-12e10098af75,"market for sawlog and veneer log, azobe, debarked, measured as solid wood | sawlog and veneer log, azobe, debarked, measured as solid wood | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23015/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the european market for debarked azobe sawlog and veneer log, measured as solid wood. The imported azobe wood is produced by (close to) sustainable forest management in Central Africa. It is considered the product is processed next to the harbour, so no transport is modeled in this market.
+
+Activity starts with the product leaving the European harbour, ready for shipment.
+
+Activity ends with the reception of the product at the consuming entity.",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Europe,ecoinvent Data Quality System

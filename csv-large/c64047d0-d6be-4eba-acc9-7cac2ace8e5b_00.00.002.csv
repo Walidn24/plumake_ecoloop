@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Last change,Tags,Valid from,Valid until,Location,Flow schema
+c64047d0-d6be-4eba-acc9-7cac2ace8e5b,"hardwood forestry, birch, sustainable forest management | bundle, energy wood, measured as dry mass | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/10912/documentation
+
+This dataset covers the production and harvesting of 1 m3 of stemwood, birch, solid, under bark, plus the relative share of enery wood from slash from sustainable forest management as the prevailing management practices in Sweden.;;For Sweden forestry processes for the 3 main tree species are modelled:•	hardwood: birch;•	softwood: spruce;•	softwood: pine;;Table 1-1 lists the parameters of the inventoried tree species and their sources:
+
+The activity starts with site preparation assuming natural regeneration and/or planting including seedling production (as applicable for the species see general comments field) and includes all process related to forest management, including site preparation, planting,  tending, young growth tending, clearing, thinnings and harvesting operations including the processing of wood fuel to chips, bundles and chopped wood (logs for energy) over one rotation period. It covers also the maintenance and construction of forest roads.
+
+This activity ends with the assortments at the forest road and includes eventual drying before transportation.",00.00.002,2024-10-23 09:27:53.315,"Swiss brush-up completed,combined production,combined production,,Sector: Forestry; Wood",2010-01-01,2023-12-31,Sweden,ecoinvent Data Quality System

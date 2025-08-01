@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+698c2363-499b-4136-8567-db3ac6b81808,"market for lightweight concrete block, pumice | lightweight concrete block, pumice | EN15804GD, U",C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2399:Manufacture of other non-metallic mineral products n.e.c.,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/19643/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This activity represents the market for 1 kg of lightweight concrete block, pumice. The default transport distances are taken from the ecoinvent Global default transport model available on the ecoinvent website. This product is though assumed to be only transported by lorry and rail (i.e. inland waterways are excluded). 
+
+From the concrete block factory.
+
+Includes the transportation of concrete blocks to the point of delivery.",00.00.000,"ConvertedDataset,Sector: Cement & Concrete",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

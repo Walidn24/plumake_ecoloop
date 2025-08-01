@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2b45927e-b74f-43d8-ae2a-3afa33ea1cda,"maintenance, intermodal shipping container, 40-foot | maintenance, intermodal shipping container, 40-foot | EN15804GD, U","C:Manufacturing/33:Repair and installation of machinery and equipment/331:Repair of fabricated metal products, machinery and equipment/3315:Repair of transport equipment, except motor vehicles","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13486/documentation
+
+This dataset describe materials needed for the maintenance of intermodal shipping container during its lifetime.;The data on container maintenance are scarce and vary a lot. The data in this dataset are calculated based on estimates or estimated, thus the uncertainty is rather high.;The container's lifetime is quite short. Once the structural strength cannot be ensured anymore the container is being disposed of. That is why the amounts of materials for the maintenance are not very high. Even though the container cannot fulfil its original purpose anymore (since its strength cannot be guaranteed) it is usually generally in good condition. That is why there are many projects which try to come up with a way of reusing the old shipping containers.;The amount of maintenance might vary depending on what kind of cargo is being transported and how often is the container being used. 
+
+The activity starts with different materials and services needed for the maintenance of the container enter the activity.
+
+",00.00.000,Sector: Infrastructure & Machinery; Transport,2010-01-01,2023-12-31,Global,ecoinvent Data Quality System

@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a9a79109-8127-4a9b-bb60-789991d736ba,"market for assembly of generator and motor, auxilliaries and energy use, heat and power co-generation unit, 160kW | assembly of generator and motor, auxilliaries and energy use, heat and power co-generation unit, 160kW electrical | EN15804GD, U","C:Manufacturing/28:Manufacture of machinery and equipment n.e.c./281:Manufacture of general-purpose machinery/2811:Manufacture of engines and turbines, except aircraft, vehicle and cycle eng","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/390/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'assembly of generator and motor, auxilliaries and energy use, heat and power co-generation unit, 160kW electrical', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Heat; Electricity",2011-01-01,2023-12-31,Global,ecoinvent Data Quality System

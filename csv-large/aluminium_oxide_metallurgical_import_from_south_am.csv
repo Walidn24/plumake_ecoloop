@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9383b1c0-f7d3-41d0-966e-0b2c25a9917d,"aluminium oxide, metallurgical, import from South America | aluminium oxide, metallurgical | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20756/documentation
+
+This dataset represents the amount of imported primary aluminium oxide metallurgical from South America to EU27 & EFTA. The import value is valid for 2015 and includes all  imports, independently whether used within the importing region, or re-exported.
+
+The activity starts at the factory gate with the product ready for transport.
+
+This activity includes the transport from the exporting region (including transport within the region) to EU27 & EFTA.",00.00.000,Sector: Metals; Chemicals,2015-01-01,2023-12-31,"IAI Area, EU27 & EFTA",ecoinvent Data Quality System

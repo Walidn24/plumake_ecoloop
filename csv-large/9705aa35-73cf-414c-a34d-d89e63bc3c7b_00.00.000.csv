@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9705aa35-73cf-414c-a34d-d89e63bc3c7b,"yarn production, cotton, open end spinning | yarn, cotton | EN15804GD, U","C:Manufacturing/13:Manufacture of textiles/131:Spinning, weaving and finishing of textiles/1311:Preparation and spinning of textile fibres","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21944/documentation
+
+This dataset represents the process of spinning of 1 kg of cotton yarn by Open end spinning from the raw cotton. Yarn production activity includes Opening, Mixing, Carding, Drawing, combing, roving, spinning and winding. The dataset is based on the Indian data set for open end spinning.;Open end spinning is technology for creating yarn without spindle. In this process the fibrous material is highly drafted to seperate out individual fibres which are subsequently collected into open end of the yarn. This is rotated to twist the fibre into yarn structure to form a continous strand of yarn. ;The following processes are used to convert cotton fibre to cotton yarn. The bales are opened and fibres are cleaned of trash and dust and mixed in the blowroom. the fibres then undergo carding and drawing to orient the fibres to prepare for spinning. In the next step the spinning takes place on Open end spinning machines.The yarn is wound on cones and conditioned before packaging. ;This dataset was created based on the corresponding dataset from India. Uncertainty has been adapted accordingly.
+
+The activity starts from opening of bales
+
+The activity ends with spinning and winding after which yarn is conditioned for packaging.",00.00.000,Sector: Textiles,2015-04-01,2023-03-31,Rest-of-World,ecoinvent Data Quality System

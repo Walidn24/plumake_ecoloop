@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+67ab6480-49f4-419b-be59-5923d90461d2,"market for land tenure, arable land, measured as carbon net primary productivity, perennial crop | land tenure, arable land, measured as carbon net primary productivity, perennial crop | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/016:Support activities to agriculture and post-harvest crop activities/0161:Support activities for crop production","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/15744/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market represents the mix of land tenure 'land tenure, arable land, measured as carbon net primary productivity, perennial crop', in Colombia. This is land that is made accessible for cultivation after deforestation, transformation from primary or secondary forest, or change from annual to perennial crops (or vice versa), and is used by activities modelling land use change only.
+
+Activity starts with the delivery of land for cultivation from the different activities.
+
+Activity ends with the provision of arable land to activities modelling land use change.",00.00.000,Sector: Land Use,2010-01-01,2023-12-31,Colombia,ecoinvent Data Quality System

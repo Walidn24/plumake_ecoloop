@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+43ed5d04-65f4-47ca-8d03-58ff985b13d7,"polyethylene terephthalate, granulate, bottle grade, recycled to generic market for bottle grade PET granulate | polyethylene terephthalate, granulate, bottle grade | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2013:Manufacture of plastics and synthetic rubber in primary forms","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/16361/documentation
+
+This dataset is a copy of the regional dataset CH.",00.00.000,Sector: Waste Treatment & Recycling,2014-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

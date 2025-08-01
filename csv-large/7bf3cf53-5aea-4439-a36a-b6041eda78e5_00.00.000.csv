@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7bf3cf53-5aea-4439-a36a-b6041eda78e5,"market for maize grain | maize grain | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/011:Growing of non-perennial crops/0111:Growing of cereals (except rice), leguminous crops and oil seeds","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20554/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'maize grain', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'maize grain' is a grain. It is an annual crop. The ecoinvent database also contains this product from organic, Swiss integrated and rainfed production.
+
+This activity starts at the gate of the activities that produce 'maize grain',  within the geography of Global.
+
+This activity ends with the supply of 'maize grain',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,"ConvertedDataset,Sector: Agriculture & Animal Husbandry",2011-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

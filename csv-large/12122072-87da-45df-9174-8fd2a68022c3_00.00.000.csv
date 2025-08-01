@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+12122072-87da-45df-9174-8fd2a68022c3,"electricity, high voltage, production mix | electricity, high voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/24775/documentation
+
+The shares of electricity technologies on this market are valid for the year 2020. The shares have been calculated based on statistics from 2020: IEA World Energy Statistics and Balances. OECD iLibrary, eISSN: 1683-4240, DOI: 10.1787/enestats-data-en. Grid losses are based on data from 2020 (also IEA World Energy Statistics and Balances).",00.00.000,Sector: Electricity,2020-01-01,2023-12-31,Norway,ecoinvent Data Quality System

@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+9a98c215-652e-4d56-bb14-a40c5d8f94b0,"aluminium, ingot, primary, import from Rest of Europe | aluminium, primary, ingot | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/22648/documentation
+
+This dataset represents the amount of imported primary aluminium from Russia to North America. The import value is valid for 2016 and includes all imports, independently whether used within the importing region, or re-exported. AA and AAC statistics
+
+This activity represents the point of ""handing over"" the primary aluminium ingot from one country to the other at the border.",00.00.000,Sector: Metals,2016-01-01,2023-12-31,"IAI Area, North America",ecoinvent Data Quality System

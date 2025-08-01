@@ -1,0 +1,10 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2d48870f-5748-4190-b9aa-5abbb5e34890,"treatment of waste polyethylene, for recycling, unsorted, sorting | waste polyethylene, for recycling, sorted | EN15804GD, U","E:Water supply; sewerage, waste management and remediation activities/38:Waste collection, treatment and disposal activities; materials recovery/381:Waste collection/3811:Collection of non-hazardous waste","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/16633/documentation
+
+The functional unit represents the treatment of unsorted waste polyethylene, for recycling, yielding 1 kg of sorted waste polyethylene, for recycling.;The collected PE packaging material is sorted by colours in one of five sorting centres in Switzerland and compressed to 200 to 300 kg heavy bales for further processing. Foreign substances are sorted out and disposed of. Data were derived from involved sorting facilities (confidential).;For further information see Kägi et al. (2017). Life Cycle Inventories for Swiss Recycling Processes - Part Carbotech: Recycling of Cardboard, Glass, PE, PET, Tinplate
+
+Service is starting with the receipt of unsorted waste PE
+
+This module includes all processes of the sorting of waste PE up to the factory gate. Machinery infrastructure is excluded
+
+no allocation involved",00.00.000,Sector: Waste Treatment & Recycling,2014-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

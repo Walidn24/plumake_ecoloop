@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+bce1fccd-fdd6-48cf-a283-46232b558076,"market for operation, computer, desktop, with cathode ray tube display, off mode | operation, computer, desktop, with cathode ray tube display, off mode | EN15804GD, U","J:Information and communication/62:Computer programming, consultancy and related activities/620:Computer programming, consultancy and related activities","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/3694/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'operation, computer, desktop, with cathode ray tube display, off mode', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;The 'operation, computer, desktop, with cathode ray tube display, off mode' is delivering the service of operation of desktop computer with a cathode ray tube (CRT) display, for one hour of use at the office, in off mode. The computer is in off mode for 16.5 hours per day and it has a lifetime of 4 years, while the CRT has a lifetime of 6 years. The operation includes share the computer equipment (CPU, keyboard, mouse, CRT) and the energy consumption.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Electronics,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

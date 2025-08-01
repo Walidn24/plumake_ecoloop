@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b42431a4-aebc-4038-8000-b31ea966aa48,"butadiene to generic market for generic C4 hydrocarbons | generic C4 hydrocarbons | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/192:Manufacture of refined petroleum products/1920:Manufacture of refined petroleum products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/29541/documentation
+
+This is a linking activity which links the product of butene, mixed to the generic market for generic C4 hydrocarbons,
+
+The activity starts with the reception of raw materials at the factory gate.
+
+The activity ends with the production of generic C4 hydrocarbons for the generic market.",00.00.000,Sector: Chemicals,2019-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

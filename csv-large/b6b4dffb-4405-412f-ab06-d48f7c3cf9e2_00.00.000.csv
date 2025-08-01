@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+b6b4dffb-4405-412f-ab06-d48f7c3cf9e2,"indium rich leaching residues, from zinc production stockpiling | indium rich leaching residues, from zinc production stockpiling | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11564/documentation
+
+;Stockpiling is a way of assuring provision and control over supplies, and is systematically applied with some commodities by several countries.;The United States has a known and well documented national stockpiling service. Indium can be found as one of the commodities that is stockpiled, as it is considered of strategic importance.;This dataset describes the stockpiling of  indium rich leaching residues following zinc production. The stockpiling is considered to happen in the geographical sourroundings of the zinc production site.;Sources:;-US Department of defense, 2013, Strategic and Critical Materials - Report on Stockpile Requirements.;-Reconfiguration of the National Defense Stockpile Report to Congress, April 2009.
+
+Activity starts with the arrival of indium rich leaching residues to the stockpile
+
+The activity ends with the provision of the service of stockpiling the indium rich leaching residues.",00.00.000,Sector: Metals,2012-01-01,2023-12-31,United States of America,ecoinvent Data Quality System

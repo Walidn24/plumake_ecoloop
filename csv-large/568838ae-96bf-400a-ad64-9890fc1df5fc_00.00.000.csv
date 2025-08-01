@@ -1,0 +1,4 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+568838ae-96bf-400a-ad64-9890fc1df5fc,"heat, from municipal waste incineration to generic market for heat district or industrial, other than natural gas | heat, district or industrial, other than natural gas | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/353:Steam and air conditioning supply/3530:Steam and air conditioning supply","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12091/documentation
+
+This dataset changes the names of the (internally used) heat product of waste incineration and connects it with the external grid and the respective average energy markets (district heat grid).",00.00.000,Sector: Heat; Waste Treatment & Recycling,2008-01-01,2023-12-31,Germany,ecoinvent Data Quality System

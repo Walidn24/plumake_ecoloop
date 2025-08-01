@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+05e169a2-8437-4443-a015-06730b533da6,"market for water works, capacity 1.1E10l/year | water works, capacity 1.1E10l/year | EN15804GD, U",F:Construction/42:Civil engineering/422:Construction of utility projects/4220:Construction of utility projects,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/11466/documentation
+
+This is a market activity. In the case of services or immobile infrastructures, markets are connecting suppliers and consumers at a global level. For specific connections at regional level, direct links between the local producing activities and the local consumers are preferred. Transport or losses are logically not relevant for this type of products.;This is the market for  'water works, capacity 1.1E10l/year', in the geography of Switzerland.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is an immobile infrastructure, representing the construction of water works, capacity 1.1E10l/year. The infrastructure represents a medium-sized potable water conventional treatment plant of 30,000m3/day, with a lifetime of 60 years. It consists of coagulation and decantation, filtration and disinfection. The process includes building materials, their decommission and land use. 
+
+This activity starts with the built infrastructure ready to use.
+
+This activity ends with the infrastructure made accessible to the users. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Infrastructure & Machinery; Water Supply,2011-01-01,2023-12-31,Switzerland,ecoinvent Data Quality System

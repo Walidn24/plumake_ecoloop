@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+1532f65c-9e2b-48e5-abc0-69ae62a766a2,"burnt shale production | burnt shale | EN15804GD, S",C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2399:Manufacture of other non-metallic mineral products n.e.c.,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13829/documentation
+
+The dataset contains the joint production of burnt shale and electricity from oil shale.;Burnt shale can be used as an additive in cement production and can substitute portland clinker.
+
+The activity starts with the extraction of oil shale in the querry. From cradle, i.e. including all upstream activities.
+
+The dataset contains the mining activities as well as the preparation and processing of the oil shale, its combustion and finally the grinding of the burnt oil shale for use in cement production; infrastructure is disregarded due to the lack of data.",00.00.000,Sector: Cement & Concrete,2010-01-01,2023-12-31,Germany,ecoinvent Data Quality System

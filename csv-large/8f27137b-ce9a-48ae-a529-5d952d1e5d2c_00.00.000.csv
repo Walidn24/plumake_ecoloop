@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+8f27137b-ce9a-48ae-a529-5d952d1e5d2c,"Distiller's Dried Grains with Solubles to generic market for protein feed | protein feed, 100% crude | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/8236/documentation
+
+This is a linking activity that converts distiller's dried grains into protein, 100% crude for the feed market and gross energy for the feed market. ;The naming of the dataset is based on the feed nomenclature system of the National Research Council (USA).  Products with less than 20 percent of protein are classified as energy feeds. Products with more than 20 percent of protein are classified as protein feeds.
+
+The activity starts with the reception of distiller's dried grains with solubles
+
+The activity ends with the conversion of distiller's dried grains with solubles into crude protein and gross energy.",00.00.000,Sector: Agriculture & Animal Husbandry,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

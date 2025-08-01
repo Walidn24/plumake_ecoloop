@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+5c901745-5575-45ab-9daa-e60ae11ee0ad,"kerosene, import from RoW | kerosene | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/192:Manufacture of refined petroleum products/1920:Manufacture of refined petroleum products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21281/documentation
+
+This dataset represents the import of a refined petroleum products of unspecified geographical origin of supply to the domestic/regional market for this product. The transport requirements (expressed in tkm) with tanker ship was assumed to 10'000 km by sea by default. No product losses or other aspects, besides transport requirements have been included. The dataset is only a rough proxy with large uncertainties, and it should hence be revised accordingly if its contribution is expected to be important.
+
+Activity starts with transport by sea of a refined petroleum product of unspecified geographical origin.
+
+Activity ends with the refined petroleum product entering the domestic/regional market.",00.00.000,Sector: Fuels,2014-01-01,2023-12-31,Colombia,ecoinvent Data Quality System

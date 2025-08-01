@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+ea01b1c8-0fee-498f-b144-928814b0c9e9,"bleaching, textile | bleaching, textile | EN15804GD, U","C:Manufacturing/13:Manufacture of textiles/131:Spinning, weaving and finishing of textiles/1313:Finishing of textiles","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21762/documentation
+
+This inventory refers to 1 kg bleached textile. This dataset only covers all relevant input and output flows for bleaching of 1 kg fabric as a service to the batch dyeing activity.;This activity bleaches greige textile. Bleaching improves whiteness by removing natural coloration and remaining trace impurities from the cotton; the degree of bleaching necessary is determined by the required whiteness and absorbency. Cotton being a vegetable fibre will be bleached using an oxidizing agent, such as dilute sodium hypochlorite or dilute hydrogen peroxide.;This activity is modeled as a service, so no input of textile is considered. Electricity consumption and chemicals used (hydrogen per oxide, sodium hydroxide, and inorganic chemicals) are considered as inputs. Wastewater discharges as output. A separate dataset is taking care of wasterwater treatment.;Cody, Roxanna (2012). Textile Engineering. First Edition. Delhi.
+
+This activity applies to scoured fabric. As it is a service, no inputs of fabric are included; this activity should be used with 1 kg fabric.
+
+
+This process delivers the service of bleaching 1 kg fabric.Drying is not included.",00.00.000,Sector: Textiles,2017-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

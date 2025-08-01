@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+278a2b83-90a0-4c96-830b-a910346923ba,"market for sugarcane | sugarcane | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/011:Growing of non-perennial crops/0114:Growing of sugar cane","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21165/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the supply of 1 kg of 'sugarcane' from activities that produce it within the geography of CO. Transportation is included in this market, based on expert judgement.
+
+This activity starts at the gate of activities that produce ""sugarcane"" within the geography of this dataset, with the product being ready for transportation.
+
+This activity ends with the supply of 1 kg of 'sugarcane' to the consumers of this product. Transport is included.",00.00.000,Sector: Agriculture & Animal Husbandry,2012-01-01,2023-12-31,Colombia,ecoinvent Data Quality System

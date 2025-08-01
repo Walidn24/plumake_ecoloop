@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3e8be0a7-a900-46af-90fa-493cf59b3d8d,"yarn production, jute | yarn, jute | EN15804GD, U","C:Manufacturing/13:Manufacture of textiles/131:Spinning, weaving and finishing of textiles/1311:Preparation and spinning of textile fibres","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/3060/documentation
+
+This dataset refers to the production of 1 kg yarn from jute fibre. The inventory includes softening, carding, drawing, and spinning of the raw jute. About 4% of raw jute converts into caddies and 6% of raw jute converts into jute dust. In most cases, byproducts/wastes are being reused in the same production process.;Hence, no wastes/by products are mentioned separately.
+
+The activity starts with the opening of the raw jute fibre.
+
+The activity ends with the produced greige yarn.",00.00.000,Sector: Textiles,2017-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

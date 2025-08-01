@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+2282bcfc-d8cf-4fd9-9e1d-576a5b667973,"market for land use change, forest, intensive | land use change, forest, intensive | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/021:Silviculture and other forestry activities/0210:Silviculture and other forestry activities","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21456/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market represents the mix of 'land use change, forest, intensive', in Brazil, Santa Catarina. This market connects the specific land use changeXX in VV to the crop producing activities. Transport or losses are irrelevant for this product.;The production volumes and market shares of land tenure and LUC have a high level of uncertainty, which can have large impacts in overall LCIA results (Novaes et al. 2017). However, the uncertainty associated with these data could not easily be reflected in the datasets. Uncertainty assessments should take this limitation into consideration.
+
+Activity starts with the delivery of land use change from the different activities.
+
+Activity ends with the provision of land use change to crop producing activities.",00.00.000,Sector: Land Use,2017-01-01,2023-12-31,"Brazil, Santa Catarina",ecoinvent Data Quality System

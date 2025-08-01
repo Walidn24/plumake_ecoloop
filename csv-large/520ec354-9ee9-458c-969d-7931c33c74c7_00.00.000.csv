@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+520ec354-9ee9-458c-969d-7931c33c74c7,"market for ethylene | ethylene | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/192:Manufacture of refined petroleum products/1920:Manufacture of refined petroleum products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21161/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the supply of 1 kg of ethylene, average from activities that produce it within the geography ZA.;This product is generally considered to be used at the production site. Therefore, the market does not contain any transport.
+
+This activity starts at the gate of the activities that produce ethylene, average within the geography ZA, with the product ready to be used.
+
+This activity ends with the supply of 1 kg of ethylene, average to the consumers of this product. Transport is not included as this product is generally considered to be used at the production site. No product losses are included.",00.00.000,Sector: Fuels,2018-01-01,2023-12-31,South Africa,ecoinvent Data Quality System

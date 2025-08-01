@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+27984e11-cb32-4846-922c-125120a3b03f,"market for sawlog and veneer log, paraná pine, measured as solid wood under bark | sawlog and veneer log, paraná pine, measured as solid wood under bark | EN15804GD, U","A:Agriculture, forestry and fishing/02:Forestry and logging/022:Logging/0220:Logging","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/23476/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'sawlog and veneer log, paraná pine, measured as solid wood under bark', in the geography of Brazil.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'sawlog and veneer log, paraná pine, measured as solid wood under bark' represents tropical roundwood from the softwood species paraná pine (Araucaria angustifolia). The amount is expressed as solid wood including bark. In the ecoinvent database, paraná pine sawlogs are used for the production of sawn paraná pine wood. 
+
+Activity starts in the forest, with the delivery of the sawlogs and veneer logs.
+
+Activity ends with the delivery of the product to the consumers.",00.00.000,Sector: Forestry; Wood,2019-01-01,2023-12-31,Brazil,ecoinvent Data Quality System

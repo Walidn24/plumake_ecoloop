@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+3ebb94db-3aab-41e0-92fe-9c74c01da120,"coke, import from CN | coke | EN15804GD, U",C:Manufacturing/19:Manufacture of coke and refined petroleum products/191:Manufacture of coke oven products/1910:Manufacture of coke oven products,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/28645/documentation
+
+This dataset represents the amount of imported coke from China to the Global supply. The import value is valid for 2015 and includes all imports, independently whether used within the importing region, or re-exported.
+
+This activity represents the point of 'handing over' the coke from China to the global market at the border.
+
+This dataset doesn't include any losses, transport or infrastructure.",00.00.000,Sector: Heat; Fuels,2015-01-01,2023-12-31,Global,ecoinvent Data Quality System

@@ -1,0 +1,2 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+6a6d29a0-9bb1-4cd5-9f13-f88cdbd075e3,"maintenance, goods wagon | maintenance, goods wagon | EN15804GD, U","C:Manufacturing/33:Repair and installation of machinery and equipment/331:Repair of fabricated metal products, machinery and equipment/3315:Repair of transport equipment, except motor vehicles",The data represent current maintenance standards.,00.00.000,"ConvertedDataset,Sector: Infrastructure & Machinery; Transport",1993-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

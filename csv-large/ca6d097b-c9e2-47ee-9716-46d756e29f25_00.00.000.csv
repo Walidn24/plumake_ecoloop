@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+ca6d097b-c9e2-47ee-9716-46d756e29f25,"market for transmission network, electricity, high voltage direct current land cable | transmission network, electricity, high voltage direct current land cable | EN15804GD, U",F:Construction/42:Civil engineering/422:Construction of utility projects/4220:Construction of utility projects,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/30507/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transmission network, electricity, high voltage direct current land cable', in the RER geography.
+
+This activity starts at the gate of the activities that produce 'transmission network, electricity, high voltage direct current land cable',  within the geography of Global.
+
+This activity ends with the supply of 'transmission network, electricity, high voltage direct current land cable' to the consumers of this product. Product losses during transportation are assumed negligible and are therefore not included.",00.00.000,Sector: Infrastructure & Machinery; Electricity,1998-01-01,2023-12-31,Europe,ecoinvent Data Quality System

@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4daed1a4-d17f-4fdd-8231-1d168ed44ea0,"market for weaned calves, live weight | weaned calves, live weight | EN15804GD, U","A:Agriculture, forestry and fishing/01:Crop and animal production, hunting and related service activities/014:Animal production/0141:Raising of cattle and buffaloes","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/21429/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This market describes the consumption mix of weaned calves in Brazil. No imports or exports to this market are considered; transport distances model distribution of the weaned calves within the geographical area of the market, Brazil. The calves are transported alive, normally to be fattened.
+
+Activity starts with loading the weaned calves onto the lorry.
+
+Activity ends with unloading the  weaned calves off the lorry.",00.00.000,Sector: Agriculture & Animal Husbandry,2017-01-01,2023-12-31,Brazil,ecoinvent Data Quality System

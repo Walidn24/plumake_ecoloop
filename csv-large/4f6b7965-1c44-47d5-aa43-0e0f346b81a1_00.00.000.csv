@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+4f6b7965-1c44-47d5-aa43-0e0f346b81a1,"market for NCA hydroxide | NCA hydroxide | EN15804GD, U","C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2011:Manufacture of basic chemicals","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/24582/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'NCA hydroxide', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.
+
+This activity starts at the gate of the activities that produce NCA hydroxide with the product ready for transportation.
+
+This activity ends with the supply of 1 kg of NCA hydroxide to the consumers of this product within the geography of . Transport is included.",00.00.000,Sector: Chemicals; Electronics,2020-01-01,2023-12-31,Rest-of-World,ecoinvent Data Quality System

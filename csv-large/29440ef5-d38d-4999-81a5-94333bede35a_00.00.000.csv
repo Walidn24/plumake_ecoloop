@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+29440ef5-d38d-4999-81a5-94333bede35a,"market for operation, computer, laptop, 68% active work | operation, computer, laptop, 68% active work | EN15804GD, U","J:Information and communication/62:Computer programming, consultancy and related activities/620:Computer programming, consultancy and related activities","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/934/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'operation, computer, laptop, 68% active work', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;The 'operation, computer, laptop, 68% active work' is delivering the service of operation of a laptop computer with 68% active work, for one hour of use at home.  The laptop is assumed to be 68% active mode, 25% standby mode and 6% off mode. The operation includes the use of laptop computer and the electricity consumption.  
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,"ConvertedDataset,Sector: Electronics",2011-01-01,2023-12-31,Global,ecoinvent Data Quality System

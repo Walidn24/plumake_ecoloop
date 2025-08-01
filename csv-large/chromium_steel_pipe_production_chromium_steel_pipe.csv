@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+01739588-337a-4c2e-822a-57b044793d93,"chromium steel pipe production | chromium steel pipe | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/241:Manufacture of basic iron and steel/2410:Manufacture of basic iron and steel,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/3680/documentation
+
+This is a proxy dataset for the production of chromium steel pipes.
+
+This dataset is a first proxy for the production of chromium steel pipes, but has to be revised by specialists.
+
+This dataset doesn't include any specifications, but only produced chromium steel and it's processing as proxy inputs. Besides these, it doesn't include any energy or material use. ",00.00.000,Sector: Metals,2008-01-01,2023-12-31,Global,ecoinvent Data Quality System

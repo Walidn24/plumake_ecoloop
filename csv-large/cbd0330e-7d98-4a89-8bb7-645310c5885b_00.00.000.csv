@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+cbd0330e-7d98-4a89-8bb7-645310c5885b,"ground granulated blast furnace slag to generic market for supplementary cementitious materials | supplementary cementitious materials | EN15804GD, U","C:Manufacturing/23:Manufacture of other non-metallic mineral products/239:Manufacture of non-metallic mineral products n.e.c./2394:Manufacture of cement, lime and plaster","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20704/documentation
+
+This activity is a renaming activity, linking ground granulated blast furnace slag to the generic market for supplementary cementitious materials (SCM).
+
+The activity starts with the input of GGBFS.
+
+With the provision of a generic kg of supplementary cementitious materials.",00.00.000,Sector: Cement & Concrete; Minerals,2019-01-01,2023-12-31,South Africa,ecoinvent Data Quality System

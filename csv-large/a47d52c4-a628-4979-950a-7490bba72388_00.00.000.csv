@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+a47d52c4-a628-4979-950a-7490bba72388,"market group for electricity, low voltage | electricity, low voltage | EN15804GD, U","D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution","ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12807/documentation
+
+This dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'electricity, low voltage', in Northern America.
+
+This activity starts at the gate of markets that deliver 'electricity, low voltage', in geographies contained within the geography of this dataset.
+
+This activity ends with the supply of 'electricity, low voltage',  to the consumers of this product within the geography of Northern America.",00.00.000,Sector: Electricity,2015-01-01,2023-12-31,Northern America,ecoinvent Data Quality System

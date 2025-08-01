@@ -1,0 +1,8 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+e8103d3b-a5be-484c-b3b5-1799cb6c0c23,"bulk lead-zinc concentrate to generic markets for zinc concentrate and lead concentrate | zinc concentrate | EN15804GD, U",B:Mining and quarrying/07:Mining of metal ores/072:Mining of non-ferrous metal ores/0729:Mining of other non-ferrous metal ores,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/20150/documentation
+
+This is a linking activity which links the product bulk lead-zinc concentrate to the generic markets for zinc concentrate and lead concentrate. The bulk lead-zinc concentrate provides a function that is equivalent to a mix of zinc concentrate and lead concentrate.
+
+This activity starts with the reception of bulk lead-zinc concentrate, produced in a zinc mine.
+
+This activity ends with the supply of zinc concentrate and lead concentrate to their respective markets. As this is a linking activity, and therefore does not represent any actual activity in the real world, no other inputs or outputs are included.",00.00.000,Sector: Metals,2012-01-01,2023-12-31,Global,ecoinvent Data Quality System

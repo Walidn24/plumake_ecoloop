@@ -1,0 +1,9 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+791b83b7-2321-4010-b1b3-b31d4018b21b,"market for transport, freight, aircraft with reefer, cooling | transport, freight, aircraft with reefer, cooling | EN15804GD, U",H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/13358/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight, aircraft with reefer, cooling', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of goods in a cooled and controlled atmosphere. The vehicle operates with kerosene, in an average plane speed of 500 km/hour.  The transport node indirectly considers empty trips (if any) by taking into account the total amount of freight transported throughout the lifetime of the mobile infrastructure.
+
+This activity starts with the service generation.
+
+
+This activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",00.00.000,Sector: Transport,2010-01-01,2023-12-31,Global,ecoinvent Data Quality System

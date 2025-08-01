@@ -1,0 +1,6 @@
+UUID,Name,Category,Description,Version,Tags,Valid from,Valid until,Location,Flow schema
+7fe4a234-a3ad-47e9-9169-70eb57bf4c58,"aluminium, ingot, primary, import from South America | aluminium, primary, ingot | EN15804GD, U",C:Manufacturing/24:Manufacture of basic metals/242:Manufacture of basic precious and other non-ferrous metals/2420:Manufacture of basic precious and other non-ferrous metals,"ecoQuery: https://ecoquery.ecoinvent.org/3.10/cutoff/dataset/12469/documentation
+
+This dataset represents the amount of imported primary aluminium from South America to EU27 & EFTA. The import value is valid for 2015 and includes all  imports, independently whether used within the importing region, or re-exported. EAA statistics
+
+This activity represents the point of ""handing over"" the primary aluminium ingot from one country to the other at the border.",00.00.000,Sector: Metals,2015-01-01,2023-12-31,"IAI Area, EU27 & EFTA",ecoinvent Data Quality System
