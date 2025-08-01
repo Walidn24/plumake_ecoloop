@@ -13,9 +13,9 @@ def init_postgres():
         conn = psycopg2.connect(
             dbname=os.getenv("DB_NAME", "ecoloop_test"),
             user=os.getenv("DB_USER", "postgres"),
-            password=os.getenv("DB_PASSWORD", "walid123"),
+            password=os.getenv("DB_PASSWORD", "1234"),
             host=os.getenv("DB_HOST", "localhost"),
-            port=os.getenv("DB_PORT", "5433")
+            port=os.getenv("DB_PORT", "5432")
         )
         cur = conn.cursor()
         return cur, conn
@@ -308,7 +308,7 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
 
 def populate_data(amount_data=None):
     # ✅ Percorso alla cartella CSV
-    cartella_csv = r'csv-large'
+    cartella_csv = r'csv_files'
     
     if amount_data is not None:   
         numero_file_da_leggere = amount_data
