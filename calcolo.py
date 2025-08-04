@@ -13,9 +13,9 @@ def init_postgres():
         conn = psycopg2.connect(
             dbname=os.getenv("DB_NAME", "ecoloop_test"),
             user=os.getenv("DB_USER", "postgres"),
-            password=os.getenv("DB_PASSWORD", "1234"),
+            password=os.getenv("DB_PASSWORD", "walid123"),
             host=os.getenv("DB_HOST", "localhost"),
-            port=os.getenv("DB_PORT", "5432")
+            port=os.getenv("DB_PORT", "5433")
         )
         cur = conn.cursor()
         return cur, conn
@@ -295,7 +295,7 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
 
             print(f"nome: {name}, valore: {value},  unità: {um}")
             # TODO: add insert to db methods
-            save_into_impact_result(process_id_returned, name, um, value, source_db_id=1, method_id=3)
+            save_into_impact_result(process_id_returned, name, um, value, source_db_id=2, method_id=3)
             
     except Exception as e:
         logging.error(f"Error retrieving impact results: {e}")
@@ -306,53 +306,88 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
     logging.info("Result disposed.")
     
 
-def populate_data(amount_data=None):
-    # ✅ Percorso alla cartella CSV
-    cartella_csv = r'csv_files'
-    
-    if amount_data is not None:   
-        numero_file_da_leggere = amount_data
+def populate_data(amount_data=5):
+    import logging
+    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-        # ✅ Elenco dei primi N file .csv
-        file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')][:numero_file_da_leggere]
-    
-    else:
-        file_csv = [f for f in os.listdir(cartella_csv) if f.endswith('.csv')]
-    
-    # ✅ Leggi ogni file e stampa UUID e Name
-    for nome_file in file_csv:
-        percorso_file = os.path.join(cartella_csv, nome_file)
-        print(f"\n📄 File: {nome_file}")
+    # Connessione a OpenLCA via IPC
+    try:
+        client = ipc.Client(8080)
+        logging.info("✅ Connessione al server IPC riuscita.")
+    except Exception as e:
+        logging.error(f"❌ Errore nella connessione al server IPC: {e}")
+        return
 
-        file_path = 'categories/cleaned_category.csv'
-        try:
-            with open(percorso_file, mode='r', encoding='utf-8') as f:
-                lettore = csv.DictReader(f)
-                for riga in lettore:
-                    uuid = riga.get('UUID')
-                    process_name = riga.get('Name')
-                    category = riga.get('Category')
-                    geo = riga.get('Location')
-                    description = riga.get('Description')
-                    version = riga.get('Version')
-                    tags = riga.get('Tags')
-                    valid_from = riga.get('Valid from')
-                    valid_until = riga.get('Valid until')
-                    location = riga.get('Location')
-                    flow_schema = riga.get('Flow schema')
+    # Ottieni i processi dal database
+    try:
+        process_list = client.get_descriptors(o.Process)
 
-                    
-                    # limit description length
-                    short_description = description[:7000]
-                    
-                    # popola tabella process
-                    process_id = insert_process_data(cur, conn, process_name, 1, "", "", uuid, category, short_description, version, tags, valid_from, valid_until, location, flow_schema)
-                    
-                    # calcola e popola tabella emmision factors
-                    calculate_impact(process_id_returned=process_id, uuid=uuid, requested_method="EN15804+A2 (EF 3.1)")
+        # 🔎 (Facoltativo) Escludi i Dummy
+        process_list = [p for p in process_list if "[Dummy]" not in p.name]
 
-        except Exception as e:
-            print(f"  ⚠ Errore nel file {nome_file}: {e}")
+
+        # Limita il numero se richiesto
+        if amount_data is not None:
+            process_list = process_list[:amount_data]
+
+        print(f"\n📦 Numero processi da elaborare: {len(process_list)}")
+
+        for i, descriptor in enumerate(process_list):
+            try:
+                p = client.get(o.Process, descriptor.id)
+
+                # Estrai i dati
+                process_name = p.name
+                uuid = p.id
+                category = p.category if p.category else ""
+                description = p.description if p.description else ""
+                short_description = description[:7000]
+                version = p.version if p.version else ""
+                tags = ", ".join(p.tags) if p.tags else ""
+
+                # ✅ Gestione sicura per attributi opzionali
+                valid_from_raw = getattr(p, 'valid_from', None)
+                valid_until_raw = getattr(p, 'valid_until', None)
+                flow_schema_raw = getattr(p, 'flow_schema', None)
+
+                valid_from = valid_from_raw.isoformat() if valid_from_raw else None
+                valid_until = valid_until_raw.isoformat() if valid_until_raw else None
+                location = p.location.name if p.location else ""
+                flow_schema = flow_schema_raw.name if flow_schema_raw else ""
+
+                # Inserisci nel database
+                process_id = insert_process_data(
+                    cur, conn,
+                    process_name=process_name,
+                    macro_cat=1,
+                    note="",
+                    geo="",
+                    uuid=uuid,
+                    category=category,
+                    description=short_description,
+                    version=version,
+                    tags=tags,
+                    valid_from=valid_from,
+                    valid_until=valid_until,
+                    location=location,
+                    flow_schema=flow_schema
+                )
+
+                # Calcola e salva fattori di impatto
+                calculate_impact(
+                    process_id_returned=process_id,
+                    uuid=uuid,
+                    requested_method="EN15804+A2 (EF 3.1)"
+                )
+
+            except Exception as e:
+                print(f"⚠ Errore nel processo {descriptor.name}: {e}")
+                continue
+
+    except Exception as e:
+        logging.error(f"❌ Errore nel recupero dei processi: {e}")
+        return
+
 
 
 if __name__ == "__main__":
@@ -373,7 +408,7 @@ if __name__ == "__main__":
 
         # popola tabelle  
         # se volessi popolare tutti dati lascia input: amount_data=None
-        populate_data(amount_data=10)
+        populate_data(amount_data=5)
     finally:
         cur.close()
         conn.close()
