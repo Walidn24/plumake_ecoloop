@@ -56,20 +56,21 @@ Quando hai caricato vedrai database come sotto
 
 Premete due volte su file che vi comparirà sul openLCA, dopo aver premuto vi comparirà usa schermata per update database. Premete su OK
 
-Ripremete su file zolca vi comparirà delle cartelle, voi andate sul cartella process e premete tasto destro -> export, dopo vi comparirà una schermata per convertire tutti file in formato Excel.
+Ripremete su file zolca vi comparirà delle cartelle, poi andate sul cartella process e premete tasto destro -> export, dopo vi comparirà una schermata per convertire tutti file in formato Excel.
 
 ![alt text](image-3.png)
 
 Premete sul Next, vi comparirà una altra schermata che vi da la possibilità di decidere quale cartella vuoi convertire. Noi nel nostro caso convertiamo tutti🤯💥.
 
 Dopo aver selezionato tutte le cartelle da convertire, dovete premere su Browse per dove vuoi esportare
+
 ![alt text](image-4.png)
 
 Poi premete finish e aspettate un pò
 
 ![alt text](image-9.png)
 
-> Più il file lungo più ci mette tanto a convertire. Nell nostro caso ci e voluto 3 ore
+> Più il file lungo più ci mette tanto a convertire. Nell nostro caso ci e voluto 3 ore, vi consigliamo di fare uno a uno per non avre problemi di caricamenti lunghi.
 
 ### Creare virtual machine
 
@@ -96,7 +97,7 @@ pip install -r requirements.txt
 ### Installazione Postgresql
 
 ```
-apt install postgresql
+sudo apt install postgresql
 ```
 
 Automizzare configurazione repository
@@ -106,7 +107,15 @@ sudo apt install -y postgresql-common
 sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 ```
 
-per più dettagli: [link](https://www.postgresql.org/download/linux/ubuntu/)
+per più dettagli: [link1](https://www.postgresql.org/download/linux/ubuntu/), [link2](https://wiki.postgresql.org/wiki/Apt)
+
+Dopo aver installato postgres, vi consiglio di usare un clinete come PgAdmin per vedere/controllare i dati.
+
+Installare PgAdmin clinet: [link](https://www.pgadmin.org/download/)
+
+> ### IMPORTANTE!
+>
+> è importante creare un database prima di partire il programma perchè dobbiamo definire nome del database per popolare i dati
 
 ### Esportare i csv
 
@@ -116,7 +125,9 @@ Dovete portare tutti i file Excel esportati da OpenLCA al cartella `raw` che si 
 
 Per convertire esegui commando sotto
 
-> ! Importante eseguire commando nel virual machine: [come attivare virtual machine](#attivare-virtual-machine)
+> Importante eseguire commando nel virual machine: [come attivare virtual machine](#attivare-virtual-machine)
+
+il nome dell file per convertire si chiama `csv_converter.py`
 
 ```
 python csv_converter.py
@@ -145,6 +156,19 @@ Flow schema
 
 ### Lanciare lo script che esegue i calcoli e salva i risultati sul database
 
-![alt text](image-5.png)
+> Per calcoli progrmma usa il porta del OpenLCA. Quindi dovete abilitarlo.
+>
+> -  Aprite openLCA
+> -  Aprite database selezionato
+> -  Poi abilitare la porta: `Tools -> Developer tools  ->  IPC Server`
 
-![alt text](image-8.png)
+Il programma per i calcoli è `calcolo.py`
+
+-  `init_postgres()`: initializza postgres. Si trova un file si chima `env.sample` come un essempio per creare `.env` file per collegare con postgresql. Se percaso trovate problemi di collegamento, vi consiglierei di definire direttamente sulla programma
+-  `create_tables(cur, conn)`: crea le tabelle
+-  `init_default_table_data(cur, conn)`: non lo usate più di una volta perchè qusto methodo viene usato solo una volta per popolare tabelle default con i valori default.
+-  `populate_data(amount_data=10)`: questo è il methodo che viene usato per popolare i dati. Non inserendo o lasciando input `amount_data=None`, il programma popola tutti dati calcolando usando methodo `EN15804+A2 (EF 3.1)`
+
+Il programma legge tutti i csv esportati sul `csv_files` e calcola analyse impact e popola sulla database. Per ogni calcolo si mette circa 1 - 3 secondi per tutti/limite selesionato. Quindi dovete aspettare bel pò
+
+![alt text](image-5.png)

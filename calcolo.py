@@ -309,7 +309,7 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
 def populate_data(amount_data=None):
     # ✅ Percorso alla cartella CSV
     cartella_csv = r'csv_files'
-    
+     
     if amount_data is not None:   
         numero_file_da_leggere = amount_data
 
