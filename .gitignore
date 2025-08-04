@@ -1,2 +1,6 @@
 .env
 .venv
+
+csv_files/*
+raw/*
+csv_large/*
