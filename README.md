@@ -56,22 +56,17 @@ Quando hai caricato vedrai database come sotto
 
 Premete due volte su file che vi comparirà sul openLCA, dopo aver premuto vi comparirà usa schermata per update database. Premete su OK
 
-Ripremete su file zolca vi comparirà delle cartelle, voi andate sul cartella process e premete tasto destro -> export, dopo vi comparirà una schermata per convertire tutti file in formato Excel.
+Ripremete su file zolca del database vi comparirà delle cartelle.
 
-![alt text](image-3.png)
+![alt text](image-10.png)
 
-Premete sul Next, vi comparirà una altra schermata che vi da la possibilità di decidere quale cartella vuoi convertire. Noi nel nostro caso convertiamo tutti🤯💥.
-
-Dopo aver selezionato tutte le cartelle da convertire, dovete premere su Browse per dove vuoi esportare
-![alt text](image-4.png)
-
-Poi premete finish e aspettate un pò
 
 ![alt text](image-9.png)
 
-> Più il file lungo più ci mette tanto a convertire. Nell nostro caso ci e voluto 3 ore
+ricordatte di tenere acesso visual studio code che poi ci servira dopo che vi spiego due cosete.
 
-### Creare virtual machine
+
+### Creare virtual machin
 
 #### in Linux
 
@@ -79,7 +74,8 @@ Poi premete finish e aspettate un pò
 python3 -m venv .venv
 ```
 
-#### attivare virtual machine
+#### Virtual environment 
+Potete tranquillamente aprire Visual Studio Code e avviare il terminale.
 
 ```
 source .venv/bin/activate
@@ -87,10 +83,12 @@ source .venv/bin/activate
 
 ### Installare dipendenze
 
-> Devi attivare virtual machine prima di installazione dipendenze
+> Devi attivare Virtual environment prima di installazione dipendenze
 
 ```
 pip install -r requirements.txt
+
+Se avete una versione di Ubuntu vecchia, come ad esempio la 20.04, potrebbe chiedervi di scaricare versioni diverse dei pacchetti indicati nel file requirements.txt. In questo caso, avete due opzioni: cercare su un motore di ricerca...
 ```
 
 ### Installazione Postgresql
@@ -108,43 +106,112 @@ sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 
 per più dettagli: [link](https://www.postgresql.org/download/linux/ubuntu/)
 
-### Esportare i csv
+Vi ricordo che, prima di avviare il programma da Visual Studio Code, dovete configurare correttamente PostgreSQL. In che senso? Significa che dovete aver impostato la password, il nome utente, il nome del database e tutti gli altri parametri necessari alla connessione. 
 
-Dovete portare tutti i file Excel esportati da OpenLCA al cartella `raw` che si trova sulla programma
 
-![alt text](image-6.png)
+Se avete già impostato il nome utente, la password, il nome del database, l’host e la porta, allora siete pronti.
 
-Per convertire esegui commando sotto
+![alt text](image-11.png)
 
-> ! Importante eseguire commando nel virual machine: [come attivare virtual machine](#attivare-virtual-machine)
+come vedette nell imagine io ho messo questi datti che sarebero del mio data base.
 
-```
-python csv_converter.py
-```
+Vi starete chiedendo come fa il programma a prendere i dati da OpenLCA e inserirli nel database. Ve lo spiego subito: per prima cosa bisogna attivare la porta di comunicazione di OpenLCA. Come si fa? Nell’immagine qui sotto è tutto spiegato chiaramente.
 
-Una volta eseguito commando i file viene convertito sulla cartella `csv_files`
+![alt text](image-12.png)
 
-per una migliore esperienza visiva vi consiglio di installare estenzione `csv` da `Seamlessly Display and Edit CSVs`
+Premete su IPC server e si aprirà una piccola schermata con la porta di OpenLCA, che di default è 8080.
+
+![alt text](image-13.png)
+
+per farlo partire premette sul coso verde e cosi ve lo fa partire.
+
+Bene, ora la porta di OpenLCA è aperta, tranquilli. Nel programma è già presente il comando per collegarsi a OpenLCA tramite la sua porta, quindi non dovete fare nulla.
+
+![alt text](image-14.png)
+
+Poi, dopo aver fatto tutto su OpenLCA, andate su PostgreSQL/pgAdmin 4. Dopo esservi assicurati di aver avviato il server e inserito la password, vi comparirà la schermata come è successo a me.
+
+![alt text](image-15.png)
+
+Cosa fare dopo?
+Andate sul nome del database. Se non lo avete ancora, vi basta crearlo: cliccate con il tasto destro su "Databases" e selezionate "Create > Database", poi inserite un nome e cliccate su Save.
+
+Successivamente, cliccate di nuovo con il tasto destro sul database appena creato, selezionate "Create > Database" e inserite il nome esatto del database (nel nostro caso si chiama ecoloop_test).
+
+Ricordatevi: assicuratevi di aver inserito correttamente tutti i parametri nel programma:
+
+DB_NAME (nome del database)
+
+DB_USER (nome utente)
+
+HOST (indirizzo del server)
+
+PASSWORD
+
+Se anche solo uno di questi è sbagliato, il collegamento non funzionerà.
+
+
+![alt text](image-16.png)
+
+vi dovra apparire cosi.
+
+Ora vi faccio vedere, prima di avviare il programma, da dove il programma prende i dati dei processi da OpenLCA, come li stampa nel terminale e poi li salva nel database.
+
+![alt text](image-17.png)
+
+![alt text](image-18.png)
+
+![alt text](image-19.png)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+Questo è il comando che permette al programma di prendere i dati, stamparli nel terminale, eseguire i calcoli e infine salvarli nel database.
+
+Come facciamo a verificare se i dati sono stati effettivamente salvati nel database?
+Per ora abbiamo impostato il programma per stampare solo 5 processi.
+
+Vi faccio prima vedere cosa appare nel terminale e poi andiamo a controllare nel database.
+
+
+![alt text](image-25.png)
+
+
+![alt text](image-26.png)
+
+questio e cio che mi mostra sul terminale.
+
+poi per vedere sul database seguite le insicazione sulle imagini.
+
+![alt text](image-22.png)
+
+Andate sulla tabella tab_emission_factors, cliccate con il tasto destro e selezionate View/Edit Data. In questo modo vi comparirà la tabella con i risultati del calcolo.
+
+![alt text](image-23.png)
+
+![alt text](image-27.png)
+
+Per vedere i dati dei processi, andate sulla tabella tab_process e ripetete gli stessi passaggi: cliccate con il tasto destro e selezionate View/Edit Data.
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
+
+
+![alt text](image-30.png)
+
+Per esportare i dati in formato CSV, cliccate con il tasto destro sulla tabella tab_process oppure tab_emission_factors, poi selezionate Import/Export Data.
+Vi comparirà una schermata da cui potrete scegliere le opzioni di esportazione. 
+
+![alt text](image-32.png)
+
+Il programma vi genera automaticamente il file in formato CSV. A questo punto, cliccate su OK.
+
+P.S.: Se volete, potete creare una vostra cartella personalizzata e salvare lì il file CSV.
+
+Se volete visualizzare i dati del file CSV, vi consiglio di usare Visual Studio Code: spostate lì il file CSV e installate l’estensione che vedete nell’immagine.
 
 ![alt text](image-7.png)
 
-Controlla struttura dei CSV file sono seguito la struttura qui sotto
-
-```
-UUID,
-Name,
-Category,
-Description,
-Version,
-Tags,
-Valid from,
-Valid until,
-Location,
-Flow schema
-```
-
-### Lanciare lo script che esegue i calcoli e salva i risultati sul database
-
-![alt text](image-5.png)
-
-![alt text](image-8.png)
+per una migliore esperienza visiva vi consiglio di installare estenzione `csv` da `Seamlessly Display and Edit CSV
