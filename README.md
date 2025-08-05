@@ -24,6 +24,7 @@ https://www.openlca.org/download/
 https://www.postgresql.org/download/
 
 
+
 ### Installare OpenLCA sul Linux
 
 Scarica tar.gz: [link](https://www.openlca.org/download/)
@@ -75,10 +76,14 @@ ricordatte di tenere acesso visual studio code che poi ci servira dopo che vi sp
 
 ### Creare virtual machin
 
-#### in Linux
+#### in Linux/windows 
 
 ```
 python3 -m venv .venv
+```
+### per windows
+```
+python -m venv .venv
 ```
 
 #### Virtual environment 
@@ -87,6 +92,10 @@ Potete tranquillamente aprire Visual Studio Code e avviare il terminale.
 ```
 source .venv/bin/activate
 ```
+### per windows
+```
+./venv/bin/activate
+```
 
 ### Installare dipendenze
 
@@ -94,12 +103,12 @@ source .venv/bin/activate
 
 ```
 pip install -r requirements.txt
-
-Se avete una versione di Ubuntu vecchia, come ad esempio la 20.04, potrebbe chiedervi di scaricare versioni diverse dei pacchetti indicati nel file requirements.txt. In questo caso, avete due opzioni: cercare su un motore di ricerca...
 ```
+Se avete una versione di Ubuntu vecchia, come ad esempio la 20.04, potrebbe chiedervi di scaricare versioni diverse dei pacchetti indicati nel file requirements.txt. In questo caso, avete due opzioni: cercare su un motore di ricerca...
 
-### Installazione Postgresql
 
+### Installazione Postgresql per linux
+ 
 ```
 apt install postgresql
 ```
