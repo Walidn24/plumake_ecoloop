@@ -82,7 +82,7 @@ def create_tables(cur, conn):
                 process_name VARCHAR(255),
                 macro_cat INT,
                 note VARCHAR(500),
-                geo VARCHAR(25),
+                geo VARCHAR(50),
                 uuid UUID, 
                 category VARCHAR(500),
                 description VARCHAR(7000),
@@ -295,7 +295,10 @@ def calculate_impact(process_id_returned, uuid, requested_method="EN15804+A2 (EF
 
             print(f"nome: {name}, valore: {value},  unità: {um}")
             # TODO: add insert to db methods
-            save_into_impact_result(process_id_returned, name, um, value, source_db_id=2, method_id=3)
+            # ecovent: source_db_id=1
+            #agribalyde 3.2 : source_db_id=2
+            # DEFRA : source_db_id=3 
+            save_into_impact_result(process_id_returned, name, um, value, source_db_id=1, method_id=3)
             
     except Exception as e:
         logging.error(f"Error retrieving impact results: {e}")
@@ -357,21 +360,22 @@ def populate_data(amount_data=5):
 
                 # Inserisci nel database
                 process_id = insert_process_data(
-                    cur, conn,
-                    process_name=process_name,
-                    macro_cat=1,
-                    note="",
-                    geo="",
-                    uuid=uuid,
-                    category=category,
-                    description=short_description,
-                    version=version,
-                    tags=tags,
-                    valid_from=valid_from,
-                    valid_until=valid_until,
-                    location=location,
-                    flow_schema=flow_schema
-                )
+                cur, conn,
+                process_name=process_name,
+                macro_cat=1,
+                note="",
+                geo=p.location.name if p.location else "",  # 👈 GEO ora contiene il nome completo della location
+                uuid=uuid,
+                category=category,
+                description=short_description,
+                version=version,
+                tags=tags,
+                valid_from=valid_from,
+                valid_until=valid_until,
+                location=location,
+                flow_schema=flow_schema
+            )
+
 
                 # Calcola e salva fattori di impatto
                 calculate_impact(

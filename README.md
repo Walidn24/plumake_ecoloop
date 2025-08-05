@@ -248,7 +248,7 @@ poi prima di avviare il pogramma dovete modificare una picolla cosetta
 
 ![alt text](image-35.png)
 
-Dove è scritto 2, inserite 1 se state usando il database Ecoinvent; invece, se usate il database Agribalyse 3.2, lasciate 2.
+Dove è scritto 2, inserite 1 se state usando il database Ecoinvent; invece, se usate il database Agribalyse 3.2, lasciate 2 se ce DEFRA mettete 3.
 
 Lo so, è un po' scomodo, ma vi consiglio di fare così per mantenere tutto più ordinato e chiaro.
 
