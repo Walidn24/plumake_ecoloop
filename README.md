@@ -14,6 +14,16 @@ sviluppato da Isuru Fernando e Walid Jebali
 -  [Esportare i csv](#esportare-i-csv)
 -  [Lanciare lo script che esegue i calcoli e salva i risultati sul database](#lanciare-lo-script-che-esegue-i-calcoli-e-salva-i-risultati-sul-database)
 
+
+### Installare OpenLCA sul windows 11
+
+https://www.openlca.org/download/
+
+### Installare postgresSQL sul windows 11
+
+https://www.postgresql.org/download/
+
+
 ### Installare OpenLCA sul Linux
 
 Scarica tar.gz: [link](https://www.openlca.org/download/)
