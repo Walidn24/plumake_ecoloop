@@ -71,7 +71,7 @@ Ripremete su file zolca del database vi comparirà delle cartelle.
 
 ![alt text](image-10.png)
 
-ricordatte di tenere acesso visual studio code che poi ci servira dopo che vi spiego due cosete.
+Ricordatevi di tenere aperto Visual Studio Code, perché ci servirà tra poco, dopo che vi avrò spiegato due cosette.
 
 
 ### Creare virtual machin
@@ -233,3 +233,27 @@ Se volete visualizzare i dati del file CSV, vi consiglio di usare Visual Studio 
 per una migliore esperienza visiva vi consiglio di installare estenzione `csv` da `Seamlessly Display and Edit CSV
 
 ![alt text](image-33.png)
+
+
+Se volete usare il database Agribalyse 3.2, seguite gli stessi passaggi che avete fatto per OpenLCA: andate su File > Import e caricate il file del database.
+
+I passaggi per attivare la porta sono identici.
+
+Attenzione: non è possibile avere due database attivi contemporaneamente su OpenLCA.
+Questo significa che, se volete passare da Agribalyse a Ecoinvent, vi basta fare doppio clic su Ecoinvent: così facendo, il database Agribalyse verrà automaticamente disattivato.
+
+![alt text](image-34.png)
+
+poi prima di avviare il pogramma dovete modificare una picolla cosetta 
+
+![alt text](image-35.png)
+
+Dove è scritto 2, inserite 1 se state usando il database Ecoinvent; invece, se usate il database Agribalyse 3.2, lasciate 2.
+
+Lo so, è un po' scomodo, ma vi consiglio di fare così per mantenere tutto più ordinato e chiaro.
+
+ricordate per avviare il programma il comando e questo 
+
+```
+python calcolo.py
+```
