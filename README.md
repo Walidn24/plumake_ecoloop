@@ -60,9 +60,6 @@ Ripremete su file zolca del database vi comparirà delle cartelle.
 
 ![alt text](image-10.png)
 
-
-![alt text](image-9.png)
-
 ricordatte di tenere acesso visual studio code che poi ci servira dopo che vi spiego due cosete.
 
 
@@ -215,3 +212,5 @@ Se volete visualizzare i dati del file CSV, vi consiglio di usare Visual Studio 
 ![alt text](image-7.png)
 
 per una migliore esperienza visiva vi consiglio di installare estenzione `csv` da `Seamlessly Display and Edit CSV
+
+![alt text](image-33.png)
