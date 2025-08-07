@@ -1,6 +1,6 @@
 # plumake_ecoloop
 
-
+SOLO SU UBUNTU 24.04 
 Questo programma Python si collega al database di **OpenLCA**, esegue i calcoli degli **impatti ambientali** per ogni processo presente, e salva automaticamente tutti i risultati in un database **PostgreSQL**.
 
 In particolare, importa i dati relativi ai processi (come quelli dei database *Ecoinvent* o *Agribalyse*), li elabora tramite OpenLCA e memorizza i valori calcolati (come il *Global Warming Potential*, l’uso di energia, ecc.) nel database per poterli visualizzare, analizzare o esportare.
