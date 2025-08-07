@@ -1,61 +1,213 @@
 # plumake_ecoloop
 
-Questo programma prende tutti i dati OpenLCA e converte a CSV e popola tutti dati ad un postgresql database
+
+Questo programma Python si collega al database di **OpenLCA**, esegue i calcoli degli **impatti ambientali** per ogni processo presente, e salva automaticamente tutti i risultati in un database **PostgreSQL**.
+
+In particolare, importa i dati relativi ai processi (come quelli dei database *Ecoinvent* o *Agribalyse*), li elabora tramite OpenLCA e memorizza i valori calcolati (come il *Global Warming Potential*, l’uso di energia, ecc.) nel database per poterli visualizzare, analizzare o esportare.
+
 
 sviluppato da Isuru Fernando e Walid Jebali
 
 ## Instruzioni
 
--  [Installare OpenLCA](#installare-openlca-sul-linux)
--  [Creare virtual env per python](#creare-virtual-machine)
--  [Installare tutte le dipendenze e librerie python](#installare-dipendenze)
--  [Installare il database postgresql e creare le tabelle di arrivo](#installazione-postgresql)
--  [Importare ed esportare i database ecoinvent e agribalyse in openLCA](#importare-ed-esportare-i-database-ecoinvent-e-agribalyse-in-openlca)
--  [Esportare i csv](#esportare-i-csv)
--  [Lanciare lo script che esegue i calcoli e salva i risultati sul database](#lanciare-lo-script-che-esegue-i-calcoli-e-salva-i-risultati-sul-database)
+
+- [Installare sudo apt update && upgrade + Python 3](#installare-sudo-apt-update--upgrade--python-3)
+- [Installazione Postgresql + pgADMIN4 ](#installazione-postgresql--pgadmin4)
+- [installare-openlca-sul-linux](#installare-openlca-sul-linux)
 
 
-### Installare OpenLCA sul windows 11
+# Installare sudo apt update && upgrade + Python 3
 
-https://www.openlca.org/download/
+Per prima cosa, aprite il terminale ed eseguite il seguente comando,
+che Serve per: aggiornare l’elenco dei pacchetti disponibili e le relative versioni dai repository ufficiali di Ubuntu. È il primo passo fondamentale prima di installare nuovi software, così da assicurarci di scaricare le versioni più aggiornate e sicure
 
-### Installare postgresSQL sul windows 11
+```
+sudo apt update 
+```
 
-https://www.postgresql.org/download/
+Una volta completato il caricamento dell’aggiornamento, eseguite il comando , che Serve per: installare Python 3 (il linguaggio di programmazione) e pip (il suo gestore di pacchetti), entrambi fondamentali per eseguire script Python e installare librerie esterne necessarie al progetto.
+
+```
+sudo apt install python3-pip -y 
+```
+
+bene fatto questo possiamo gia installare postgresSQL
+
+### Installazione Postgresql + pgADMIN4 
+
+Successivamente, eseguite il seguente comando che Serve per: installare PostgreSQL, un potente sistema di gestione di database relazionali. È indispensabile per archiviare e gestire i dati utilizzati dal programma.
+
+```
+sudo apt install postgress .y 
+
+```
+
+Dopo aver installato PostgreSQL, eseguite il seguente comando che  Serve per: accedere all’utente postgres, che è l’amministratore predefinito del database. Da qui possiamo eseguire comandi per configurare il database e impostare la password.
+
+```
+sudo -i -u postgres 
+```
+
+![alt text](<Schermata del 2025-08-06 15-48-15.png>)
+
+e cosi siete dentro ad psql 
+
+![alt text](<Schermata del 2025-08-06 15-48-33.png>)
+
+Una volta entrati nell’utente postgres, eseguite questa query SQL:
+```
+ALTER USER postgres WHITH PASSWORD 'walid123'; 
+```
+Serve per: impostare o modificare la password dell’utente postgres, che verrà usata per accedere al database da applicazioni esterne (come pgAdmin o script Python).
+
+![alt text](<Schermata del 2025-08-06 15-48-53.png>)
+
+
+Dopo aver eseguito la query ALTER USER, premete Invio per confermare e poi Ctrl + z cosi si salva e Poi, per uscire dall’utente postgres, scrivete exit.(Se doveste riscontrare problemi nell’uscire, potete semplicemente chiudere il terminale e riaprirlo per tornare al vostro utente principale.)
+
+![alt text](<Schermata del 2025-08-06 15-49-56.png>)
+
+Dopo aver impostato la password per PostgreSQL, possiamo passare all’installazione e configurazione di pgAdmin4, lo strumento grafico per gestire PostgreSQL.
+
+
+
+Come primo passo, eseguite questo comando per installare curl, uno strumento che ci permette di scaricare file da internet tramite terminale:
+
+```
+sudo apt install curl -y 
+```
+
+Serve per: scaricare in modo sicuro la chiave di autenticazione del repository ufficiale di pgAdmin. 
+fara un caricamento.
+
+ Una volta completata l'installazione di curl, eseguiamo il seguente comando per scaricare e salvare la chiave pubblica del repository ufficiale di pgAdmin che che Serve per: autenticare in modo sicuro il repository di pgAdmin4. La chiave garantisce che i pacchetti che scaricheremo provengano da una fonte ufficiale e non siano stati modificati.
+```
+curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
+```
+Ora esegui questo comando per aggiungere il repository ufficiale di pgAdmin4 al sistema e aggiornare la lista dei pacchetti disponibili che Serve per: dire al tuo sistema dove trovare e scaricare pgAdmin4 in modo ufficiale e sicuro. In pratica, aggiungiamo un nuovo "negozio di software" dedicato a pgAdmin4, e subito dopo aggiorniamo l’elenco dei pacchetti per renderlo visibile.
+
+```
+sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+```
+
+Ora esegui il seguente comando per installare l’interfaccia desktop di pgAdmin4 che Serve per: installare pgAdmin4 in versione grafica (desktop), così potrai gestire PostgreSQL con un’interfaccia comoda e visiva, direttamente dal tuo menu applicazioni, senza usare solo il terminale.
+
+```
+sudo apt install pgadmin4-desktop -y
+```
+![alt text](<Schermata del 2025-08-06 15-18-17.png>)
+
+Una volta completata l’installazione, puoi avviare pgAdmin4 cercandolo dal menu in alto a sinistra (attività) oppure digitando:
+
+ ![alt text](<Schermata del 2025-08-06 15-42-00.png>)
+
+ premete su  add new server
+
+ ![alt text](image-36.png)
+
+ qua potete mettere il nome che volete 
+
+![alt text](<Schermata del 2025-08-06 15-50-36.png>)
+
+ Ora inserite la porta (di default è 5432) e la password che avete scelto in fase di configurazione.Nel mio caso, ad esempio, la password era walid123 e fatte save , (Se il salvataggio non funziona, è possibile che La porta non sia 5432, ma un’altra (es. 5433) , e La password inserita sia sbagliata in tal caso, controllate la configurazione e riprovate).
+
+![alt text](image-36.png)
+
+premete sul nome.
+
+
+![alt text](<Screenshot From 2025-08-07 15-19-26.png>)
+
+Cosa fare dopo?
+Andate sul nome del database. Se non lo avete ancora, vi basta crearlo: cliccate con il tasto destro su "Databases" e selezionate "Create > Database", poi inserite un nome e cliccate su Save.
+
+Successivamente, cliccate di nuovo con il tasto destro sul database appena creato, selezionate "Create > Database" e inserite il nome esatto del database (nel nostro caso si chiama ecoloop_test).
+
+ assicuratevi di aver inserito correttamente tutti i parametri nel programma del `calcolo.py` per anadre ad moficare basta che vai sul file calcolo.py e adare nella riga dal 14 all 18 linica rica dovete modicare e solo:
+
+```
+DB_NAME (nome del database)
+
+DB_USER (nome utente)
+
+DB_PASSWORD , (PASSWORD)
+
+HOST (indirizzo del server)
+
+DB_PORT , (mettete la vostra porta)
+```
+
+Se anche solo uno di questi è sbagliato, il collegamento non funzionerà.
+
+
+![alt text](image-16.png)
+
+vi dovra apparire cosi.
 
 
 
 ### Installare OpenLCA sul Linux
 
-Scarica tar.gz: [link](https://www.openlca.org/download/)
+Per farlo, andate al link qui sotto, che vi permette di scaricare l’ultima versione ufficiale del programma:
 
-> nome file scaricato può essere non simile a quello che vedi sul commando e
-> devi entrare sulla cartella dove hai scaricato prima di eseguire il comando
+[Scarica tar.gz: link](https://www.openlca.org/download/)
 
-```
-tar -zxvf openLCA_mkl_Linux_x64_2.5.0_2025-06-16.tar.gz
-```
 
-Cambiare a posizione permenete
+Una volta completata l’installazione, aprite la **cartella dove è stato scaricato il file**.  
+Generalmente si trova in:
 
-```
-sudo mv ~/Downloads/openLCA /opt/openLCA
-```
+- `Downloads` (se il sistema è in inglese)
+- `Scaricati` (se il sistema è in italiano)
 
-Aggiungere openLCA al path
+Fate clic con il **tasto destro del mouse** in un punto vuoto della cartella  
+e selezionate **"Apri nel terminale"**.
 
-```
-echo 'export PATH=$PATH:/opt/openLCA' >> ~/.bashrc
-source ~/.bashrc
-```
+Quando si apre il terminale nella cartella corretta, eseguite il comando seguente:
 
-### Importare ed esportare i database ecoinvent e agribalyse in openLCA
-
-Apri openLCA
+![alt text](<Schermata del 2025-08-06 16-22-45.png>)
 
 ```
-openLCA
+tar -xvzf openLCA_Linux_x64_2.5.0.tar.gz
 ```
+Questo comando serve per decomprimere il file scaricato di OpenLCA e accedere alla cartella del programma.
+
+![alt text](<Schermata del 2025-08-06 16-19-36.png>)
+
+Vi inizierà un caricamento automatico.  
+Quando il processo sarà completato, potete avviare **OpenLCA** con il seguente comando che serve per avviare manualmente il programma OpenLCA appena installato.
+
+```
+/opt/openLCA/openLCA/openLCA
+```
+![alt text](image-37.png)
+
+Vi ricordo che dovete essere **sempre nel terminale della cartella Download** (o **Scaricati**, se il sistema è in italiano).
+Ora eseguite il seguente comando che serve creare  un collegamento simbolico (alias) chiamato openlca, che vi permette di avviare OpenLCA da qualsiasi posizione nel terminale semplicemente digitando openlca
+
+```
+sudo ln -s /opt/openLCA/openLCA/openLCA /usr/local/bin/openlca
+```
+![alt text](image-38.png)
+
+e adesso siete pronti per aprire openLCA
+
+Se il comando `openlca` non funziona, è probabile che il percorso alla cartella sia errato.
+Per verificarlo, eseguite questo comando: 
+
+```
+ls /opt/openLCA/openLCA
+```
+![alt text](image-39.png)
+
+e vi fa vedere le cartelle e il file openLCA
+
+Una volta trovato il percorso corretto, potete avviare OpenLCA manualmente con:
+```
+/opt/openLCA/openLCA/openLCA
+```
+![alt text](image-40.png)
+
+e cosi il programma si avvia 
 
 Dopo aver aperto openLCA, andate sul file in alto sinistra. Premete e ci dovra essere scritto import. Lo premete vi comparirà una piccola finestrina con scritto file -> import -> file. Premete sul file e caricate file ecoinvent.zolca
 
@@ -73,64 +225,6 @@ Ripremete su file zolca del database vi comparirà delle cartelle.
 
 Ricordatevi di tenere aperto Visual Studio Code, perché ci servirà tra poco, dopo che vi avrò spiegato due cosette.
 
-
-### Creare virtual machin
-
-#### in Linux/windows 
-
-```
-python3 -m venv .venv
-```
-### per windows
-```
-python -m venv .venv
-```
-
-#### Virtual environment 
-Potete tranquillamente aprire Visual Studio Code e avviare il terminale.
-
-```
-source .venv/bin/activate
-```
-### per windows
-```
-./venv/bin/activate
-```
-
-### Installare dipendenze
-
-> Devi attivare Virtual environment prima di installazione dipendenze
-
-```
-pip install -r requirements.txt
-```
-Se avete una versione di Ubuntu vecchia, come ad esempio la 20.04, potrebbe chiedervi di scaricare versioni diverse dei pacchetti indicati nel file requirements.txt. In questo caso, avete due opzioni: cercare su un motore di ricerca...
-
-
-### Installazione Postgresql per linux
- 
-```
-apt install postgresql
-```
-
-Automizzare configurazione repository
-
-```
-sudo apt install -y postgresql-common
-sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
-```
-
-per più dettagli: [link](https://www.postgresql.org/download/linux/ubuntu/)
-
-Vi ricordo che, prima di avviare il programma da Visual Studio Code, dovete configurare correttamente PostgreSQL. In che senso? Significa che dovete aver impostato la password, il nome utente, il nome del database e tutti gli altri parametri necessari alla connessione. 
-
-
-Se avete già impostato il nome utente, la password, il nome del database, l’host e la porta, allora siete pronti.
-
-![alt text](image-11.png)
-
-come vedette nell imagine io ho messo questi datti che sarebero del mio data base.
-
 Vi starete chiedendo come fa il programma a prendere i dati da OpenLCA e inserirli nel database. Ve lo spiego subito: per prima cosa bisogna attivare la porta di comunicazione di OpenLCA. Come si fa? Nell’immagine qui sotto è tutto spiegato chiaramente.
 
 ![alt text](image-12.png)
@@ -141,49 +235,63 @@ Premete su IPC server e si aprirà una piccola schermata con la porta di OpenLCA
 
 per farlo partire premette sul coso verde e cosi ve lo fa partire.
 
-Bene, ora la porta di OpenLCA è aperta, tranquilli. Nel programma è già presente il comando per collegarsi a OpenLCA tramite la sua porta, quindi non dovete fare nulla.
-
-![alt text](image-14.png)
-
-Poi, dopo aver fatto tutto su OpenLCA, andate su PostgreSQL/pgAdmin 4. Dopo esservi assicurati di aver avviato il server e inserito la password, vi comparirà la schermata come è successo a me.
-
-![alt text](image-15.png)
-
-Cosa fare dopo?
-Andate sul nome del database. Se non lo avete ancora, vi basta crearlo: cliccate con il tasto destro su "Databases" e selezionate "Create > Database", poi inserite un nome e cliccate su Save.
-
-Successivamente, cliccate di nuovo con il tasto destro sul database appena creato, selezionate "Create > Database" e inserite il nome esatto del database (nel nostro caso si chiama ecoloop_test).
-
-Ricordatevi: assicuratevi di aver inserito correttamente tutti i parametri nel programma:
-
-DB_NAME (nome del database)
-
-DB_USER (nome utente)
-
-HOST (indirizzo del server)
-
-PASSWORD
-
-Se anche solo uno di questi è sbagliato, il collegamento non funzionerà.
+bene dopo avette fatto tutto avete sia la parte di postgresSQL conficurato con pgADMIN4 e openLCA con i due database.
 
 
-![alt text](image-16.png)
+bene adesso andatte sul programma e aprite il terminale ed esseguite questo comando 
 
-vi dovra apparire cosi.
+```
+sudo apt install python3.12-venv -y 
+```
+![alt text](image-41.png)
 
-Ora vi faccio vedere, prima di avviare il programma, da dove il programma prende i dati dei processi da OpenLCA, come li stampa nel terminale e poi li salva nel database.
+che serve 
 
-![alt text](image-17.png)
 
-![alt text](image-18.png)
+poi esseguite questo comando
 
-![alt text](image-19.png)
+```
+python -m venv .venv
+```
+![alt text](image-43.png)
 
-![alt text](image-20.png)
+che serve 
+poi eseevuitr qyuesto comando per entrare dentro 
 
-![alt text](image-21.png)
 
-Questo è il comando che permette al programma di prendere i dati, stamparli nel terminale, eseguire i calcoli e infine salvarli nel database.
+
+![alt text](image-44.png)
+
+
+fatto questo esseguite questo comando 
+
+```
+pip install -r requirements.txt
+```
+
+che vi installa tutti i pachetti se vi da errore problamite ci sono due motivi ho che avete una versione di ubuntu vechia tipo 22.04 ho 24.0 per questo non funziona ho che non trova il file txt per trovare il fle essecute questo comando 
+
+```
+find ~ -name requirements.txt
+```
+![alt text](image-45.png)
+
+
+che vi fa vedere dove la caretella 
+
+esempio  del comando 
+
+```
+pip install -r ~/scaricati/plumake_ecoloop-walid_v1/requirements.txt
+```
+![alt text](image-46.png)
+
+
+e poi avette finito e adesso potette avviare il programma il comando per fare e 
+
+```
+python calcolo.py
+```
 
 Come facciamo a verificare se i dati sono stati effettivamente salvati nel database?
 Per ora abbiamo impostato il programma per stampare solo 5 processi.
@@ -251,9 +359,3 @@ poi prima di avviare il pogramma dovete modificare una picolla cosetta
 Dove è scritto 2, inserite 1 se state usando il database Ecoinvent; invece, se usate il database Agribalyse 3.2, lasciate 2 se ce DEFRA mettete 3.
 
 Lo so, è un po' scomodo, ma vi consiglio di fare così per mantenere tutto più ordinato e chiaro.
-
-ricordate per avviare il programma il comando e questo 
-
-```
-python calcolo.py
-```
